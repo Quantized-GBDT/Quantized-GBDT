@@ -89,7 +89,7 @@ def generate_script(data_path, use_discretized_grad, discretized_grad_renew, sto
                 if data[i] in col_wise_data:
                     args += ' force_row_wise=false force_col_wise=true'
                 if device != 'cpu':
-                    args += f' device_type={device}'
+                    args += f' device_type={device} gpu_device_id=0'
                 running.write(f'../LightGBM/lightgbm config={base_conf_fname} {args} > {log_name} 2>&1\n')
 
 if __name__ == '__main__':
