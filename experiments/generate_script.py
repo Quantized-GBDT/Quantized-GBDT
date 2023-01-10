@@ -7,6 +7,8 @@ arg_parser.add_argument("--use-discretized-grad", action='store_true')
 arg_parser.add_argument("--discretized-grad-renew", action='store_true')
 arg_parser.add_argument("--stochastic-rounding", action='store_true')
 arg_parser.add_argument("--for-speed", action='store_true')
+arg_parser.add_argument("--device", type=str, default='cpu')
+arg_parser.add_argument("--force-col-wise", action='store_true')
 
 script_fname = 'run.sh'
 running = open(script_fname, 'w')
@@ -34,11 +36,11 @@ task = [
     'regression'
 ]
 
-col_wise_data = ['epsilon', 'year']
+col_wise_data = ['epsilon', 'year', 'yahoo', 'bosch']
 
 bins = [2, 3, 4, 5]
 
-def generate_script(data_path, use_discretized_grad, discretized_grad_renew, stochastic_rounding, for_speed):
+def generate_script(data_path, use_discretized_grad, discretized_grad_renew, stochastic_rounding, for_speed, device):
 
     dataset = [
         f'data={data_path}/higgs.train',
@@ -86,8 +88,10 @@ def generate_script(data_path, use_discretized_grad, discretized_grad_renew, sto
                     args += ' learning_rate=0.015'
                 if data[i] in col_wise_data:
                     args += ' force_row_wise=false force_col_wise=true'
+                if device != 'cpu':
+                    args += f' device_type={device}'
                 running.write(f'../LightGBM/lightgbm config={base_conf_fname} {args} > {log_name} 2>&1\n')
 
 if __name__ == '__main__':
     args = arg_parser.parse_args()
-    generate_script(args.data_path, args.use_discretized_grad, args.discretized_grad_renew, args.stochastic_rounding, args.for_speed)
+    generate_script(args.data_path, args.use_discretized_grad, args.discretized_grad_renew, args.stochastic_rounding, args.for_speed, args.device)
