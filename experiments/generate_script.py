@@ -113,6 +113,31 @@ def generate_script(data_path, use_discretized_grad, discretized_grad_renew, sto
                 if device == 'cuda':
                     args += ' tree_method=gpu_hist'
                 running.write(f'../xgboost/xgboost {base_conf_fname} {args} > {log_name} 2>&1\n')
+    elif algorithm == 'cat':
+        for i in range(8):
+            for j in range(5):
+                log_name = './logs/train_' + data[i] + '_seed'+str(j)+ '_cat' + '.log'
+                base_conf_fname = 'catboost.json'
+                args = ''
+                args += f"--params-file {base_conf_fname}"
+                if data[i] == 'bosch':
+                    args += " --learning-rate 0.015"
+                data_path_prefix = 'libsvm://' if task[i] != 'rank' else ''
+                data_path_suffix = '' if task[i] != 'rank' else '.cat'
+                data_path_for_catboost = dataset[i].split('=')[-1]
+                args += f" --learn-set {data_path_prefix}{data_path_for_catboost}{data_path_suffix}"
+                valid_path_for_catboost = validset[i].split('=')[-1]
+                args += f" --test-set {data_path_prefix}{valid_path_for_catboost}{data_path_suffix}"
+                args += f" --column-description {data_path_for_catboost.split('.')[0]}.cd"
+                loss_function = "Logloss" if task[i] == 'binary' else ("RMSE" if task[i] == 'regression' else "YetiRank")
+                args += f" --loss-function {loss_function}"
+                eval_metric = "AUC" if task[i] == 'binary' else ("RMSE" if task[i] == 'regression' else "NDCG:top=10\\;type=Exp")
+                args += f" --eval-metric {eval_metric}"
+                task_type = "CPU" if device == 'cpu' else "GPU --devices 0"
+                args += f" --task-type {task_type}"
+                args += f" --random-seed {j}"
+                args += f" --bootstrap-type No --random-strength 0.0 --rsm 1.0" # remove known randomness
+                running.write(f"../catboost/catboost/app/catboost fit {args} > {log_name} 2>&1\n")
     
 
 if __name__ == '__main__':
