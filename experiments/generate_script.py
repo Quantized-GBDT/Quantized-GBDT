@@ -101,9 +101,13 @@ def generate_script(data_path, use_discretized_grad, discretized_grad_renew, sto
                 base_conf_fname = 'xgboost.conf'
                 args = ''
                 args += dataset[i]
+                if task[i] == 'ranking':
+                    args += '.xgb?format=libsvm'
                 args += ' seed=' + str(j)
                 if not for_speed:
                     args += ' ' + validset[i].replace('valid=', 'eval[test]=')
+                    if task[i] == 'ranking':
+                        args += '.xgb?format=libsvm'
                     metric = 'auc' if task[i] == 'binary' else ('rmse' if task[i] == 'regression' else 'ndcg@10')
                     args += f' eval_metric={metric}'
                 objective = 'binary:logistic' if task[i] == 'binary' else ('reg:linear' if task[i] == 'regression' else 'rank:pairwise')
