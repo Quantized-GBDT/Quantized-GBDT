@@ -12,7 +12,7 @@ arg_parser.add_argument("--force-col-wise", action='store_true')
 arg_parser.add_argument("--algorithm", type=str, default='lgb')
 
 script_fname = 'run.sh'
-running = open(script_fname, 'w')
+running = open(script_fname, 'a')
 os.system(f"chmod +x {script_fname}")
 
 data = [

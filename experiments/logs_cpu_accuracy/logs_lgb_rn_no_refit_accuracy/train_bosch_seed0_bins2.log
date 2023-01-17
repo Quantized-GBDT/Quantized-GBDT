@@ -1,0 +1,2079 @@
+[LightGBM] [Warning] learning_rate is set=0.015, learning_rate=0.1 will be ignored. Current value: learning_rate=0.015
+[LightGBM] [Warning] num_leaves is set=45, num_leaves=255 will be ignored. Current value: num_leaves=45
+[LightGBM] [Warning] use_discretized_grad is set=true, use_discretized_grad=true will be ignored. Current value: use_discretized_grad=true
+[LightGBM] [Warning] discretized_grad_renew is set=false, discretized_grad_renew=true will be ignored. Current value: discretized_grad_renew=false
+[LightGBM] [Warning] force_row_wise is set=false, force_row_wise=true will be ignored. Current value: force_row_wise=false
+[LightGBM] [Info] Finished loading parameters
+[LightGBM] [Debug] Loading train file...
+[LightGBM] [Debug] Read 10.0 GBs from /data/shiyu/boosting_tree_benchmarks/data/bosch.train.
+[LightGBM] [Debug] Read 20.0 GBs from /data/shiyu/boosting_tree_benchmarks/data/bosch.train.
+[LightGBM] [Info] Construct bin mappers from text data time 29.91 seconds
+[LightGBM] [Debug] Loading validation file #1...
+[LightGBM] [Info] Finished loading data in 85.013428 seconds
+[LightGBM] [Info] Number of positive: 5828, number of negative: 994172
+[LightGBM] [Debug] Dataset::GetMultiBinFromSparseFeatures: sparse rate 0.942677
+[LightGBM] [Info] Total Bins 119885
+[LightGBM] [Info] Number of data points in the train set: 1000000, number of used features: 968
+[LightGBM] [Debug] Number of data points in validation set #1: 183747
+[LightGBM] [Info] Finished initializing training
+[LightGBM] [Info] Started training...
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.005828 -> initscore=-5.139236
+[LightGBM] [Info] Start training from score -5.139236
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 25, num_bit32_hists = 13
+[LightGBM] [Info] Iteration:1, valid_1 auc : 0.672355
+[LightGBM] [Info] 0.306936 seconds elapsed, finished iteration 1
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 49, num_bit32_hists = 27
+[LightGBM] [Info] Iteration:2, valid_1 auc : 0.674743
+[LightGBM] [Info] 0.601263 seconds elapsed, finished iteration 2
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 78, num_bit32_hists = 39
+[LightGBM] [Info] Iteration:3, valid_1 auc : 0.676053
+[LightGBM] [Info] 0.870310 seconds elapsed, finished iteration 3
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 108, num_bit32_hists = 52
+[LightGBM] [Info] Iteration:4, valid_1 auc : 0.678849
+[LightGBM] [Info] 1.112363 seconds elapsed, finished iteration 4
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 39 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 121, num_bit32_hists = 67
+[LightGBM] [Info] Iteration:5, valid_1 auc : 0.681767
+[LightGBM] [Info] 1.340148 seconds elapsed, finished iteration 5
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 34 and depth = 9
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 135, num_bit32_hists = 83
+[LightGBM] [Info] Iteration:6, valid_1 auc : 0.680312
+[LightGBM] [Info] 1.571893 seconds elapsed, finished iteration 6
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 38 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 152, num_bit32_hists = 98
+[LightGBM] [Info] Iteration:7, valid_1 auc : 0.679628
+[LightGBM] [Info] 1.823610 seconds elapsed, finished iteration 7
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 42 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 174, num_bit32_hists = 111
+[LightGBM] [Info] Iteration:8, valid_1 auc : 0.679536
+[LightGBM] [Info] 2.031962 seconds elapsed, finished iteration 8
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 197, num_bit32_hists = 125
+[LightGBM] [Info] Iteration:9, valid_1 auc : 0.679927
+[LightGBM] [Info] 2.230534 seconds elapsed, finished iteration 9
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 220, num_bit32_hists = 140
+[LightGBM] [Info] Iteration:10, valid_1 auc : 0.680306
+[LightGBM] [Info] 2.426978 seconds elapsed, finished iteration 10
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 250, num_bit32_hists = 153
+[LightGBM] [Info] Iteration:11, valid_1 auc : 0.68054
+[LightGBM] [Info] 2.650803 seconds elapsed, finished iteration 11
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 281, num_bit32_hists = 164
+[LightGBM] [Info] Iteration:12, valid_1 auc : 0.681313
+[LightGBM] [Info] 2.888844 seconds elapsed, finished iteration 12
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 313, num_bit32_hists = 175
+[LightGBM] [Info] Iteration:13, valid_1 auc : 0.681418
+[LightGBM] [Info] 3.118571 seconds elapsed, finished iteration 13
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 343, num_bit32_hists = 187
+[LightGBM] [Info] Iteration:14, valid_1 auc : 0.681324
+[LightGBM] [Info] 3.343353 seconds elapsed, finished iteration 14
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 371, num_bit32_hists = 199
+[LightGBM] [Info] Iteration:15, valid_1 auc : 0.681613
+[LightGBM] [Info] 3.572595 seconds elapsed, finished iteration 15
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 402, num_bit32_hists = 210
+[LightGBM] [Info] Iteration:16, valid_1 auc : 0.681656
+[LightGBM] [Info] 3.809030 seconds elapsed, finished iteration 16
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 434, num_bit32_hists = 220
+[LightGBM] [Info] Iteration:17, valid_1 auc : 0.681963
+[LightGBM] [Info] 4.031507 seconds elapsed, finished iteration 17
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 465, num_bit32_hists = 229
+[LightGBM] [Info] Iteration:18, valid_1 auc : 0.682469
+[LightGBM] [Info] 4.225852 seconds elapsed, finished iteration 18
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 499, num_bit32_hists = 237
+[LightGBM] [Info] Iteration:19, valid_1 auc : 0.682572
+[LightGBM] [Info] 4.427374 seconds elapsed, finished iteration 19
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 533, num_bit32_hists = 245
+[LightGBM] [Info] Iteration:20, valid_1 auc : 0.683115
+[LightGBM] [Info] 4.642288 seconds elapsed, finished iteration 20
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 22
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 567, num_bit32_hists = 253
+[LightGBM] [Info] Iteration:21, valid_1 auc : 0.68375
+[LightGBM] [Info] 4.854352 seconds elapsed, finished iteration 21
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 21
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 597, num_bit32_hists = 265
+[LightGBM] [Info] Iteration:22, valid_1 auc : 0.684145
+[LightGBM] [Info] 5.079142 seconds elapsed, finished iteration 22
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 18
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 628, num_bit32_hists = 275
+[LightGBM] [Info] Iteration:23, valid_1 auc : 0.683757
+[LightGBM] [Info] 5.292984 seconds elapsed, finished iteration 23
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 660, num_bit32_hists = 287
+[LightGBM] [Info] Iteration:24, valid_1 auc : 0.682715
+[LightGBM] [Info] 5.497650 seconds elapsed, finished iteration 24
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 40 and depth = 18
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 686, num_bit32_hists = 300
+[LightGBM] [Info] Iteration:25, valid_1 auc : 0.680497
+[LightGBM] [Info] 5.676652 seconds elapsed, finished iteration 25
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 25 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 698, num_bit32_hists = 310
+[LightGBM] [Info] Iteration:26, valid_1 auc : 0.670377
+[LightGBM] [Info] 5.819975 seconds elapsed, finished iteration 26
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 18 and depth = 7
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 707, num_bit32_hists = 317
+[LightGBM] [Info] Iteration:27, valid_1 auc : 0.665341
+[LightGBM] [Info] 5.950412 seconds elapsed, finished iteration 27
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 12 and depth = 6
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 715, num_bit32_hists = 320
+[LightGBM] [Info] Iteration:28, valid_1 auc : 0.597805
+[LightGBM] [Info] 6.043813 seconds elapsed, finished iteration 28
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 745, num_bit32_hists = 332
+[LightGBM] [Info] Iteration:29, valid_1 auc : 0.599905
+[LightGBM] [Info] 6.291757 seconds elapsed, finished iteration 29
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 777, num_bit32_hists = 342
+[LightGBM] [Info] Iteration:30, valid_1 auc : 0.615882
+[LightGBM] [Info] 6.488475 seconds elapsed, finished iteration 30
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 803, num_bit32_hists = 354
+[LightGBM] [Info] Iteration:31, valid_1 auc : 0.646746
+[LightGBM] [Info] 6.684618 seconds elapsed, finished iteration 31
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 27 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 812, num_bit32_hists = 369
+[LightGBM] [Info] Iteration:32, valid_1 auc : 0.659658
+[LightGBM] [Info] 6.849137 seconds elapsed, finished iteration 32
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 20 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 821, num_bit32_hists = 376
+[LightGBM] [Info] Iteration:33, valid_1 auc : 0.658929
+[LightGBM] [Info] 6.996686 seconds elapsed, finished iteration 33
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 31 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 834, num_bit32_hists = 389
+[LightGBM] [Info] Iteration:34, valid_1 auc : 0.655574
+[LightGBM] [Info] 7.201809 seconds elapsed, finished iteration 34
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 16 and depth = 8
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 843, num_bit32_hists = 396
+[LightGBM] [Info] Iteration:35, valid_1 auc : 0.647642
+[LightGBM] [Info] 7.335325 seconds elapsed, finished iteration 35
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 870, num_bit32_hists = 410
+[LightGBM] [Info] Iteration:36, valid_1 auc : 0.650788
+[LightGBM] [Info] 7.589644 seconds elapsed, finished iteration 36
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 23 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 880, num_bit32_hists = 423
+[LightGBM] [Info] Iteration:37, valid_1 auc : 0.656884
+[LightGBM] [Info] 7.737573 seconds elapsed, finished iteration 37
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 25 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 890, num_bit32_hists = 438
+[LightGBM] [Info] Iteration:38, valid_1 auc : 0.656454
+[LightGBM] [Info] 7.877985 seconds elapsed, finished iteration 38
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 26 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 899, num_bit32_hists = 450
+[LightGBM] [Info] Iteration:39, valid_1 auc : 0.652862
+[LightGBM] [Info] 8.010960 seconds elapsed, finished iteration 39
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 26 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 907, num_bit32_hists = 465
+[LightGBM] [Info] Iteration:40, valid_1 auc : 0.65241
+[LightGBM] [Info] 8.152969 seconds elapsed, finished iteration 40
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 19 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 914, num_bit32_hists = 476
+[LightGBM] [Info] Iteration:41, valid_1 auc : 0.654151
+[LightGBM] [Info] 8.273567 seconds elapsed, finished iteration 41
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 24 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 921, num_bit32_hists = 489
+[LightGBM] [Info] Iteration:42, valid_1 auc : 0.653351
+[LightGBM] [Info] 8.417642 seconds elapsed, finished iteration 42
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 16 and depth = 9
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 927, num_bit32_hists = 497
+[LightGBM] [Info] Iteration:43, valid_1 auc : 0.652318
+[LightGBM] [Info] 8.525001 seconds elapsed, finished iteration 43
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 41 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 949, num_bit32_hists = 513
+[LightGBM] [Info] Iteration:44, valid_1 auc : 0.652694
+[LightGBM] [Info] 8.707413 seconds elapsed, finished iteration 44
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 20 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 953, num_bit32_hists = 526
+[LightGBM] [Info] Iteration:45, valid_1 auc : 0.653844
+[LightGBM] [Info] 8.832585 seconds elapsed, finished iteration 45
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 13 and depth = 7
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 957, num_bit32_hists = 533
+[LightGBM] [Info] Iteration:46, valid_1 auc : 0.649414
+[LightGBM] [Info] 8.927037 seconds elapsed, finished iteration 46
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 43 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 978, num_bit32_hists = 547
+[LightGBM] [Info] Iteration:47, valid_1 auc : 0.652832
+[LightGBM] [Info] 9.139292 seconds elapsed, finished iteration 47
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 19 and depth = 8
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 982, num_bit32_hists = 560
+[LightGBM] [Info] Iteration:48, valid_1 auc : 0.651942
+[LightGBM] [Info] 9.286138 seconds elapsed, finished iteration 48
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 32 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 998, num_bit32_hists = 575
+[LightGBM] [Info] Iteration:49, valid_1 auc : 0.652388
+[LightGBM] [Info] 9.467520 seconds elapsed, finished iteration 49
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 23 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1003, num_bit32_hists = 590
+[LightGBM] [Info] Iteration:50, valid_1 auc : 0.654463
+[LightGBM] [Info] 9.618368 seconds elapsed, finished iteration 50
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 29 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1013, num_bit32_hists = 606
+[LightGBM] [Info] Iteration:51, valid_1 auc : 0.653983
+[LightGBM] [Info] 9.817917 seconds elapsed, finished iteration 51
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 23 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1017, num_bit32_hists = 620
+[LightGBM] [Info] Iteration:52, valid_1 auc : 0.652142
+[LightGBM] [Info] 9.956047 seconds elapsed, finished iteration 52
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 21 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1023, num_bit32_hists = 633
+[LightGBM] [Info] Iteration:53, valid_1 auc : 0.652602
+[LightGBM] [Info] 10.095393 seconds elapsed, finished iteration 53
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 32 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1031, num_bit32_hists = 647
+[LightGBM] [Info] Iteration:54, valid_1 auc : 0.652095
+[LightGBM] [Info] 10.252907 seconds elapsed, finished iteration 54
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 35 and depth = 18
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1047, num_bit32_hists = 661
+[LightGBM] [Info] Iteration:55, valid_1 auc : 0.651191
+[LightGBM] [Info] 10.439275 seconds elapsed, finished iteration 55
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 25 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1055, num_bit32_hists = 675
+[LightGBM] [Info] Iteration:56, valid_1 auc : 0.651371
+[LightGBM] [Info] 10.603107 seconds elapsed, finished iteration 56
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 25 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1060, num_bit32_hists = 691
+[LightGBM] [Info] Iteration:57, valid_1 auc : 0.652228
+[LightGBM] [Info] 10.788403 seconds elapsed, finished iteration 57
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 42 and depth = 21
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1084, num_bit32_hists = 706
+[LightGBM] [Info] Iteration:58, valid_1 auc : 0.650096
+[LightGBM] [Info] 11.013347 seconds elapsed, finished iteration 58
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 26 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1094, num_bit32_hists = 719
+[LightGBM] [Info] Iteration:59, valid_1 auc : 0.649359
+[LightGBM] [Info] 11.163378 seconds elapsed, finished iteration 59
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 36 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1112, num_bit32_hists = 734
+[LightGBM] [Info] Iteration:60, valid_1 auc : 0.647684
+[LightGBM] [Info] 11.379377 seconds elapsed, finished iteration 60
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 27 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1122, num_bit32_hists = 750
+[LightGBM] [Info] Iteration:61, valid_1 auc : 0.647389
+[LightGBM] [Info] 11.599310 seconds elapsed, finished iteration 61
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 37 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1138, num_bit32_hists = 764
+[LightGBM] [Info] Iteration:62, valid_1 auc : 0.647927
+[LightGBM] [Info] 11.805591 seconds elapsed, finished iteration 62
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 33 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1151, num_bit32_hists = 780
+[LightGBM] [Info] Iteration:63, valid_1 auc : 0.647798
+[LightGBM] [Info] 11.986389 seconds elapsed, finished iteration 63
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 21
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1180, num_bit32_hists = 794
+[LightGBM] [Info] Iteration:64, valid_1 auc : 0.648486
+[LightGBM] [Info] 12.229353 seconds elapsed, finished iteration 64
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 34 and depth = 19
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1195, num_bit32_hists = 811
+[LightGBM] [Info] Iteration:65, valid_1 auc : 0.64771
+[LightGBM] [Info] 12.465134 seconds elapsed, finished iteration 65
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 29 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1203, num_bit32_hists = 827
+[LightGBM] [Info] Iteration:66, valid_1 auc : 0.6489
+[LightGBM] [Info] 12.678098 seconds elapsed, finished iteration 66
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 30 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1213, num_bit32_hists = 841
+[LightGBM] [Info] Iteration:67, valid_1 auc : 0.648642
+[LightGBM] [Info] 12.883249 seconds elapsed, finished iteration 67
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 43 and depth = 20
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1235, num_bit32_hists = 854
+[LightGBM] [Info] Iteration:68, valid_1 auc : 0.64939
+[LightGBM] [Info] 13.165258 seconds elapsed, finished iteration 68
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 33 and depth = 18
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1251, num_bit32_hists = 868
+[LightGBM] [Info] Iteration:69, valid_1 auc : 0.647634
+[LightGBM] [Info] 13.422754 seconds elapsed, finished iteration 69
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 30 and depth = 19
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1262, num_bit32_hists = 883
+[LightGBM] [Info] Iteration:70, valid_1 auc : 0.648734
+[LightGBM] [Info] 13.583030 seconds elapsed, finished iteration 70
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 32 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1276, num_bit32_hists = 900
+[LightGBM] [Info] Iteration:71, valid_1 auc : 0.646778
+[LightGBM] [Info] 13.777089 seconds elapsed, finished iteration 71
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 29 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1286, num_bit32_hists = 917
+[LightGBM] [Info] Iteration:72, valid_1 auc : 0.646746
+[LightGBM] [Info] 13.964564 seconds elapsed, finished iteration 72
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 35 and depth = 18
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1302, num_bit32_hists = 934
+[LightGBM] [Info] Iteration:73, valid_1 auc : 0.646499
+[LightGBM] [Info] 14.151860 seconds elapsed, finished iteration 73
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 34 and depth = 21
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1317, num_bit32_hists = 950
+[LightGBM] [Info] Iteration:74, valid_1 auc : 0.646971
+[LightGBM] [Info] 14.353142 seconds elapsed, finished iteration 74
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 33 and depth = 19
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1334, num_bit32_hists = 963
+[LightGBM] [Info] Iteration:75, valid_1 auc : 0.646583
+[LightGBM] [Info] 14.532017 seconds elapsed, finished iteration 75
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 20
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1366, num_bit32_hists = 974
+[LightGBM] [Info] Iteration:76, valid_1 auc : 0.647256
+[LightGBM] [Info] 14.771930 seconds elapsed, finished iteration 76
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 44 and depth = 28
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1393, num_bit32_hists = 987
+[LightGBM] [Info] Iteration:77, valid_1 auc : 0.646768
+[LightGBM] [Info] 14.987482 seconds elapsed, finished iteration 77
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 39 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1409, num_bit32_hists = 1003
+[LightGBM] [Info] Iteration:78, valid_1 auc : 0.647724
+[LightGBM] [Info] 15.204406 seconds elapsed, finished iteration 78
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 23
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1434, num_bit32_hists = 1016
+[LightGBM] [Info] Iteration:79, valid_1 auc : 0.648914
+[LightGBM] [Info] 15.446712 seconds elapsed, finished iteration 79
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 44 and depth = 20
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1458, num_bit32_hists = 1029
+[LightGBM] [Info] Iteration:80, valid_1 auc : 0.649383
+[LightGBM] [Info] 15.704311 seconds elapsed, finished iteration 80
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 41 and depth = 23
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1479, num_bit32_hists = 1045
+[LightGBM] [Info] Iteration:81, valid_1 auc : 0.647516
+[LightGBM] [Info] 15.928087 seconds elapsed, finished iteration 81
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 41 and depth = 26
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1502, num_bit32_hists = 1060
+[LightGBM] [Info] Iteration:82, valid_1 auc : 0.646343
+[LightGBM] [Info] 16.173556 seconds elapsed, finished iteration 82
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 40 and depth = 23
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1521, num_bit32_hists = 1076
+[LightGBM] [Info] Iteration:83, valid_1 auc : 0.646661
+[LightGBM] [Info] 16.359418 seconds elapsed, finished iteration 83
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 28
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1547, num_bit32_hists = 1090
+[LightGBM] [Info] Iteration:84, valid_1 auc : 0.645829
+[LightGBM] [Info] 16.609543 seconds elapsed, finished iteration 84
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 42 and depth = 23
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1574, num_bit32_hists = 1102
+[LightGBM] [Info] Iteration:85, valid_1 auc : 0.647111
+[LightGBM] [Info] 16.823356 seconds elapsed, finished iteration 85
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 20
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1601, num_bit32_hists = 1117
+[LightGBM] [Info] Iteration:86, valid_1 auc : 0.646923
+[LightGBM] [Info] 17.032304 seconds elapsed, finished iteration 86
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 27
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1625, num_bit32_hists = 1132
+[LightGBM] [Info] Iteration:87, valid_1 auc : 0.647342
+[LightGBM] [Info] 17.218932 seconds elapsed, finished iteration 87
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 22
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1658, num_bit32_hists = 1141
+[LightGBM] [Info] Iteration:88, valid_1 auc : 0.647686
+[LightGBM] [Info] 17.432892 seconds elapsed, finished iteration 88
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 24
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1687, num_bit32_hists = 1154
+[LightGBM] [Info] Iteration:89, valid_1 auc : 0.646993
+[LightGBM] [Info] 17.700084 seconds elapsed, finished iteration 89
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 20
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1713, num_bit32_hists = 1169
+[LightGBM] [Info] Iteration:90, valid_1 auc : 0.647363
+[LightGBM] [Info] 17.907581 seconds elapsed, finished iteration 90
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 25
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1739, num_bit32_hists = 1182
+[LightGBM] [Info] Iteration:91, valid_1 auc : 0.648522
+[LightGBM] [Info] 18.105606 seconds elapsed, finished iteration 91
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 28
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1772, num_bit32_hists = 1193
+[LightGBM] [Info] Iteration:92, valid_1 auc : 0.648345
+[LightGBM] [Info] 18.331880 seconds elapsed, finished iteration 92
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 27
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1801, num_bit32_hists = 1204
+[LightGBM] [Info] Iteration:93, valid_1 auc : 0.647936
+[LightGBM] [Info] 18.568676 seconds elapsed, finished iteration 93
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 30
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1835, num_bit32_hists = 1214
+[LightGBM] [Info] Iteration:94, valid_1 auc : 0.647993
+[LightGBM] [Info] 18.798517 seconds elapsed, finished iteration 94
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 21
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1864, num_bit32_hists = 1227
+[LightGBM] [Info] Iteration:95, valid_1 auc : 0.64709
+[LightGBM] [Info] 19.040217 seconds elapsed, finished iteration 95
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 28
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1894, num_bit32_hists = 1240
+[LightGBM] [Info] Iteration:96, valid_1 auc : 0.647427
+[LightGBM] [Info] 19.273370 seconds elapsed, finished iteration 96
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 22
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1924, num_bit32_hists = 1251
+[LightGBM] [Info] Iteration:97, valid_1 auc : 0.64703
+[LightGBM] [Info] 19.541848 seconds elapsed, finished iteration 97
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 25
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1955, num_bit32_hists = 1262
+[LightGBM] [Info] Iteration:98, valid_1 auc : 0.646934
+[LightGBM] [Info] 19.791435 seconds elapsed, finished iteration 98
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 28
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1991, num_bit32_hists = 1269
+[LightGBM] [Info] Iteration:99, valid_1 auc : 0.647395
+[LightGBM] [Info] 20.051812 seconds elapsed, finished iteration 99
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 30
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2025, num_bit32_hists = 1278
+[LightGBM] [Info] Iteration:100, valid_1 auc : 0.647224
+[LightGBM] [Info] 20.293904 seconds elapsed, finished iteration 100
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 23
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2063, num_bit32_hists = 1284
+[LightGBM] [Info] Iteration:101, valid_1 auc : 0.648121
+[LightGBM] [Info] 20.489080 seconds elapsed, finished iteration 101
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 30
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2098, num_bit32_hists = 1291
+[LightGBM] [Info] Iteration:102, valid_1 auc : 0.64822
+[LightGBM] [Info] 20.667113 seconds elapsed, finished iteration 102
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 21
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2131, num_bit32_hists = 1300
+[LightGBM] [Info] Iteration:103, valid_1 auc : 0.64899
+[LightGBM] [Info] 20.852800 seconds elapsed, finished iteration 103
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 24
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2162, num_bit32_hists = 1310
+[LightGBM] [Info] Iteration:104, valid_1 auc : 0.64949
+[LightGBM] [Info] 21.031332 seconds elapsed, finished iteration 104
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 24
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2197, num_bit32_hists = 1319
+[LightGBM] [Info] Iteration:105, valid_1 auc : 0.649923
+[LightGBM] [Info] 21.277216 seconds elapsed, finished iteration 105
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 23
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2235, num_bit32_hists = 1324
+[LightGBM] [Info] Iteration:106, valid_1 auc : 0.650379
+[LightGBM] [Info] 21.466431 seconds elapsed, finished iteration 106
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 22
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2270, num_bit32_hists = 1331
+[LightGBM] [Info] Iteration:107, valid_1 auc : 0.65056
+[LightGBM] [Info] 21.675253 seconds elapsed, finished iteration 107
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 23
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2306, num_bit32_hists = 1337
+[LightGBM] [Info] Iteration:108, valid_1 auc : 0.651098
+[LightGBM] [Info] 21.857852 seconds elapsed, finished iteration 108
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 26
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2345, num_bit32_hists = 1342
+[LightGBM] [Info] Iteration:109, valid_1 auc : 0.651477
+[LightGBM] [Info] 22.049726 seconds elapsed, finished iteration 109
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 22
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2382, num_bit32_hists = 1348
+[LightGBM] [Info] Iteration:110, valid_1 auc : 0.651821
+[LightGBM] [Info] 22.218908 seconds elapsed, finished iteration 110
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 28
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2424, num_bit32_hists = 1350
+[LightGBM] [Info] Iteration:111, valid_1 auc : 0.652287
+[LightGBM] [Info] 22.382801 seconds elapsed, finished iteration 111
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 26
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2461, num_bit32_hists = 1357
+[LightGBM] [Info] Iteration:112, valid_1 auc : 0.652616
+[LightGBM] [Info] 22.546728 seconds elapsed, finished iteration 112
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 28
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2499, num_bit32_hists = 1362
+[LightGBM] [Info] Iteration:113, valid_1 auc : 0.653154
+[LightGBM] [Info] 22.688531 seconds elapsed, finished iteration 113
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 24
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2534, num_bit32_hists = 1370
+[LightGBM] [Info] Iteration:114, valid_1 auc : 0.653526
+[LightGBM] [Info] 22.865369 seconds elapsed, finished iteration 114
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 24
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2575, num_bit32_hists = 1373
+[LightGBM] [Info] Iteration:115, valid_1 auc : 0.654086
+[LightGBM] [Info] 23.036134 seconds elapsed, finished iteration 115
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 20
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2611, num_bit32_hists = 1378
+[LightGBM] [Info] Iteration:116, valid_1 auc : 0.655161
+[LightGBM] [Info] 23.221142 seconds elapsed, finished iteration 116
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 21
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2651, num_bit32_hists = 1381
+[LightGBM] [Info] Iteration:117, valid_1 auc : 0.655618
+[LightGBM] [Info] 23.364296 seconds elapsed, finished iteration 117
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 25
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2690, num_bit32_hists = 1386
+[LightGBM] [Info] Iteration:118, valid_1 auc : 0.656578
+[LightGBM] [Info] 23.522048 seconds elapsed, finished iteration 118
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 21
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2729, num_bit32_hists = 1391
+[LightGBM] [Info] Iteration:119, valid_1 auc : 0.656866
+[LightGBM] [Info] 23.710238 seconds elapsed, finished iteration 119
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 24
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2768, num_bit32_hists = 1395
+[LightGBM] [Info] Iteration:120, valid_1 auc : 0.657824
+[LightGBM] [Info] 23.889757 seconds elapsed, finished iteration 120
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 24
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2807, num_bit32_hists = 1400
+[LightGBM] [Info] Iteration:121, valid_1 auc : 0.658
+[LightGBM] [Info] 24.074752 seconds elapsed, finished iteration 121
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 25
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2846, num_bit32_hists = 1405
+[LightGBM] [Info] Iteration:122, valid_1 auc : 0.658302
+[LightGBM] [Info] 24.266567 seconds elapsed, finished iteration 122
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 22
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2888, num_bit32_hists = 1407
+[LightGBM] [Info] Iteration:123, valid_1 auc : 0.658876
+[LightGBM] [Info] 24.425168 seconds elapsed, finished iteration 123
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 18
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2928, num_bit32_hists = 1411
+[LightGBM] [Info] Iteration:124, valid_1 auc : 0.658887
+[LightGBM] [Info] 24.595719 seconds elapsed, finished iteration 124
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 21
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 2967, num_bit32_hists = 1416
+[LightGBM] [Info] Iteration:125, valid_1 auc : 0.658988
+[LightGBM] [Info] 24.834018 seconds elapsed, finished iteration 125
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3008, num_bit32_hists = 1419
+[LightGBM] [Info] Iteration:126, valid_1 auc : 0.659293
+[LightGBM] [Info] 25.016590 seconds elapsed, finished iteration 126
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3046, num_bit32_hists = 1425
+[LightGBM] [Info] Iteration:127, valid_1 auc : 0.659491
+[LightGBM] [Info] 25.213640 seconds elapsed, finished iteration 127
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3084, num_bit32_hists = 1430
+[LightGBM] [Info] Iteration:128, valid_1 auc : 0.659681
+[LightGBM] [Info] 25.396063 seconds elapsed, finished iteration 128
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3124, num_bit32_hists = 1434
+[LightGBM] [Info] Iteration:129, valid_1 auc : 0.659929
+[LightGBM] [Info] 25.593033 seconds elapsed, finished iteration 129
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 18
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3163, num_bit32_hists = 1438
+[LightGBM] [Info] Iteration:130, valid_1 auc : 0.659914
+[LightGBM] [Info] 25.716706 seconds elapsed, finished iteration 130
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3202, num_bit32_hists = 1443
+[LightGBM] [Info] Iteration:131, valid_1 auc : 0.659929
+[LightGBM] [Info] 25.843660 seconds elapsed, finished iteration 131
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3241, num_bit32_hists = 1447
+[LightGBM] [Info] Iteration:132, valid_1 auc : 0.660119
+[LightGBM] [Info] 26.018823 seconds elapsed, finished iteration 132
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3280, num_bit32_hists = 1451
+[LightGBM] [Info] Iteration:133, valid_1 auc : 0.660452
+[LightGBM] [Info] 26.161539 seconds elapsed, finished iteration 133
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3318, num_bit32_hists = 1456
+[LightGBM] [Info] Iteration:134, valid_1 auc : 0.660766
+[LightGBM] [Info] 26.303945 seconds elapsed, finished iteration 134
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3355, num_bit32_hists = 1462
+[LightGBM] [Info] Iteration:135, valid_1 auc : 0.661118
+[LightGBM] [Info] 26.484218 seconds elapsed, finished iteration 135
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3394, num_bit32_hists = 1467
+[LightGBM] [Info] Iteration:136, valid_1 auc : 0.661341
+[LightGBM] [Info] 26.667235 seconds elapsed, finished iteration 136
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3432, num_bit32_hists = 1473
+[LightGBM] [Info] Iteration:137, valid_1 auc : 0.661546
+[LightGBM] [Info] 26.810734 seconds elapsed, finished iteration 137
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3470, num_bit32_hists = 1478
+[LightGBM] [Info] Iteration:138, valid_1 auc : 0.661968
+[LightGBM] [Info] 26.966283 seconds elapsed, finished iteration 138
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3510, num_bit32_hists = 1482
+[LightGBM] [Info] Iteration:139, valid_1 auc : 0.662374
+[LightGBM] [Info] 27.094707 seconds elapsed, finished iteration 139
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3548, num_bit32_hists = 1487
+[LightGBM] [Info] Iteration:140, valid_1 auc : 0.662631
+[LightGBM] [Info] 27.242232 seconds elapsed, finished iteration 140
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3587, num_bit32_hists = 1492
+[LightGBM] [Info] Iteration:141, valid_1 auc : 0.662772
+[LightGBM] [Info] 27.414292 seconds elapsed, finished iteration 141
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3625, num_bit32_hists = 1498
+[LightGBM] [Info] Iteration:142, valid_1 auc : 0.663152
+[LightGBM] [Info] 27.591042 seconds elapsed, finished iteration 142
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3664, num_bit32_hists = 1503
+[LightGBM] [Info] Iteration:143, valid_1 auc : 0.663324
+[LightGBM] [Info] 27.761084 seconds elapsed, finished iteration 143
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3701, num_bit32_hists = 1510
+[LightGBM] [Info] Iteration:144, valid_1 auc : 0.663587
+[LightGBM] [Info] 27.938736 seconds elapsed, finished iteration 144
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 18
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3738, num_bit32_hists = 1517
+[LightGBM] [Info] Iteration:145, valid_1 auc : 0.663953
+[LightGBM] [Info] 28.119849 seconds elapsed, finished iteration 145
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3775, num_bit32_hists = 1524
+[LightGBM] [Info] Iteration:146, valid_1 auc : 0.664412
+[LightGBM] [Info] 28.299368 seconds elapsed, finished iteration 146
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3810, num_bit32_hists = 1532
+[LightGBM] [Info] Iteration:147, valid_1 auc : 0.664636
+[LightGBM] [Info] 28.485751 seconds elapsed, finished iteration 147
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3846, num_bit32_hists = 1539
+[LightGBM] [Info] Iteration:148, valid_1 auc : 0.664866
+[LightGBM] [Info] 28.655496 seconds elapsed, finished iteration 148
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3882, num_bit32_hists = 1544
+[LightGBM] [Info] Iteration:149, valid_1 auc : 0.665081
+[LightGBM] [Info] 28.815465 seconds elapsed, finished iteration 149
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 18
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3920, num_bit32_hists = 1549
+[LightGBM] [Info] Iteration:150, valid_1 auc : 0.665236
+[LightGBM] [Info] 28.969276 seconds elapsed, finished iteration 150
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3958, num_bit32_hists = 1554
+[LightGBM] [Info] Iteration:151, valid_1 auc : 0.66537
+[LightGBM] [Info] 29.114912 seconds elapsed, finished iteration 151
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 3998, num_bit32_hists = 1558
+[LightGBM] [Info] Iteration:152, valid_1 auc : 0.665536
+[LightGBM] [Info] 29.294823 seconds elapsed, finished iteration 152
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4036, num_bit32_hists = 1563
+[LightGBM] [Info] Iteration:153, valid_1 auc : 0.665786
+[LightGBM] [Info] 29.437982 seconds elapsed, finished iteration 153
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4074, num_bit32_hists = 1568
+[LightGBM] [Info] Iteration:154, valid_1 auc : 0.666098
+[LightGBM] [Info] 29.560505 seconds elapsed, finished iteration 154
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4113, num_bit32_hists = 1573
+[LightGBM] [Info] Iteration:155, valid_1 auc : 0.66631
+[LightGBM] [Info] 29.689612 seconds elapsed, finished iteration 155
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4152, num_bit32_hists = 1578
+[LightGBM] [Info] Iteration:156, valid_1 auc : 0.666461
+[LightGBM] [Info] 29.813423 seconds elapsed, finished iteration 156
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4191, num_bit32_hists = 1582
+[LightGBM] [Info] Iteration:157, valid_1 auc : 0.666597
+[LightGBM] [Info] 29.931712 seconds elapsed, finished iteration 157
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4229, num_bit32_hists = 1588
+[LightGBM] [Info] Iteration:158, valid_1 auc : 0.666733
+[LightGBM] [Info] 30.077338 seconds elapsed, finished iteration 158
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4268, num_bit32_hists = 1592
+[LightGBM] [Info] Iteration:159, valid_1 auc : 0.666821
+[LightGBM] [Info] 30.203427 seconds elapsed, finished iteration 159
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4307, num_bit32_hists = 1596
+[LightGBM] [Info] Iteration:160, valid_1 auc : 0.666901
+[LightGBM] [Info] 30.332596 seconds elapsed, finished iteration 160
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4346, num_bit32_hists = 1600
+[LightGBM] [Info] Iteration:161, valid_1 auc : 0.66695
+[LightGBM] [Info] 30.493831 seconds elapsed, finished iteration 161
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4383, num_bit32_hists = 1605
+[LightGBM] [Info] Iteration:162, valid_1 auc : 0.667078
+[LightGBM] [Info] 30.654956 seconds elapsed, finished iteration 162
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4420, num_bit32_hists = 1610
+[LightGBM] [Info] Iteration:163, valid_1 auc : 0.667147
+[LightGBM] [Info] 30.818096 seconds elapsed, finished iteration 163
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4457, num_bit32_hists = 1616
+[LightGBM] [Info] Iteration:164, valid_1 auc : 0.6673
+[LightGBM] [Info] 30.965229 seconds elapsed, finished iteration 164
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4493, num_bit32_hists = 1622
+[LightGBM] [Info] Iteration:165, valid_1 auc : 0.667428
+[LightGBM] [Info] 31.100405 seconds elapsed, finished iteration 165
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4530, num_bit32_hists = 1628
+[LightGBM] [Info] Iteration:166, valid_1 auc : 0.667619
+[LightGBM] [Info] 31.256076 seconds elapsed, finished iteration 166
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4566, num_bit32_hists = 1633
+[LightGBM] [Info] Iteration:167, valid_1 auc : 0.667754
+[LightGBM] [Info] 31.431725 seconds elapsed, finished iteration 167
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4602, num_bit32_hists = 1640
+[LightGBM] [Info] Iteration:168, valid_1 auc : 0.667986
+[LightGBM] [Info] 31.590213 seconds elapsed, finished iteration 168
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4637, num_bit32_hists = 1647
+[LightGBM] [Info] Iteration:169, valid_1 auc : 0.668155
+[LightGBM] [Info] 31.761789 seconds elapsed, finished iteration 169
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4675, num_bit32_hists = 1653
+[LightGBM] [Info] Iteration:170, valid_1 auc : 0.668275
+[LightGBM] [Info] 31.916168 seconds elapsed, finished iteration 170
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4712, num_bit32_hists = 1659
+[LightGBM] [Info] Iteration:171, valid_1 auc : 0.668507
+[LightGBM] [Info] 32.075755 seconds elapsed, finished iteration 171
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4746, num_bit32_hists = 1666
+[LightGBM] [Info] Iteration:172, valid_1 auc : 0.668627
+[LightGBM] [Info] 32.294188 seconds elapsed, finished iteration 172
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4784, num_bit32_hists = 1672
+[LightGBM] [Info] Iteration:173, valid_1 auc : 0.668861
+[LightGBM] [Info] 32.468482 seconds elapsed, finished iteration 173
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4822, num_bit32_hists = 1678
+[LightGBM] [Info] Iteration:174, valid_1 auc : 0.66909
+[LightGBM] [Info] 32.653903 seconds elapsed, finished iteration 174
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4860, num_bit32_hists = 1684
+[LightGBM] [Info] Iteration:175, valid_1 auc : 0.669291
+[LightGBM] [Info] 32.812579 seconds elapsed, finished iteration 175
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4898, num_bit32_hists = 1690
+[LightGBM] [Info] Iteration:176, valid_1 auc : 0.669496
+[LightGBM] [Info] 32.982174 seconds elapsed, finished iteration 176
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4935, num_bit32_hists = 1696
+[LightGBM] [Info] Iteration:177, valid_1 auc : 0.669698
+[LightGBM] [Info] 33.143562 seconds elapsed, finished iteration 177
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 4974, num_bit32_hists = 1701
+[LightGBM] [Info] Iteration:178, valid_1 auc : 0.669877
+[LightGBM] [Info] 33.300629 seconds elapsed, finished iteration 178
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5013, num_bit32_hists = 1706
+[LightGBM] [Info] Iteration:179, valid_1 auc : 0.670093
+[LightGBM] [Info] 33.446844 seconds elapsed, finished iteration 179
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5052, num_bit32_hists = 1711
+[LightGBM] [Info] Iteration:180, valid_1 auc : 0.670268
+[LightGBM] [Info] 33.622907 seconds elapsed, finished iteration 180
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5091, num_bit32_hists = 1716
+[LightGBM] [Info] Iteration:181, valid_1 auc : 0.670421
+[LightGBM] [Info] 33.778330 seconds elapsed, finished iteration 181
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5130, num_bit32_hists = 1721
+[LightGBM] [Info] Iteration:182, valid_1 auc : 0.670656
+[LightGBM] [Info] 33.941556 seconds elapsed, finished iteration 182
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5168, num_bit32_hists = 1727
+[LightGBM] [Info] Iteration:183, valid_1 auc : 0.670795
+[LightGBM] [Info] 34.100118 seconds elapsed, finished iteration 183
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5207, num_bit32_hists = 1732
+[LightGBM] [Info] Iteration:184, valid_1 auc : 0.671007
+[LightGBM] [Info] 34.265176 seconds elapsed, finished iteration 184
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5242, num_bit32_hists = 1741
+[LightGBM] [Info] Iteration:185, valid_1 auc : 0.671294
+[LightGBM] [Info] 34.463124 seconds elapsed, finished iteration 185
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5280, num_bit32_hists = 1747
+[LightGBM] [Info] Iteration:186, valid_1 auc : 0.671467
+[LightGBM] [Info] 34.616233 seconds elapsed, finished iteration 186
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5317, num_bit32_hists = 1754
+[LightGBM] [Info] Iteration:187, valid_1 auc : 0.67165
+[LightGBM] [Info] 34.807992 seconds elapsed, finished iteration 187
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5354, num_bit32_hists = 1761
+[LightGBM] [Info] Iteration:188, valid_1 auc : 0.671839
+[LightGBM] [Info] 35.006804 seconds elapsed, finished iteration 188
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5393, num_bit32_hists = 1766
+[LightGBM] [Info] Iteration:189, valid_1 auc : 0.671903
+[LightGBM] [Info] 35.153289 seconds elapsed, finished iteration 189
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5428, num_bit32_hists = 1775
+[LightGBM] [Info] Iteration:190, valid_1 auc : 0.672024
+[LightGBM] [Info] 35.344768 seconds elapsed, finished iteration 190
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5465, num_bit32_hists = 1782
+[LightGBM] [Info] Iteration:191, valid_1 auc : 0.672125
+[LightGBM] [Info] 35.496515 seconds elapsed, finished iteration 191
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5502, num_bit32_hists = 1789
+[LightGBM] [Info] Iteration:192, valid_1 auc : 0.67222
+[LightGBM] [Info] 35.639620 seconds elapsed, finished iteration 192
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5539, num_bit32_hists = 1796
+[LightGBM] [Info] Iteration:193, valid_1 auc : 0.67229
+[LightGBM] [Info] 35.787037 seconds elapsed, finished iteration 193
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5576, num_bit32_hists = 1803
+[LightGBM] [Info] Iteration:194, valid_1 auc : 0.672375
+[LightGBM] [Info] 35.913996 seconds elapsed, finished iteration 194
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5615, num_bit32_hists = 1808
+[LightGBM] [Info] Iteration:195, valid_1 auc : 0.672475
+[LightGBM] [Info] 36.045833 seconds elapsed, finished iteration 195
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5652, num_bit32_hists = 1815
+[LightGBM] [Info] Iteration:196, valid_1 auc : 0.672559
+[LightGBM] [Info] 36.176811 seconds elapsed, finished iteration 196
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5691, num_bit32_hists = 1820
+[LightGBM] [Info] Iteration:197, valid_1 auc : 0.672644
+[LightGBM] [Info] 36.318798 seconds elapsed, finished iteration 197
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5728, num_bit32_hists = 1827
+[LightGBM] [Info] Iteration:198, valid_1 auc : 0.67278
+[LightGBM] [Info] 36.460954 seconds elapsed, finished iteration 198
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5766, num_bit32_hists = 1832
+[LightGBM] [Info] Iteration:199, valid_1 auc : 0.672903
+[LightGBM] [Info] 36.623267 seconds elapsed, finished iteration 199
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5803, num_bit32_hists = 1839
+[LightGBM] [Info] Iteration:200, valid_1 auc : 0.672991
+[LightGBM] [Info] 36.789067 seconds elapsed, finished iteration 200
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5842, num_bit32_hists = 1844
+[LightGBM] [Info] Iteration:201, valid_1 auc : 0.673121
+[LightGBM] [Info] 36.939632 seconds elapsed, finished iteration 201
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5879, num_bit32_hists = 1851
+[LightGBM] [Info] Iteration:202, valid_1 auc : 0.673208
+[LightGBM] [Info] 37.108592 seconds elapsed, finished iteration 202
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5918, num_bit32_hists = 1856
+[LightGBM] [Info] Iteration:203, valid_1 auc : 0.673359
+[LightGBM] [Info] 37.246947 seconds elapsed, finished iteration 203
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5955, num_bit32_hists = 1863
+[LightGBM] [Info] Iteration:204, valid_1 auc : 0.67344
+[LightGBM] [Info] 37.388897 seconds elapsed, finished iteration 204
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 5992, num_bit32_hists = 1870
+[LightGBM] [Info] Iteration:205, valid_1 auc : 0.673527
+[LightGBM] [Info] 37.533508 seconds elapsed, finished iteration 205
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6031, num_bit32_hists = 1875
+[LightGBM] [Info] Iteration:206, valid_1 auc : 0.673635
+[LightGBM] [Info] 37.711947 seconds elapsed, finished iteration 206
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6068, num_bit32_hists = 1882
+[LightGBM] [Info] Iteration:207, valid_1 auc : 0.673704
+[LightGBM] [Info] 37.880259 seconds elapsed, finished iteration 207
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6105, num_bit32_hists = 1889
+[LightGBM] [Info] Iteration:208, valid_1 auc : 0.673781
+[LightGBM] [Info] 38.024694 seconds elapsed, finished iteration 208
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6142, num_bit32_hists = 1895
+[LightGBM] [Info] Iteration:209, valid_1 auc : 0.673899
+[LightGBM] [Info] 38.147570 seconds elapsed, finished iteration 209
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6179, num_bit32_hists = 1902
+[LightGBM] [Info] Iteration:210, valid_1 auc : 0.673981
+[LightGBM] [Info] 38.273304 seconds elapsed, finished iteration 210
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6217, num_bit32_hists = 1908
+[LightGBM] [Info] Iteration:211, valid_1 auc : 0.674094
+[LightGBM] [Info] 38.408974 seconds elapsed, finished iteration 211
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6253, num_bit32_hists = 1916
+[LightGBM] [Info] Iteration:212, valid_1 auc : 0.674261
+[LightGBM] [Info] 38.561173 seconds elapsed, finished iteration 212
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6290, num_bit32_hists = 1923
+[LightGBM] [Info] Iteration:213, valid_1 auc : 0.674343
+[LightGBM] [Info] 38.756589 seconds elapsed, finished iteration 213
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6328, num_bit32_hists = 1929
+[LightGBM] [Info] Iteration:214, valid_1 auc : 0.67446
+[LightGBM] [Info] 38.924917 seconds elapsed, finished iteration 214
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6365, num_bit32_hists = 1936
+[LightGBM] [Info] Iteration:215, valid_1 auc : 0.674546
+[LightGBM] [Info] 39.138473 seconds elapsed, finished iteration 215
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6402, num_bit32_hists = 1943
+[LightGBM] [Info] Iteration:216, valid_1 auc : 0.674664
+[LightGBM] [Info] 39.314239 seconds elapsed, finished iteration 216
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6439, num_bit32_hists = 1950
+[LightGBM] [Info] Iteration:217, valid_1 auc : 0.674785
+[LightGBM] [Info] 39.488022 seconds elapsed, finished iteration 217
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6476, num_bit32_hists = 1957
+[LightGBM] [Info] Iteration:218, valid_1 auc : 0.67487
+[LightGBM] [Info] 39.656125 seconds elapsed, finished iteration 218
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6513, num_bit32_hists = 1963
+[LightGBM] [Info] Iteration:219, valid_1 auc : 0.674984
+[LightGBM] [Info] 39.790504 seconds elapsed, finished iteration 219
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6549, num_bit32_hists = 1970
+[LightGBM] [Info] Iteration:220, valid_1 auc : 0.675073
+[LightGBM] [Info] 39.921396 seconds elapsed, finished iteration 220
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6587, num_bit32_hists = 1976
+[LightGBM] [Info] Iteration:221, valid_1 auc : 0.675186
+[LightGBM] [Info] 40.078477 seconds elapsed, finished iteration 221
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6624, num_bit32_hists = 1982
+[LightGBM] [Info] Iteration:222, valid_1 auc : 0.675277
+[LightGBM] [Info] 40.259230 seconds elapsed, finished iteration 222
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6663, num_bit32_hists = 1987
+[LightGBM] [Info] Iteration:223, valid_1 auc : 0.675348
+[LightGBM] [Info] 40.434107 seconds elapsed, finished iteration 223
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6700, num_bit32_hists = 1993
+[LightGBM] [Info] Iteration:224, valid_1 auc : 0.675515
+[LightGBM] [Info] 40.635950 seconds elapsed, finished iteration 224
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6738, num_bit32_hists = 1999
+[LightGBM] [Info] Iteration:225, valid_1 auc : 0.675684
+[LightGBM] [Info] 40.812828 seconds elapsed, finished iteration 225
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6775, num_bit32_hists = 2006
+[LightGBM] [Info] Iteration:226, valid_1 auc : 0.675782
+[LightGBM] [Info] 41.018245 seconds elapsed, finished iteration 226
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6812, num_bit32_hists = 2012
+[LightGBM] [Info] Iteration:227, valid_1 auc : 0.675925
+[LightGBM] [Info] 41.181888 seconds elapsed, finished iteration 227
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6849, num_bit32_hists = 2019
+[LightGBM] [Info] Iteration:228, valid_1 auc : 0.676051
+[LightGBM] [Info] 41.344390 seconds elapsed, finished iteration 228
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6887, num_bit32_hists = 2025
+[LightGBM] [Info] Iteration:229, valid_1 auc : 0.676155
+[LightGBM] [Info] 41.543092 seconds elapsed, finished iteration 229
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6923, num_bit32_hists = 2032
+[LightGBM] [Info] Iteration:230, valid_1 auc : 0.676342
+[LightGBM] [Info] 41.699439 seconds elapsed, finished iteration 230
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6960, num_bit32_hists = 2039
+[LightGBM] [Info] Iteration:231, valid_1 auc : 0.676506
+[LightGBM] [Info] 41.826640 seconds elapsed, finished iteration 231
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 6998, num_bit32_hists = 2044
+[LightGBM] [Info] Iteration:232, valid_1 auc : 0.676656
+[LightGBM] [Info] 42.001312 seconds elapsed, finished iteration 232
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7036, num_bit32_hists = 2050
+[LightGBM] [Info] Iteration:233, valid_1 auc : 0.676765
+[LightGBM] [Info] 42.166329 seconds elapsed, finished iteration 233
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7073, num_bit32_hists = 2057
+[LightGBM] [Info] Iteration:234, valid_1 auc : 0.676852
+[LightGBM] [Info] 42.339432 seconds elapsed, finished iteration 234
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7111, num_bit32_hists = 2063
+[LightGBM] [Info] Iteration:235, valid_1 auc : 0.676924
+[LightGBM] [Info] 42.511668 seconds elapsed, finished iteration 235
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7148, num_bit32_hists = 2070
+[LightGBM] [Info] Iteration:236, valid_1 auc : 0.677049
+[LightGBM] [Info] 42.696345 seconds elapsed, finished iteration 236
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7186, num_bit32_hists = 2076
+[LightGBM] [Info] Iteration:237, valid_1 auc : 0.677156
+[LightGBM] [Info] 42.866694 seconds elapsed, finished iteration 237
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7222, num_bit32_hists = 2084
+[LightGBM] [Info] Iteration:238, valid_1 auc : 0.677312
+[LightGBM] [Info] 43.037011 seconds elapsed, finished iteration 238
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7259, num_bit32_hists = 2091
+[LightGBM] [Info] Iteration:239, valid_1 auc : 0.677457
+[LightGBM] [Info] 43.205000 seconds elapsed, finished iteration 239
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7295, num_bit32_hists = 2099
+[LightGBM] [Info] Iteration:240, valid_1 auc : 0.677572
+[LightGBM] [Info] 43.390532 seconds elapsed, finished iteration 240
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7332, num_bit32_hists = 2106
+[LightGBM] [Info] Iteration:241, valid_1 auc : 0.677719
+[LightGBM] [Info] 43.570535 seconds elapsed, finished iteration 241
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7370, num_bit32_hists = 2111
+[LightGBM] [Info] Iteration:242, valid_1 auc : 0.677919
+[LightGBM] [Info] 43.732405 seconds elapsed, finished iteration 242
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7406, num_bit32_hists = 2118
+[LightGBM] [Info] Iteration:243, valid_1 auc : 0.678091
+[LightGBM] [Info] 43.902225 seconds elapsed, finished iteration 243
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7443, num_bit32_hists = 2125
+[LightGBM] [Info] Iteration:244, valid_1 auc : 0.678229
+[LightGBM] [Info] 44.086503 seconds elapsed, finished iteration 244
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7478, num_bit32_hists = 2133
+[LightGBM] [Info] Iteration:245, valid_1 auc : 0.678329
+[LightGBM] [Info] 44.286554 seconds elapsed, finished iteration 245
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7513, num_bit32_hists = 2141
+[LightGBM] [Info] Iteration:246, valid_1 auc : 0.678482
+[LightGBM] [Info] 44.484967 seconds elapsed, finished iteration 246
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7550, num_bit32_hists = 2148
+[LightGBM] [Info] Iteration:247, valid_1 auc : 0.678619
+[LightGBM] [Info] 44.625128 seconds elapsed, finished iteration 247
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7587, num_bit32_hists = 2155
+[LightGBM] [Info] Iteration:248, valid_1 auc : 0.678825
+[LightGBM] [Info] 44.741265 seconds elapsed, finished iteration 248
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7623, num_bit32_hists = 2162
+[LightGBM] [Info] Iteration:249, valid_1 auc : 0.679044
+[LightGBM] [Info] 44.908676 seconds elapsed, finished iteration 249
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7661, num_bit32_hists = 2168
+[LightGBM] [Info] Iteration:250, valid_1 auc : 0.679154
+[LightGBM] [Info] 45.055846 seconds elapsed, finished iteration 250
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7699, num_bit32_hists = 2174
+[LightGBM] [Info] Iteration:251, valid_1 auc : 0.679305
+[LightGBM] [Info] 45.194245 seconds elapsed, finished iteration 251
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7733, num_bit32_hists = 2182
+[LightGBM] [Info] Iteration:252, valid_1 auc : 0.679456
+[LightGBM] [Info] 45.318998 seconds elapsed, finished iteration 252
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7768, num_bit32_hists = 2189
+[LightGBM] [Info] Iteration:253, valid_1 auc : 0.679658
+[LightGBM] [Info] 45.457543 seconds elapsed, finished iteration 253
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7805, num_bit32_hists = 2195
+[LightGBM] [Info] Iteration:254, valid_1 auc : 0.679763
+[LightGBM] [Info] 45.582472 seconds elapsed, finished iteration 254
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7842, num_bit32_hists = 2202
+[LightGBM] [Info] Iteration:255, valid_1 auc : 0.679893
+[LightGBM] [Info] 45.721136 seconds elapsed, finished iteration 255
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7879, num_bit32_hists = 2208
+[LightGBM] [Info] Iteration:256, valid_1 auc : 0.679996
+[LightGBM] [Info] 45.872501 seconds elapsed, finished iteration 256
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7916, num_bit32_hists = 2215
+[LightGBM] [Info] Iteration:257, valid_1 auc : 0.680101
+[LightGBM] [Info] 46.042561 seconds elapsed, finished iteration 257
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7953, num_bit32_hists = 2221
+[LightGBM] [Info] Iteration:258, valid_1 auc : 0.680232
+[LightGBM] [Info] 46.248352 seconds elapsed, finished iteration 258
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 7989, num_bit32_hists = 2227
+[LightGBM] [Info] Iteration:259, valid_1 auc : 0.680348
+[LightGBM] [Info] 46.436044 seconds elapsed, finished iteration 259
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8027, num_bit32_hists = 2233
+[LightGBM] [Info] Iteration:260, valid_1 auc : 0.680465
+[LightGBM] [Info] 46.609080 seconds elapsed, finished iteration 260
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8064, num_bit32_hists = 2240
+[LightGBM] [Info] Iteration:261, valid_1 auc : 0.680566
+[LightGBM] [Info] 46.808029 seconds elapsed, finished iteration 261
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8099, num_bit32_hists = 2248
+[LightGBM] [Info] Iteration:262, valid_1 auc : 0.680639
+[LightGBM] [Info] 46.984366 seconds elapsed, finished iteration 262
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8136, num_bit32_hists = 2255
+[LightGBM] [Info] Iteration:263, valid_1 auc : 0.680706
+[LightGBM] [Info] 47.150564 seconds elapsed, finished iteration 263
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8173, num_bit32_hists = 2262
+[LightGBM] [Info] Iteration:264, valid_1 auc : 0.680836
+[LightGBM] [Info] 47.313334 seconds elapsed, finished iteration 264
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8207, num_bit32_hists = 2271
+[LightGBM] [Info] Iteration:265, valid_1 auc : 0.680887
+[LightGBM] [Info] 47.491452 seconds elapsed, finished iteration 265
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8242, num_bit32_hists = 2279
+[LightGBM] [Info] Iteration:266, valid_1 auc : 0.680959
+[LightGBM] [Info] 47.663308 seconds elapsed, finished iteration 266
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8279, num_bit32_hists = 2286
+[LightGBM] [Info] Iteration:267, valid_1 auc : 0.681043
+[LightGBM] [Info] 47.835295 seconds elapsed, finished iteration 267
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8315, num_bit32_hists = 2293
+[LightGBM] [Info] Iteration:268, valid_1 auc : 0.681143
+[LightGBM] [Info] 47.977137 seconds elapsed, finished iteration 268
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8352, num_bit32_hists = 2300
+[LightGBM] [Info] Iteration:269, valid_1 auc : 0.68124
+[LightGBM] [Info] 48.128060 seconds elapsed, finished iteration 269
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8388, num_bit32_hists = 2307
+[LightGBM] [Info] Iteration:270, valid_1 auc : 0.681286
+[LightGBM] [Info] 48.265883 seconds elapsed, finished iteration 270
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8425, num_bit32_hists = 2314
+[LightGBM] [Info] Iteration:271, valid_1 auc : 0.681391
+[LightGBM] [Info] 48.386682 seconds elapsed, finished iteration 271
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8461, num_bit32_hists = 2322
+[LightGBM] [Info] Iteration:272, valid_1 auc : 0.681471
+[LightGBM] [Info] 48.560174 seconds elapsed, finished iteration 272
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8497, num_bit32_hists = 2329
+[LightGBM] [Info] Iteration:273, valid_1 auc : 0.681515
+[LightGBM] [Info] 48.705009 seconds elapsed, finished iteration 273
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8533, num_bit32_hists = 2336
+[LightGBM] [Info] Iteration:274, valid_1 auc : 0.681552
+[LightGBM] [Info] 48.836728 seconds elapsed, finished iteration 274
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8569, num_bit32_hists = 2343
+[LightGBM] [Info] Iteration:275, valid_1 auc : 0.681588
+[LightGBM] [Info] 48.991741 seconds elapsed, finished iteration 275
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8606, num_bit32_hists = 2350
+[LightGBM] [Info] Iteration:276, valid_1 auc : 0.681634
+[LightGBM] [Info] 49.150324 seconds elapsed, finished iteration 276
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8642, num_bit32_hists = 2358
+[LightGBM] [Info] Iteration:277, valid_1 auc : 0.681662
+[LightGBM] [Info] 49.289603 seconds elapsed, finished iteration 277
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8677, num_bit32_hists = 2366
+[LightGBM] [Info] Iteration:278, valid_1 auc : 0.681677
+[LightGBM] [Info] 49.418083 seconds elapsed, finished iteration 278
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8713, num_bit32_hists = 2374
+[LightGBM] [Info] Iteration:279, valid_1 auc : 0.681755
+[LightGBM] [Info] 49.582470 seconds elapsed, finished iteration 279
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8748, num_bit32_hists = 2383
+[LightGBM] [Info] Iteration:280, valid_1 auc : 0.681836
+[LightGBM] [Info] 49.758427 seconds elapsed, finished iteration 280
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8784, num_bit32_hists = 2391
+[LightGBM] [Info] Iteration:281, valid_1 auc : 0.68188
+[LightGBM] [Info] 49.920112 seconds elapsed, finished iteration 281
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8819, num_bit32_hists = 2399
+[LightGBM] [Info] Iteration:282, valid_1 auc : 0.68195
+[LightGBM] [Info] 50.094996 seconds elapsed, finished iteration 282
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8856, num_bit32_hists = 2406
+[LightGBM] [Info] Iteration:283, valid_1 auc : 0.68195
+[LightGBM] [Info] 50.254481 seconds elapsed, finished iteration 283
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8893, num_bit32_hists = 2413
+[LightGBM] [Info] Iteration:284, valid_1 auc : 0.682029
+[LightGBM] [Info] 50.393196 seconds elapsed, finished iteration 284
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8928, num_bit32_hists = 2421
+[LightGBM] [Info] Iteration:285, valid_1 auc : 0.682088
+[LightGBM] [Info] 50.535412 seconds elapsed, finished iteration 285
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 8964, num_bit32_hists = 2429
+[LightGBM] [Info] Iteration:286, valid_1 auc : 0.682122
+[LightGBM] [Info] 50.703513 seconds elapsed, finished iteration 286
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9002, num_bit32_hists = 2435
+[LightGBM] [Info] Iteration:287, valid_1 auc : 0.682143
+[LightGBM] [Info] 50.839254 seconds elapsed, finished iteration 287
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9037, num_bit32_hists = 2443
+[LightGBM] [Info] Iteration:288, valid_1 auc : 0.682194
+[LightGBM] [Info] 50.971293 seconds elapsed, finished iteration 288
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9074, num_bit32_hists = 2450
+[LightGBM] [Info] Iteration:289, valid_1 auc : 0.682264
+[LightGBM] [Info] 51.093709 seconds elapsed, finished iteration 289
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9109, num_bit32_hists = 2458
+[LightGBM] [Info] Iteration:290, valid_1 auc : 0.682342
+[LightGBM] [Info] 51.218479 seconds elapsed, finished iteration 290
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9144, num_bit32_hists = 2466
+[LightGBM] [Info] Iteration:291, valid_1 auc : 0.682401
+[LightGBM] [Info] 51.340955 seconds elapsed, finished iteration 291
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9178, num_bit32_hists = 2475
+[LightGBM] [Info] Iteration:292, valid_1 auc : 0.682479
+[LightGBM] [Info] 51.503998 seconds elapsed, finished iteration 292
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9214, num_bit32_hists = 2483
+[LightGBM] [Info] Iteration:293, valid_1 auc : 0.682542
+[LightGBM] [Info] 51.667774 seconds elapsed, finished iteration 293
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9251, num_bit32_hists = 2490
+[LightGBM] [Info] Iteration:294, valid_1 auc : 0.682612
+[LightGBM] [Info] 51.834068 seconds elapsed, finished iteration 294
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9286, num_bit32_hists = 2498
+[LightGBM] [Info] Iteration:295, valid_1 auc : 0.682659
+[LightGBM] [Info] 52.022507 seconds elapsed, finished iteration 295
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9323, num_bit32_hists = 2505
+[LightGBM] [Info] Iteration:296, valid_1 auc : 0.682674
+[LightGBM] [Info] 52.188583 seconds elapsed, finished iteration 296
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9360, num_bit32_hists = 2512
+[LightGBM] [Info] Iteration:297, valid_1 auc : 0.682711
+[LightGBM] [Info] 52.310663 seconds elapsed, finished iteration 297
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9396, num_bit32_hists = 2519
+[LightGBM] [Info] Iteration:298, valid_1 auc : 0.682786
+[LightGBM] [Info] 52.450427 seconds elapsed, finished iteration 298
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9433, num_bit32_hists = 2526
+[LightGBM] [Info] Iteration:299, valid_1 auc : 0.682838
+[LightGBM] [Info] 52.591135 seconds elapsed, finished iteration 299
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9469, num_bit32_hists = 2534
+[LightGBM] [Info] Iteration:300, valid_1 auc : 0.682879
+[LightGBM] [Info] 52.752684 seconds elapsed, finished iteration 300
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9505, num_bit32_hists = 2542
+[LightGBM] [Info] Iteration:301, valid_1 auc : 0.682926
+[LightGBM] [Info] 52.903554 seconds elapsed, finished iteration 301
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9539, num_bit32_hists = 2551
+[LightGBM] [Info] Iteration:302, valid_1 auc : 0.682996
+[LightGBM] [Info] 53.034264 seconds elapsed, finished iteration 302
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9575, num_bit32_hists = 2559
+[LightGBM] [Info] Iteration:303, valid_1 auc : 0.683039
+[LightGBM] [Info] 53.157003 seconds elapsed, finished iteration 303
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9610, num_bit32_hists = 2567
+[LightGBM] [Info] Iteration:304, valid_1 auc : 0.683103
+[LightGBM] [Info] 53.345913 seconds elapsed, finished iteration 304
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9647, num_bit32_hists = 2574
+[LightGBM] [Info] Iteration:305, valid_1 auc : 0.68317
+[LightGBM] [Info] 53.505612 seconds elapsed, finished iteration 305
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9681, num_bit32_hists = 2582
+[LightGBM] [Info] Iteration:306, valid_1 auc : 0.683228
+[LightGBM] [Info] 53.628597 seconds elapsed, finished iteration 306
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9716, num_bit32_hists = 2590
+[LightGBM] [Info] Iteration:307, valid_1 auc : 0.683258
+[LightGBM] [Info] 53.752843 seconds elapsed, finished iteration 307
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9753, num_bit32_hists = 2597
+[LightGBM] [Info] Iteration:308, valid_1 auc : 0.683286
+[LightGBM] [Info] 53.899383 seconds elapsed, finished iteration 308
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9788, num_bit32_hists = 2605
+[LightGBM] [Info] Iteration:309, valid_1 auc : 0.683339
+[LightGBM] [Info] 54.025742 seconds elapsed, finished iteration 309
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9824, num_bit32_hists = 2612
+[LightGBM] [Info] Iteration:310, valid_1 auc : 0.683409
+[LightGBM] [Info] 54.143322 seconds elapsed, finished iteration 310
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9859, num_bit32_hists = 2620
+[LightGBM] [Info] Iteration:311, valid_1 auc : 0.683478
+[LightGBM] [Info] 54.303515 seconds elapsed, finished iteration 311
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9895, num_bit32_hists = 2627
+[LightGBM] [Info] Iteration:312, valid_1 auc : 0.683525
+[LightGBM] [Info] 54.474276 seconds elapsed, finished iteration 312
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9930, num_bit32_hists = 2636
+[LightGBM] [Info] Iteration:313, valid_1 auc : 0.683605
+[LightGBM] [Info] 54.622843 seconds elapsed, finished iteration 313
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 9966, num_bit32_hists = 2644
+[LightGBM] [Info] Iteration:314, valid_1 auc : 0.683678
+[LightGBM] [Info] 54.764900 seconds elapsed, finished iteration 314
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10003, num_bit32_hists = 2651
+[LightGBM] [Info] Iteration:315, valid_1 auc : 0.683746
+[LightGBM] [Info] 54.917716 seconds elapsed, finished iteration 315
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10041, num_bit32_hists = 2657
+[LightGBM] [Info] Iteration:316, valid_1 auc : 0.683806
+[LightGBM] [Info] 55.052885 seconds elapsed, finished iteration 316
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10077, num_bit32_hists = 2664
+[LightGBM] [Info] Iteration:317, valid_1 auc : 0.683858
+[LightGBM] [Info] 55.187182 seconds elapsed, finished iteration 317
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10114, num_bit32_hists = 2670
+[LightGBM] [Info] Iteration:318, valid_1 auc : 0.683908
+[LightGBM] [Info] 55.299982 seconds elapsed, finished iteration 318
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10150, num_bit32_hists = 2677
+[LightGBM] [Info] Iteration:319, valid_1 auc : 0.683981
+[LightGBM] [Info] 55.420115 seconds elapsed, finished iteration 319
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10187, num_bit32_hists = 2684
+[LightGBM] [Info] Iteration:320, valid_1 auc : 0.684062
+[LightGBM] [Info] 55.553468 seconds elapsed, finished iteration 320
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10225, num_bit32_hists = 2690
+[LightGBM] [Info] Iteration:321, valid_1 auc : 0.684089
+[LightGBM] [Info] 55.687963 seconds elapsed, finished iteration 321
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10263, num_bit32_hists = 2696
+[LightGBM] [Info] Iteration:322, valid_1 auc : 0.684137
+[LightGBM] [Info] 55.818095 seconds elapsed, finished iteration 322
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10300, num_bit32_hists = 2702
+[LightGBM] [Info] Iteration:323, valid_1 auc : 0.684193
+[LightGBM] [Info] 55.986109 seconds elapsed, finished iteration 323
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10338, num_bit32_hists = 2708
+[LightGBM] [Info] Iteration:324, valid_1 auc : 0.684211
+[LightGBM] [Info] 56.176009 seconds elapsed, finished iteration 324
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10376, num_bit32_hists = 2714
+[LightGBM] [Info] Iteration:325, valid_1 auc : 0.68423
+[LightGBM] [Info] 56.336386 seconds elapsed, finished iteration 325
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10413, num_bit32_hists = 2720
+[LightGBM] [Info] Iteration:326, valid_1 auc : 0.684288
+[LightGBM] [Info] 56.515167 seconds elapsed, finished iteration 326
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10450, num_bit32_hists = 2727
+[LightGBM] [Info] Iteration:327, valid_1 auc : 0.684373
+[LightGBM] [Info] 56.659066 seconds elapsed, finished iteration 327
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10487, num_bit32_hists = 2733
+[LightGBM] [Info] Iteration:328, valid_1 auc : 0.684428
+[LightGBM] [Info] 56.825493 seconds elapsed, finished iteration 328
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10524, num_bit32_hists = 2739
+[LightGBM] [Info] Iteration:329, valid_1 auc : 0.684574
+[LightGBM] [Info] 57.004220 seconds elapsed, finished iteration 329
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10561, num_bit32_hists = 2745
+[LightGBM] [Info] Iteration:330, valid_1 auc : 0.684721
+[LightGBM] [Info] 57.182957 seconds elapsed, finished iteration 330
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10598, num_bit32_hists = 2752
+[LightGBM] [Info] Iteration:331, valid_1 auc : 0.684786
+[LightGBM] [Info] 57.330119 seconds elapsed, finished iteration 331
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10635, num_bit32_hists = 2759
+[LightGBM] [Info] Iteration:332, valid_1 auc : 0.684836
+[LightGBM] [Info] 57.450699 seconds elapsed, finished iteration 332
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10672, num_bit32_hists = 2766
+[LightGBM] [Info] Iteration:333, valid_1 auc : 0.684934
+[LightGBM] [Info] 57.596658 seconds elapsed, finished iteration 333
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10708, num_bit32_hists = 2774
+[LightGBM] [Info] Iteration:334, valid_1 auc : 0.685026
+[LightGBM] [Info] 57.755348 seconds elapsed, finished iteration 334
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10745, num_bit32_hists = 2780
+[LightGBM] [Info] Iteration:335, valid_1 auc : 0.685166
+[LightGBM] [Info] 57.881597 seconds elapsed, finished iteration 335
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10782, num_bit32_hists = 2786
+[LightGBM] [Info] Iteration:336, valid_1 auc : 0.685285
+[LightGBM] [Info] 58.009128 seconds elapsed, finished iteration 336
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10820, num_bit32_hists = 2792
+[LightGBM] [Info] Iteration:337, valid_1 auc : 0.68544
+[LightGBM] [Info] 58.129900 seconds elapsed, finished iteration 337
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10855, num_bit32_hists = 2800
+[LightGBM] [Info] Iteration:338, valid_1 auc : 0.685533
+[LightGBM] [Info] 58.246586 seconds elapsed, finished iteration 338
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10892, num_bit32_hists = 2806
+[LightGBM] [Info] Iteration:339, valid_1 auc : 0.68558
+[LightGBM] [Info] 58.374103 seconds elapsed, finished iteration 339
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10929, num_bit32_hists = 2812
+[LightGBM] [Info] Iteration:340, valid_1 auc : 0.685638
+[LightGBM] [Info] 58.517010 seconds elapsed, finished iteration 340
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 10968, num_bit32_hists = 2817
+[LightGBM] [Info] Iteration:341, valid_1 auc : 0.685715
+[LightGBM] [Info] 58.640983 seconds elapsed, finished iteration 341
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11006, num_bit32_hists = 2823
+[LightGBM] [Info] Iteration:342, valid_1 auc : 0.68582
+[LightGBM] [Info] 58.765859 seconds elapsed, finished iteration 342
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11043, num_bit32_hists = 2829
+[LightGBM] [Info] Iteration:343, valid_1 auc : 0.68595
+[LightGBM] [Info] 58.890453 seconds elapsed, finished iteration 343
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11081, num_bit32_hists = 2835
+[LightGBM] [Info] Iteration:344, valid_1 auc : 0.686019
+[LightGBM] [Info] 59.014352 seconds elapsed, finished iteration 344
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11120, num_bit32_hists = 2840
+[LightGBM] [Info] Iteration:345, valid_1 auc : 0.686102
+[LightGBM] [Info] 59.162517 seconds elapsed, finished iteration 345
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11159, num_bit32_hists = 2845
+[LightGBM] [Info] Iteration:346, valid_1 auc : 0.686195
+[LightGBM] [Info] 59.281340 seconds elapsed, finished iteration 346
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11197, num_bit32_hists = 2851
+[LightGBM] [Info] Iteration:347, valid_1 auc : 0.686337
+[LightGBM] [Info] 59.435404 seconds elapsed, finished iteration 347
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11235, num_bit32_hists = 2857
+[LightGBM] [Info] Iteration:348, valid_1 auc : 0.686454
+[LightGBM] [Info] 59.610066 seconds elapsed, finished iteration 348
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11273, num_bit32_hists = 2863
+[LightGBM] [Info] Iteration:349, valid_1 auc : 0.686568
+[LightGBM] [Info] 59.764947 seconds elapsed, finished iteration 349
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11311, num_bit32_hists = 2869
+[LightGBM] [Info] Iteration:350, valid_1 auc : 0.68663
+[LightGBM] [Info] 59.913332 seconds elapsed, finished iteration 350
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11350, num_bit32_hists = 2874
+[LightGBM] [Info] Iteration:351, valid_1 auc : 0.686711
+[LightGBM] [Info] 60.085475 seconds elapsed, finished iteration 351
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11388, num_bit32_hists = 2880
+[LightGBM] [Info] Iteration:352, valid_1 auc : 0.686783
+[LightGBM] [Info] 60.240922 seconds elapsed, finished iteration 352
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11427, num_bit32_hists = 2885
+[LightGBM] [Info] Iteration:353, valid_1 auc : 0.686815
+[LightGBM] [Info] 60.375590 seconds elapsed, finished iteration 353
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11466, num_bit32_hists = 2890
+[LightGBM] [Info] Iteration:354, valid_1 auc : 0.686894
+[LightGBM] [Info] 60.544956 seconds elapsed, finished iteration 354
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11504, num_bit32_hists = 2895
+[LightGBM] [Info] Iteration:355, valid_1 auc : 0.686962
+[LightGBM] [Info] 60.699895 seconds elapsed, finished iteration 355
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11542, num_bit32_hists = 2900
+[LightGBM] [Info] Iteration:356, valid_1 auc : 0.687052
+[LightGBM] [Info] 60.821250 seconds elapsed, finished iteration 356
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11579, num_bit32_hists = 2906
+[LightGBM] [Info] Iteration:357, valid_1 auc : 0.687152
+[LightGBM] [Info] 60.955695 seconds elapsed, finished iteration 357
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11617, num_bit32_hists = 2911
+[LightGBM] [Info] Iteration:358, valid_1 auc : 0.687178
+[LightGBM] [Info] 61.076695 seconds elapsed, finished iteration 358
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11655, num_bit32_hists = 2916
+[LightGBM] [Info] Iteration:359, valid_1 auc : 0.687262
+[LightGBM] [Info] 61.193485 seconds elapsed, finished iteration 359
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 20
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11692, num_bit32_hists = 2922
+[LightGBM] [Info] Iteration:360, valid_1 auc : 0.687381
+[LightGBM] [Info] 61.370376 seconds elapsed, finished iteration 360
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11729, num_bit32_hists = 2928
+[LightGBM] [Info] Iteration:361, valid_1 auc : 0.687445
+[LightGBM] [Info] 61.518165 seconds elapsed, finished iteration 361
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11766, num_bit32_hists = 2934
+[LightGBM] [Info] Iteration:362, valid_1 auc : 0.687478
+[LightGBM] [Info] 61.707907 seconds elapsed, finished iteration 362
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11803, num_bit32_hists = 2940
+[LightGBM] [Info] Iteration:363, valid_1 auc : 0.687499
+[LightGBM] [Info] 61.893990 seconds elapsed, finished iteration 363
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11839, num_bit32_hists = 2945
+[LightGBM] [Info] Iteration:364, valid_1 auc : 0.687503
+[LightGBM] [Info] 62.020295 seconds elapsed, finished iteration 364
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11877, num_bit32_hists = 2950
+[LightGBM] [Info] Iteration:365, valid_1 auc : 0.687625
+[LightGBM] [Info] 62.163044 seconds elapsed, finished iteration 365
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11915, num_bit32_hists = 2955
+[LightGBM] [Info] Iteration:366, valid_1 auc : 0.687662
+[LightGBM] [Info] 62.281042 seconds elapsed, finished iteration 366
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11953, num_bit32_hists = 2960
+[LightGBM] [Info] Iteration:367, valid_1 auc : 0.687744
+[LightGBM] [Info] 62.393635 seconds elapsed, finished iteration 367
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 11990, num_bit32_hists = 2966
+[LightGBM] [Info] Iteration:368, valid_1 auc : 0.687809
+[LightGBM] [Info] 62.529347 seconds elapsed, finished iteration 368
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12027, num_bit32_hists = 2972
+[LightGBM] [Info] Iteration:369, valid_1 auc : 0.687891
+[LightGBM] [Info] 62.709224 seconds elapsed, finished iteration 369
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12065, num_bit32_hists = 2977
+[LightGBM] [Info] Iteration:370, valid_1 auc : 0.687926
+[LightGBM] [Info] 62.870852 seconds elapsed, finished iteration 370
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12102, num_bit32_hists = 2983
+[LightGBM] [Info] Iteration:371, valid_1 auc : 0.688
+[LightGBM] [Info] 63.051452 seconds elapsed, finished iteration 371
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12138, num_bit32_hists = 2990
+[LightGBM] [Info] Iteration:372, valid_1 auc : 0.688086
+[LightGBM] [Info] 63.200937 seconds elapsed, finished iteration 372
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12175, num_bit32_hists = 2996
+[LightGBM] [Info] Iteration:373, valid_1 auc : 0.688196
+[LightGBM] [Info] 63.325972 seconds elapsed, finished iteration 373
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12212, num_bit32_hists = 3002
+[LightGBM] [Info] Iteration:374, valid_1 auc : 0.688291
+[LightGBM] [Info] 63.456380 seconds elapsed, finished iteration 374
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12249, num_bit32_hists = 3008
+[LightGBM] [Info] Iteration:375, valid_1 auc : 0.68836
+[LightGBM] [Info] 63.590088 seconds elapsed, finished iteration 375
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12286, num_bit32_hists = 3014
+[LightGBM] [Info] Iteration:376, valid_1 auc : 0.688428
+[LightGBM] [Info] 63.742723 seconds elapsed, finished iteration 376
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12323, num_bit32_hists = 3020
+[LightGBM] [Info] Iteration:377, valid_1 auc : 0.68852
+[LightGBM] [Info] 63.881234 seconds elapsed, finished iteration 377
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12359, num_bit32_hists = 3027
+[LightGBM] [Info] Iteration:378, valid_1 auc : 0.688607
+[LightGBM] [Info] 64.026668 seconds elapsed, finished iteration 378
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12397, num_bit32_hists = 3033
+[LightGBM] [Info] Iteration:379, valid_1 auc : 0.68872
+[LightGBM] [Info] 64.156073 seconds elapsed, finished iteration 379
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12435, num_bit32_hists = 3038
+[LightGBM] [Info] Iteration:380, valid_1 auc : 0.688785
+[LightGBM] [Info] 64.288415 seconds elapsed, finished iteration 380
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12473, num_bit32_hists = 3044
+[LightGBM] [Info] Iteration:381, valid_1 auc : 0.68883
+[LightGBM] [Info] 64.410025 seconds elapsed, finished iteration 381
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12510, num_bit32_hists = 3050
+[LightGBM] [Info] Iteration:382, valid_1 auc : 0.688937
+[LightGBM] [Info] 64.571968 seconds elapsed, finished iteration 382
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12546, num_bit32_hists = 3057
+[LightGBM] [Info] Iteration:383, valid_1 auc : 0.689009
+[LightGBM] [Info] 64.723561 seconds elapsed, finished iteration 383
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12583, num_bit32_hists = 3063
+[LightGBM] [Info] Iteration:384, valid_1 auc : 0.689071
+[LightGBM] [Info] 64.865013 seconds elapsed, finished iteration 384
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12621, num_bit32_hists = 3069
+[LightGBM] [Info] Iteration:385, valid_1 auc : 0.689141
+[LightGBM] [Info] 65.015931 seconds elapsed, finished iteration 385
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12658, num_bit32_hists = 3075
+[LightGBM] [Info] Iteration:386, valid_1 auc : 0.689249
+[LightGBM] [Info] 65.152304 seconds elapsed, finished iteration 386
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12695, num_bit32_hists = 3081
+[LightGBM] [Info] Iteration:387, valid_1 auc : 0.689329
+[LightGBM] [Info] 65.280881 seconds elapsed, finished iteration 387
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12733, num_bit32_hists = 3086
+[LightGBM] [Info] Iteration:388, valid_1 auc : 0.689346
+[LightGBM] [Info] 65.409800 seconds elapsed, finished iteration 388
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12770, num_bit32_hists = 3092
+[LightGBM] [Info] Iteration:389, valid_1 auc : 0.68942
+[LightGBM] [Info] 65.590521 seconds elapsed, finished iteration 389
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12808, num_bit32_hists = 3098
+[LightGBM] [Info] Iteration:390, valid_1 auc : 0.689467
+[LightGBM] [Info] 65.765277 seconds elapsed, finished iteration 390
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12846, num_bit32_hists = 3104
+[LightGBM] [Info] Iteration:391, valid_1 auc : 0.689529
+[LightGBM] [Info] 65.939169 seconds elapsed, finished iteration 391
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12883, num_bit32_hists = 3110
+[LightGBM] [Info] Iteration:392, valid_1 auc : 0.689588
+[LightGBM] [Info] 66.110226 seconds elapsed, finished iteration 392
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12921, num_bit32_hists = 3116
+[LightGBM] [Info] Iteration:393, valid_1 auc : 0.68965
+[LightGBM] [Info] 66.257289 seconds elapsed, finished iteration 393
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12960, num_bit32_hists = 3121
+[LightGBM] [Info] Iteration:394, valid_1 auc : 0.68971
+[LightGBM] [Info] 66.387795 seconds elapsed, finished iteration 394
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 18
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 12998, num_bit32_hists = 3126
+[LightGBM] [Info] Iteration:395, valid_1 auc : 0.689734
+[LightGBM] [Info] 66.506275 seconds elapsed, finished iteration 395
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13037, num_bit32_hists = 3131
+[LightGBM] [Info] Iteration:396, valid_1 auc : 0.689737
+[LightGBM] [Info] 66.646167 seconds elapsed, finished iteration 396
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13076, num_bit32_hists = 3136
+[LightGBM] [Info] Iteration:397, valid_1 auc : 0.689749
+[LightGBM] [Info] 66.767280 seconds elapsed, finished iteration 397
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13114, num_bit32_hists = 3141
+[LightGBM] [Info] Iteration:398, valid_1 auc : 0.689767
+[LightGBM] [Info] 66.934738 seconds elapsed, finished iteration 398
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13153, num_bit32_hists = 3146
+[LightGBM] [Info] Iteration:399, valid_1 auc : 0.689775
+[LightGBM] [Info] 67.096214 seconds elapsed, finished iteration 399
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13191, num_bit32_hists = 3151
+[LightGBM] [Info] Iteration:400, valid_1 auc : 0.689798
+[LightGBM] [Info] 67.224310 seconds elapsed, finished iteration 400
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13229, num_bit32_hists = 3156
+[LightGBM] [Info] Iteration:401, valid_1 auc : 0.689815
+[LightGBM] [Info] 67.344008 seconds elapsed, finished iteration 401
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13268, num_bit32_hists = 3161
+[LightGBM] [Info] Iteration:402, valid_1 auc : 0.689868
+[LightGBM] [Info] 67.461613 seconds elapsed, finished iteration 402
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13306, num_bit32_hists = 3166
+[LightGBM] [Info] Iteration:403, valid_1 auc : 0.689902
+[LightGBM] [Info] 67.677319 seconds elapsed, finished iteration 403
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13345, num_bit32_hists = 3171
+[LightGBM] [Info] Iteration:404, valid_1 auc : 0.689961
+[LightGBM] [Info] 67.838983 seconds elapsed, finished iteration 404
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13382, num_bit32_hists = 3177
+[LightGBM] [Info] Iteration:405, valid_1 auc : 0.690007
+[LightGBM] [Info] 68.036696 seconds elapsed, finished iteration 405
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13420, num_bit32_hists = 3183
+[LightGBM] [Info] Iteration:406, valid_1 auc : 0.690036
+[LightGBM] [Info] 68.198308 seconds elapsed, finished iteration 406
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13457, num_bit32_hists = 3189
+[LightGBM] [Info] Iteration:407, valid_1 auc : 0.690082
+[LightGBM] [Info] 68.329300 seconds elapsed, finished iteration 407
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13495, num_bit32_hists = 3195
+[LightGBM] [Info] Iteration:408, valid_1 auc : 0.690147
+[LightGBM] [Info] 68.488493 seconds elapsed, finished iteration 408
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13532, num_bit32_hists = 3201
+[LightGBM] [Info] Iteration:409, valid_1 auc : 0.690224
+[LightGBM] [Info] 68.613406 seconds elapsed, finished iteration 409
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13569, num_bit32_hists = 3207
+[LightGBM] [Info] Iteration:410, valid_1 auc : 0.690278
+[LightGBM] [Info] 68.738085 seconds elapsed, finished iteration 410
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13607, num_bit32_hists = 3213
+[LightGBM] [Info] Iteration:411, valid_1 auc : 0.690338
+[LightGBM] [Info] 68.873534 seconds elapsed, finished iteration 411
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13644, num_bit32_hists = 3219
+[LightGBM] [Info] Iteration:412, valid_1 auc : 0.690379
+[LightGBM] [Info] 69.030504 seconds elapsed, finished iteration 412
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13681, num_bit32_hists = 3225
+[LightGBM] [Info] Iteration:413, valid_1 auc : 0.690457
+[LightGBM] [Info] 69.158656 seconds elapsed, finished iteration 413
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13719, num_bit32_hists = 3231
+[LightGBM] [Info] Iteration:414, valid_1 auc : 0.690487
+[LightGBM] [Info] 69.295639 seconds elapsed, finished iteration 414
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13755, num_bit32_hists = 3237
+[LightGBM] [Info] Iteration:415, valid_1 auc : 0.690498
+[LightGBM] [Info] 69.456397 seconds elapsed, finished iteration 415
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13793, num_bit32_hists = 3243
+[LightGBM] [Info] Iteration:416, valid_1 auc : 0.690527
+[LightGBM] [Info] 69.608149 seconds elapsed, finished iteration 416
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13830, num_bit32_hists = 3249
+[LightGBM] [Info] Iteration:417, valid_1 auc : 0.690604
+[LightGBM] [Info] 69.783264 seconds elapsed, finished iteration 417
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13867, num_bit32_hists = 3255
+[LightGBM] [Info] Iteration:418, valid_1 auc : 0.690652
+[LightGBM] [Info] 69.924922 seconds elapsed, finished iteration 418
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13904, num_bit32_hists = 3261
+[LightGBM] [Info] Iteration:419, valid_1 auc : 0.690687
+[LightGBM] [Info] 70.060594 seconds elapsed, finished iteration 419
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13941, num_bit32_hists = 3267
+[LightGBM] [Info] Iteration:420, valid_1 auc : 0.690761
+[LightGBM] [Info] 70.190684 seconds elapsed, finished iteration 420
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 13979, num_bit32_hists = 3273
+[LightGBM] [Info] Iteration:421, valid_1 auc : 0.69081
+[LightGBM] [Info] 70.359574 seconds elapsed, finished iteration 421
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14015, num_bit32_hists = 3280
+[LightGBM] [Info] Iteration:422, valid_1 auc : 0.690865
+[LightGBM] [Info] 70.528697 seconds elapsed, finished iteration 422
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14053, num_bit32_hists = 3286
+[LightGBM] [Info] Iteration:423, valid_1 auc : 0.690907
+[LightGBM] [Info] 70.722494 seconds elapsed, finished iteration 423
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14090, num_bit32_hists = 3292
+[LightGBM] [Info] Iteration:424, valid_1 auc : 0.690945
+[LightGBM] [Info] 70.889703 seconds elapsed, finished iteration 424
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14127, num_bit32_hists = 3298
+[LightGBM] [Info] Iteration:425, valid_1 auc : 0.690981
+[LightGBM] [Info] 71.019072 seconds elapsed, finished iteration 425
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14165, num_bit32_hists = 3304
+[LightGBM] [Info] Iteration:426, valid_1 auc : 0.691024
+[LightGBM] [Info] 71.193800 seconds elapsed, finished iteration 426
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14201, num_bit32_hists = 3310
+[LightGBM] [Info] Iteration:427, valid_1 auc : 0.691064
+[LightGBM] [Info] 71.374765 seconds elapsed, finished iteration 427
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14239, num_bit32_hists = 3316
+[LightGBM] [Info] Iteration:428, valid_1 auc : 0.691138
+[LightGBM] [Info] 71.566893 seconds elapsed, finished iteration 428
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14277, num_bit32_hists = 3322
+[LightGBM] [Info] Iteration:429, valid_1 auc : 0.691174
+[LightGBM] [Info] 71.759014 seconds elapsed, finished iteration 429
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14314, num_bit32_hists = 3328
+[LightGBM] [Info] Iteration:430, valid_1 auc : 0.691225
+[LightGBM] [Info] 71.952436 seconds elapsed, finished iteration 430
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14350, num_bit32_hists = 3335
+[LightGBM] [Info] Iteration:431, valid_1 auc : 0.691282
+[LightGBM] [Info] 72.134129 seconds elapsed, finished iteration 431
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14387, num_bit32_hists = 3341
+[LightGBM] [Info] Iteration:432, valid_1 auc : 0.691328
+[LightGBM] [Info] 72.293498 seconds elapsed, finished iteration 432
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14425, num_bit32_hists = 3347
+[LightGBM] [Info] Iteration:433, valid_1 auc : 0.691357
+[LightGBM] [Info] 72.447291 seconds elapsed, finished iteration 433
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14462, num_bit32_hists = 3353
+[LightGBM] [Info] Iteration:434, valid_1 auc : 0.691399
+[LightGBM] [Info] 72.609919 seconds elapsed, finished iteration 434
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14499, num_bit32_hists = 3359
+[LightGBM] [Info] Iteration:435, valid_1 auc : 0.691446
+[LightGBM] [Info] 72.777984 seconds elapsed, finished iteration 435
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14537, num_bit32_hists = 3365
+[LightGBM] [Info] Iteration:436, valid_1 auc : 0.691484
+[LightGBM] [Info] 72.948119 seconds elapsed, finished iteration 436
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14572, num_bit32_hists = 3372
+[LightGBM] [Info] Iteration:437, valid_1 auc : 0.691538
+[LightGBM] [Info] 73.116873 seconds elapsed, finished iteration 437
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 9
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14609, num_bit32_hists = 3379
+[LightGBM] [Info] Iteration:438, valid_1 auc : 0.691583
+[LightGBM] [Info] 73.288589 seconds elapsed, finished iteration 438
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14646, num_bit32_hists = 3385
+[LightGBM] [Info] Iteration:439, valid_1 auc : 0.691612
+[LightGBM] [Info] 73.463485 seconds elapsed, finished iteration 439
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14684, num_bit32_hists = 3391
+[LightGBM] [Info] Iteration:440, valid_1 auc : 0.691648
+[LightGBM] [Info] 73.648108 seconds elapsed, finished iteration 440
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14720, num_bit32_hists = 3398
+[LightGBM] [Info] Iteration:441, valid_1 auc : 0.691706
+[LightGBM] [Info] 73.816683 seconds elapsed, finished iteration 441
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14758, num_bit32_hists = 3404
+[LightGBM] [Info] Iteration:442, valid_1 auc : 0.691766
+[LightGBM] [Info] 73.981551 seconds elapsed, finished iteration 442
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14794, num_bit32_hists = 3411
+[LightGBM] [Info] Iteration:443, valid_1 auc : 0.691812
+[LightGBM] [Info] 74.152304 seconds elapsed, finished iteration 443
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14831, num_bit32_hists = 3417
+[LightGBM] [Info] Iteration:444, valid_1 auc : 0.691845
+[LightGBM] [Info] 74.279158 seconds elapsed, finished iteration 444
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14868, num_bit32_hists = 3423
+[LightGBM] [Info] Iteration:445, valid_1 auc : 0.691894
+[LightGBM] [Info] 74.405066 seconds elapsed, finished iteration 445
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14905, num_bit32_hists = 3429
+[LightGBM] [Info] Iteration:446, valid_1 auc : 0.691924
+[LightGBM] [Info] 74.536900 seconds elapsed, finished iteration 446
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14941, num_bit32_hists = 3436
+[LightGBM] [Info] Iteration:447, valid_1 auc : 0.691985
+[LightGBM] [Info] 74.668602 seconds elapsed, finished iteration 447
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 14979, num_bit32_hists = 3442
+[LightGBM] [Info] Iteration:448, valid_1 auc : 0.691982
+[LightGBM] [Info] 74.802652 seconds elapsed, finished iteration 448
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15016, num_bit32_hists = 3448
+[LightGBM] [Info] Iteration:449, valid_1 auc : 0.692018
+[LightGBM] [Info] 74.948127 seconds elapsed, finished iteration 449
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15052, num_bit32_hists = 3455
+[LightGBM] [Info] Iteration:450, valid_1 auc : 0.692077
+[LightGBM] [Info] 75.077530 seconds elapsed, finished iteration 450
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15089, num_bit32_hists = 3461
+[LightGBM] [Info] Iteration:451, valid_1 auc : 0.692127
+[LightGBM] [Info] 75.203214 seconds elapsed, finished iteration 451
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15124, num_bit32_hists = 3469
+[LightGBM] [Info] Iteration:452, valid_1 auc : 0.69219
+[LightGBM] [Info] 75.335342 seconds elapsed, finished iteration 452
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15161, num_bit32_hists = 3475
+[LightGBM] [Info] Iteration:453, valid_1 auc : 0.692211
+[LightGBM] [Info] 75.498414 seconds elapsed, finished iteration 453
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15199, num_bit32_hists = 3481
+[LightGBM] [Info] Iteration:454, valid_1 auc : 0.692247
+[LightGBM] [Info] 75.658717 seconds elapsed, finished iteration 454
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15236, num_bit32_hists = 3487
+[LightGBM] [Info] Iteration:455, valid_1 auc : 0.692295
+[LightGBM] [Info] 75.841737 seconds elapsed, finished iteration 455
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15272, num_bit32_hists = 3494
+[LightGBM] [Info] Iteration:456, valid_1 auc : 0.692342
+[LightGBM] [Info] 76.004851 seconds elapsed, finished iteration 456
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15309, num_bit32_hists = 3500
+[LightGBM] [Info] Iteration:457, valid_1 auc : 0.692378
+[LightGBM] [Info] 76.150018 seconds elapsed, finished iteration 457
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15344, num_bit32_hists = 3508
+[LightGBM] [Info] Iteration:458, valid_1 auc : 0.692479
+[LightGBM] [Info] 76.312019 seconds elapsed, finished iteration 458
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15380, num_bit32_hists = 3514
+[LightGBM] [Info] Iteration:459, valid_1 auc : 0.692514
+[LightGBM] [Info] 76.443592 seconds elapsed, finished iteration 459
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15417, num_bit32_hists = 3520
+[LightGBM] [Info] Iteration:460, valid_1 auc : 0.692545
+[LightGBM] [Info] 76.580714 seconds elapsed, finished iteration 460
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15454, num_bit32_hists = 3526
+[LightGBM] [Info] Iteration:461, valid_1 auc : 0.692582
+[LightGBM] [Info] 76.742355 seconds elapsed, finished iteration 461
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15491, num_bit32_hists = 3532
+[LightGBM] [Info] Iteration:462, valid_1 auc : 0.692607
+[LightGBM] [Info] 76.891524 seconds elapsed, finished iteration 462
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15528, num_bit32_hists = 3538
+[LightGBM] [Info] Iteration:463, valid_1 auc : 0.692655
+[LightGBM] [Info] 77.080449 seconds elapsed, finished iteration 463
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15564, num_bit32_hists = 3545
+[LightGBM] [Info] Iteration:464, valid_1 auc : 0.692696
+[LightGBM] [Info] 77.259802 seconds elapsed, finished iteration 464
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15600, num_bit32_hists = 3552
+[LightGBM] [Info] Iteration:465, valid_1 auc : 0.692755
+[LightGBM] [Info] 77.441978 seconds elapsed, finished iteration 465
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15636, num_bit32_hists = 3559
+[LightGBM] [Info] Iteration:466, valid_1 auc : 0.692802
+[LightGBM] [Info] 77.615492 seconds elapsed, finished iteration 466
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15673, num_bit32_hists = 3565
+[LightGBM] [Info] Iteration:467, valid_1 auc : 0.692834
+[LightGBM] [Info] 77.797424 seconds elapsed, finished iteration 467
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15711, num_bit32_hists = 3571
+[LightGBM] [Info] Iteration:468, valid_1 auc : 0.692863
+[LightGBM] [Info] 77.974232 seconds elapsed, finished iteration 468
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15748, num_bit32_hists = 3577
+[LightGBM] [Info] Iteration:469, valid_1 auc : 0.692889
+[LightGBM] [Info] 78.137647 seconds elapsed, finished iteration 469
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15785, num_bit32_hists = 3583
+[LightGBM] [Info] Iteration:470, valid_1 auc : 0.692917
+[LightGBM] [Info] 78.303474 seconds elapsed, finished iteration 470
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15821, num_bit32_hists = 3589
+[LightGBM] [Info] Iteration:471, valid_1 auc : 0.69296
+[LightGBM] [Info] 78.477667 seconds elapsed, finished iteration 471
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15857, num_bit32_hists = 3597
+[LightGBM] [Info] Iteration:472, valid_1 auc : 0.693047
+[LightGBM] [Info] 78.615824 seconds elapsed, finished iteration 472
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15893, num_bit32_hists = 3604
+[LightGBM] [Info] Iteration:473, valid_1 auc : 0.693097
+[LightGBM] [Info] 78.753006 seconds elapsed, finished iteration 473
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15930, num_bit32_hists = 3610
+[LightGBM] [Info] Iteration:474, valid_1 auc : 0.693153
+[LightGBM] [Info] 78.895630 seconds elapsed, finished iteration 474
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 15967, num_bit32_hists = 3616
+[LightGBM] [Info] Iteration:475, valid_1 auc : 0.693194
+[LightGBM] [Info] 79.032097 seconds elapsed, finished iteration 475
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16005, num_bit32_hists = 3622
+[LightGBM] [Info] Iteration:476, valid_1 auc : 0.693232
+[LightGBM] [Info] 79.170067 seconds elapsed, finished iteration 476
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16042, num_bit32_hists = 3628
+[LightGBM] [Info] Iteration:477, valid_1 auc : 0.693256
+[LightGBM] [Info] 79.336154 seconds elapsed, finished iteration 477
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16080, num_bit32_hists = 3634
+[LightGBM] [Info] Iteration:478, valid_1 auc : 0.693279
+[LightGBM] [Info] 79.502904 seconds elapsed, finished iteration 478
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16117, num_bit32_hists = 3640
+[LightGBM] [Info] Iteration:479, valid_1 auc : 0.693286
+[LightGBM] [Info] 79.670732 seconds elapsed, finished iteration 479
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16155, num_bit32_hists = 3646
+[LightGBM] [Info] Iteration:480, valid_1 auc : 0.693307
+[LightGBM] [Info] 79.848221 seconds elapsed, finished iteration 480
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16189, num_bit32_hists = 3654
+[LightGBM] [Info] Iteration:481, valid_1 auc : 0.693386
+[LightGBM] [Info] 80.025963 seconds elapsed, finished iteration 481
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16227, num_bit32_hists = 3660
+[LightGBM] [Info] Iteration:482, valid_1 auc : 0.693403
+[LightGBM] [Info] 80.209447 seconds elapsed, finished iteration 482
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16264, num_bit32_hists = 3666
+[LightGBM] [Info] Iteration:483, valid_1 auc : 0.69342
+[LightGBM] [Info] 80.339721 seconds elapsed, finished iteration 483
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16302, num_bit32_hists = 3672
+[LightGBM] [Info] Iteration:484, valid_1 auc : 0.693442
+[LightGBM] [Info] 80.474096 seconds elapsed, finished iteration 484
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16339, num_bit32_hists = 3678
+[LightGBM] [Info] Iteration:485, valid_1 auc : 0.693464
+[LightGBM] [Info] 80.627314 seconds elapsed, finished iteration 485
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16375, num_bit32_hists = 3685
+[LightGBM] [Info] Iteration:486, valid_1 auc : 0.693527
+[LightGBM] [Info] 80.792355 seconds elapsed, finished iteration 486
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16413, num_bit32_hists = 3691
+[LightGBM] [Info] Iteration:487, valid_1 auc : 0.693561
+[LightGBM] [Info] 80.945521 seconds elapsed, finished iteration 487
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16450, num_bit32_hists = 3697
+[LightGBM] [Info] Iteration:488, valid_1 auc : 0.693581
+[LightGBM] [Info] 81.070669 seconds elapsed, finished iteration 488
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16487, num_bit32_hists = 3703
+[LightGBM] [Info] Iteration:489, valid_1 auc : 0.693599
+[LightGBM] [Info] 81.202151 seconds elapsed, finished iteration 489
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16526, num_bit32_hists = 3708
+[LightGBM] [Info] Iteration:490, valid_1 auc : 0.693612
+[LightGBM] [Info] 81.319818 seconds elapsed, finished iteration 490
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16564, num_bit32_hists = 3714
+[LightGBM] [Info] Iteration:491, valid_1 auc : 0.693657
+[LightGBM] [Info] 81.446405 seconds elapsed, finished iteration 491
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16601, num_bit32_hists = 3720
+[LightGBM] [Info] Iteration:492, valid_1 auc : 0.693691
+[LightGBM] [Info] 81.584556 seconds elapsed, finished iteration 492
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16636, num_bit32_hists = 3728
+[LightGBM] [Info] Iteration:493, valid_1 auc : 0.69376
+[LightGBM] [Info] 81.712363 seconds elapsed, finished iteration 493
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16674, num_bit32_hists = 3734
+[LightGBM] [Info] Iteration:494, valid_1 auc : 0.693772
+[LightGBM] [Info] 81.875853 seconds elapsed, finished iteration 494
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16711, num_bit32_hists = 3740
+[LightGBM] [Info] Iteration:495, valid_1 auc : 0.693804
+[LightGBM] [Info] 82.011641 seconds elapsed, finished iteration 495
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16748, num_bit32_hists = 3746
+[LightGBM] [Info] Iteration:496, valid_1 auc : 0.693848
+[LightGBM] [Info] 82.150742 seconds elapsed, finished iteration 496
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16786, num_bit32_hists = 3752
+[LightGBM] [Info] Iteration:497, valid_1 auc : 0.693883
+[LightGBM] [Info] 82.294688 seconds elapsed, finished iteration 497
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 15
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16824, num_bit32_hists = 3757
+[LightGBM] [Info] Iteration:498, valid_1 auc : 0.693892
+[LightGBM] [Info] 82.406927 seconds elapsed, finished iteration 498
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16862, num_bit32_hists = 3763
+[LightGBM] [Info] Iteration:499, valid_1 auc : 0.693919
+[LightGBM] [Info] 82.538634 seconds elapsed, finished iteration 499
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 16899, num_bit32_hists = 3769
+[LightGBM] [Info] Iteration:500, valid_1 auc : 0.693942
+[LightGBM] [Info] 82.673472 seconds elapsed, finished iteration 500
+[LightGBM] [Info] Finished training
