@@ -8,11 +8,11 @@ arg_parser.add_argument("--discretized-grad-renew", action='store_true')
 arg_parser.add_argument("--stochastic-rounding", action='store_true')
 arg_parser.add_argument("--for-speed", action='store_true')
 arg_parser.add_argument("--device", type=str, default='cpu')
-arg_parser.add_argument("--force-col-wise", action='store_true')
 arg_parser.add_argument("--algorithm", type=str, default='lgb')
+arg_parser.add_argument("--log-path", type=str, default='logs')
 
 script_fname = 'run.sh'
-running = open(script_fname, 'a')
+running = open(script_fname, 'w')
 os.system(f"chmod +x {script_fname}")
 
 data = [
@@ -41,7 +41,7 @@ col_wise_data = ['epsilon', 'year', 'yahoo', 'bosch']
 
 bins = [2, 3, 4, 5]
 
-def generate_script(data_path, use_discretized_grad, discretized_grad_renew, stochastic_rounding, for_speed, device, algorithm):
+def generate_script(data_path, use_discretized_grad, discretized_grad_renew, stochastic_rounding, for_speed, device, algorithm, log_dir):
     data_path = data_path.rstrip('/')
     dataset = [
         f'data={data_path}/higgs.train',
@@ -64,8 +64,6 @@ def generate_script(data_path, use_discretized_grad, discretized_grad_renew, sto
         f'valid={data_path}/msltr.test',
         f'valid={data_path}/year.test'
     ]
-
-    log_dir = 'logs' if not for_speed else 'logs_for_speed'
 
     os.system(f"mkdir -p {log_dir}")
 
@@ -95,7 +93,10 @@ def generate_script(data_path, use_discretized_grad, discretized_grad_renew, sto
                         args += ' force_row_wise=false force_col_wise=true'
                     if device != 'cpu':
                         args += f' device_type=cuda gpu_device_id=0 num_threads=24'
-                    running.write(f'../LightGBM/lightgbm config={base_conf_fname} {args} > {log_name} 2>&1\n')
+                    if not use_discretized_grad:
+                        running.write(f'../LightGBM-master/lightgbm config={base_conf_fname} {args} > {log_name} 2>&1\n')
+                    else:
+                        running.write(f'../LightGBM/lightgbm config={base_conf_fname} {args} > {log_name} 2>&1\n')
     elif algorithm == 'xgb':
         for i in range(8):
             for j in range(5):
@@ -151,4 +152,4 @@ def generate_script(data_path, use_discretized_grad, discretized_grad_renew, sto
 
 if __name__ == '__main__':
     args = arg_parser.parse_args()
-    generate_script(args.data_path, args.use_discretized_grad, args.discretized_grad_renew, args.stochastic_rounding, args.for_speed, args.device, args.algorithm)
+    generate_script(args.data_path, args.use_discretized_grad, args.discretized_grad_renew, args.stochastic_rounding, args.for_speed, args.device, args.algorithm, args.log_path)
