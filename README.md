@@ -10,7 +10,7 @@ Instructions to Run Experiments
 
 To run the experiments, please:
 1. Clone this repository, including all the submodules.
-2. Download the dataset from <https://pretrain.blob.core.windows.net/quantized-gbdt/dataset.zip> (the .zip file is 38.29 GB).
+2. Download the datasets from <https://pretrain.blob.core.windows.net/quantized-gbdt/dataset.zip> (the .zip file is 38.29 GB).
 2. Build the CLI executable files of [LightGBM](https://github.com/microsoft/LightGBM), [LightGBM-master](https://github.com/microsoft/LightGBM), [catboost](https://github.com/catboost/catboost), and [xgboost](https://github.com/dmlc/xgboost) according to the CLI building instructions of these tools.
 3. Generate the bash scripts using [experiments/generate_script.py](https://github.com/Quantized-GBDT/Quantized-GBDT/blob/master/experiments/generate_script.py).
 4. Run the generated bash script.
