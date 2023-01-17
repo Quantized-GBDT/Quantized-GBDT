@@ -106,7 +106,10 @@ def parse(log_dir, out_fname, num_seeds, algorithm, for_speed):
             for data in datasets:
                 mean = np.mean(results[data][bins])
                 if for_speed:
-                    out_file.write(f" {mean:.2f} &")
+                    if bins == "cat":
+                        out_file.write(f" {mean:.1f} &")
+                    else:
+                        out_file.write(f" {mean:.2f} &")
                 else:
                     out_file.write(f" {mean:.6f} &")
             out_file.write("\n")
