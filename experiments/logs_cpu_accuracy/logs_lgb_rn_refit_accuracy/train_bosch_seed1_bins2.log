@@ -1,0 +1,2508 @@
+[LightGBM] [Warning] learning_rate is set=0.015, learning_rate=0.1 will be ignored. Current value: learning_rate=0.015
+[LightGBM] [Warning] num_leaves is set=45, num_leaves=255 will be ignored. Current value: num_leaves=45
+[LightGBM] [Warning] use_discretized_grad is set=true, use_discretized_grad=true will be ignored. Current value: use_discretized_grad=true
+[LightGBM] [Warning] discretized_grad_renew is set=true, discretized_grad_renew=true will be ignored. Current value: discretized_grad_renew=true
+[LightGBM] [Warning] force_row_wise is set=false, force_row_wise=true will be ignored. Current value: force_row_wise=false
+[LightGBM] [Info] Finished loading parameters
+[LightGBM] [Debug] Loading train file...
+[LightGBM] [Debug] Read 10.0 GBs from /data/shiyu/boosting_tree_benchmarks/data/bosch.train.
+[LightGBM] [Debug] Read 20.0 GBs from /data/shiyu/boosting_tree_benchmarks/data/bosch.train.
+[LightGBM] [Info] Construct bin mappers from text data time 29.01 seconds
+[LightGBM] [Debug] Loading validation file #1...
+[LightGBM] [Info] Finished loading data in 85.242757 seconds
+[LightGBM] [Info] Number of positive: 5828, number of negative: 994172
+[LightGBM] [Debug] Dataset::GetMultiBinFromSparseFeatures: sparse rate 0.942835
+[LightGBM] [Info] Total Bins 119616
+[LightGBM] [Info] Number of data points in the train set: 1000000, number of used features: 968
+[LightGBM] [Debug] Number of data points in validation set #1: 183747
+[LightGBM] [Info] Finished initializing training
+[LightGBM] [Info] Started training...
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.005828 -> initscore=-5.139236
+[LightGBM] [Info] Start training from score -5.139236
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 25, num_bit32_hists = 13
+[LightGBM] [Info] Iteration:1, valid_1 auc : 0.672931
+[LightGBM] [Info] 0.256341 seconds elapsed, finished iteration 1
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 50, num_bit32_hists = 27
+[LightGBM] [Info] Iteration:2, valid_1 auc : 0.673711
+[LightGBM] [Info] 0.468580 seconds elapsed, finished iteration 2
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 77, num_bit32_hists = 41
+[LightGBM] [Info] Iteration:3, valid_1 auc : 0.675042
+[LightGBM] [Info] 0.718297 seconds elapsed, finished iteration 3
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 107, num_bit32_hists = 54
+[LightGBM] [Info] Iteration:4, valid_1 auc : 0.676043
+[LightGBM] [Info] 0.945810 seconds elapsed, finished iteration 4
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 34 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 118, num_bit32_hists = 70
+[LightGBM] [Info] Iteration:5, valid_1 auc : 0.68128
+[LightGBM] [Info] 1.134399 seconds elapsed, finished iteration 5
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 32 and depth = 9
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 130, num_bit32_hists = 87
+[LightGBM] [Info] Iteration:6, valid_1 auc : 0.681427
+[LightGBM] [Info] 1.312091 seconds elapsed, finished iteration 6
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 35 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 145, num_bit32_hists = 102
+[LightGBM] [Info] Iteration:7, valid_1 auc : 0.680627
+[LightGBM] [Info] 1.498927 seconds elapsed, finished iteration 7
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 38 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 162, num_bit32_hists = 116
+[LightGBM] [Info] Iteration:8, valid_1 auc : 0.680268
+[LightGBM] [Info] 1.711490 seconds elapsed, finished iteration 8
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 39 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 181, num_bit32_hists = 130
+[LightGBM] [Info] Iteration:9, valid_1 auc : 0.680012
+[LightGBM] [Info] 1.897763 seconds elapsed, finished iteration 9
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 40 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 201, num_bit32_hists = 144
+[LightGBM] [Info] Iteration:10, valid_1 auc : 0.679939
+[LightGBM] [Info] 2.089514 seconds elapsed, finished iteration 10
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 44 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 223, num_bit32_hists = 158
+[LightGBM] [Info] Iteration:11, valid_1 auc : 0.679716
+[LightGBM] [Info] 2.287177 seconds elapsed, finished iteration 11
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 249, num_bit32_hists = 171
+[LightGBM] [Info] Iteration:12, valid_1 auc : 0.679925
+[LightGBM] [Info] 2.506811 seconds elapsed, finished iteration 12
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 12
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 276, num_bit32_hists = 185
+[LightGBM] [Info] Iteration:13, valid_1 auc : 0.680313
+[LightGBM] [Info] 2.748150 seconds elapsed, finished iteration 13
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 306, num_bit32_hists = 197
+[LightGBM] [Info] Iteration:14, valid_1 auc : 0.68121
+[LightGBM] [Info] 2.965109 seconds elapsed, finished iteration 14
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 337, num_bit32_hists = 208
+[LightGBM] [Info] Iteration:15, valid_1 auc : 0.681637
+[LightGBM] [Info] 3.189450 seconds elapsed, finished iteration 15
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 369, num_bit32_hists = 219
+[LightGBM] [Info] Iteration:16, valid_1 auc : 0.681949
+[LightGBM] [Info] 3.454446 seconds elapsed, finished iteration 16
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 14
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 399, num_bit32_hists = 231
+[LightGBM] [Info] Iteration:17, valid_1 auc : 0.682083
+[LightGBM] [Info] 3.675956 seconds elapsed, finished iteration 17
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 13
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 427, num_bit32_hists = 243
+[LightGBM] [Info] Iteration:18, valid_1 auc : 0.682206
+[LightGBM] [Info] 3.898302 seconds elapsed, finished iteration 18
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 19
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 455, num_bit32_hists = 253
+[LightGBM] [Info] Iteration:19, valid_1 auc : 0.682432
+[LightGBM] [Info] 4.100797 seconds elapsed, finished iteration 19
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 16
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 484, num_bit32_hists = 266
+[LightGBM] [Info] Iteration:20, valid_1 auc : 0.682954
+[LightGBM] [Info] 4.331746 seconds elapsed, finished iteration 20
+[LightGBM] [Debug] Trained a tree with leaves = 45 and depth = 22
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 518, num_bit32_hists = 276
+[LightGBM] [Info] Iteration:21, valid_1 auc : 0.683108
+[LightGBM] [Info] 4.544460 seconds elapsed, finished iteration 21
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 33 and depth = 17
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 537, num_bit32_hists = 287
+[LightGBM] [Info] Iteration:22, valid_1 auc : 0.683677
+[LightGBM] [Info] 4.719764 seconds elapsed, finished iteration 22
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 23 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 548, num_bit32_hists = 296
+[LightGBM] [Info] Iteration:23, valid_1 auc : 0.683931
+[LightGBM] [Info] 4.866031 seconds elapsed, finished iteration 23
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 24 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 560, num_bit32_hists = 303
+[LightGBM] [Info] Iteration:24, valid_1 auc : 0.684133
+[LightGBM] [Info] 5.008896 seconds elapsed, finished iteration 24
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 19 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 569, num_bit32_hists = 310
+[LightGBM] [Info] Iteration:25, valid_1 auc : 0.683735
+[LightGBM] [Info] 5.136949 seconds elapsed, finished iteration 25
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 17 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 576, num_bit32_hists = 317
+[LightGBM] [Info] Iteration:26, valid_1 auc : 0.683977
+[LightGBM] [Info] 5.251407 seconds elapsed, finished iteration 26
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 16 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 585, num_bit32_hists = 322
+[LightGBM] [Info] Iteration:27, valid_1 auc : 0.684193
+[LightGBM] [Info] 5.358820 seconds elapsed, finished iteration 27
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 15 and depth = 11
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 592, num_bit32_hists = 328
+[LightGBM] [Info] Iteration:28, valid_1 auc : 0.68429
+[LightGBM] [Info] 5.467317 seconds elapsed, finished iteration 28
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 14 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 598, num_bit32_hists = 334
+[LightGBM] [Info] Iteration:29, valid_1 auc : 0.684396
+[LightGBM] [Info] 5.580861 seconds elapsed, finished iteration 29
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 15 and depth = 10
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 604, num_bit32_hists = 340
+[LightGBM] [Info] Iteration:30, valid_1 auc : 0.684446
+[LightGBM] [Info] 5.708674 seconds elapsed, finished iteration 30
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 14 and depth = 8
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 610, num_bit32_hists = 347
+[LightGBM] [Info] Iteration:31, valid_1 auc : 0.684505
+[LightGBM] [Info] 5.860189 seconds elapsed, finished iteration 31
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 13 and depth = 8
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 616, num_bit32_hists = 354
+[LightGBM] [Info] Iteration:32, valid_1 auc : 0.684616
+[LightGBM] [Info] 5.999138 seconds elapsed, finished iteration 32
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 13 and depth = 8
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 623, num_bit32_hists = 360
+[LightGBM] [Info] Iteration:33, valid_1 auc : 0.684704
+[LightGBM] [Info] 6.150912 seconds elapsed, finished iteration 33
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 12 and depth = 8
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 628, num_bit32_hists = 367
+[LightGBM] [Info] Iteration:34, valid_1 auc : 0.684687
+[LightGBM] [Info] 6.293002 seconds elapsed, finished iteration 34
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 11 and depth = 7
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 633, num_bit32_hists = 372
+[LightGBM] [Info] Iteration:35, valid_1 auc : 0.68454
+[LightGBM] [Info] 6.415734 seconds elapsed, finished iteration 35
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 11 and depth = 8
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 638, num_bit32_hists = 378
+[LightGBM] [Info] Iteration:36, valid_1 auc : 0.684445
+[LightGBM] [Info] 6.553729 seconds elapsed, finished iteration 36
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 10 and depth = 7
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 642, num_bit32_hists = 383
+[LightGBM] [Info] Iteration:37, valid_1 auc : 0.684398
+[LightGBM] [Info] 6.708067 seconds elapsed, finished iteration 37
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 10 and depth = 7
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 645, num_bit32_hists = 388
+[LightGBM] [Info] Iteration:38, valid_1 auc : 0.684269
+[LightGBM] [Info] 6.840576 seconds elapsed, finished iteration 38
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 9 and depth = 6
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 650, num_bit32_hists = 392
+[LightGBM] [Info] Iteration:39, valid_1 auc : 0.684166
+[LightGBM] [Info] 6.965865 seconds elapsed, finished iteration 39
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 10 and depth = 6
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 653, num_bit32_hists = 397
+[LightGBM] [Info] Iteration:40, valid_1 auc : 0.684233
+[LightGBM] [Info] 7.083326 seconds elapsed, finished iteration 40
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 8 and depth = 5
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 657, num_bit32_hists = 401
+[LightGBM] [Info] Iteration:41, valid_1 auc : 0.684394
+[LightGBM] [Info] 7.180088 seconds elapsed, finished iteration 41
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 6 and depth = 4
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 658, num_bit32_hists = 405
+[LightGBM] [Info] Iteration:42, valid_1 auc : 0.684415
+[LightGBM] [Info] 7.283858 seconds elapsed, finished iteration 42
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 6 and depth = 4
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 659, num_bit32_hists = 409
+[LightGBM] [Info] Iteration:43, valid_1 auc : 0.684436
+[LightGBM] [Info] 7.388800 seconds elapsed, finished iteration 43
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 6 and depth = 4
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 660, num_bit32_hists = 413
+[LightGBM] [Info] Iteration:44, valid_1 auc : 0.684331
+[LightGBM] [Info] 7.490866 seconds elapsed, finished iteration 44
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 7 and depth = 4
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 664, num_bit32_hists = 415
+[LightGBM] [Info] Iteration:45, valid_1 auc : 0.684551
+[LightGBM] [Info] 7.583100 seconds elapsed, finished iteration 45
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 5 and depth = 3
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 666, num_bit32_hists = 418
+[LightGBM] [Info] Iteration:46, valid_1 auc : 0.68475
+[LightGBM] [Info] 7.679506 seconds elapsed, finished iteration 46
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 5 and depth = 3
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 669, num_bit32_hists = 420
+[LightGBM] [Info] Iteration:47, valid_1 auc : 0.685082
+[LightGBM] [Info] 7.755788 seconds elapsed, finished iteration 47
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 5 and depth = 3
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 672, num_bit32_hists = 422
+[LightGBM] [Info] Iteration:48, valid_1 auc : 0.685365
+[LightGBM] [Info] 7.840937 seconds elapsed, finished iteration 48
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 5 and depth = 3
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 675, num_bit32_hists = 424
+[LightGBM] [Info] Iteration:49, valid_1 auc : 0.68566
+[LightGBM] [Info] 7.920582 seconds elapsed, finished iteration 49
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 677, num_bit32_hists = 426
+[LightGBM] [Info] Iteration:50, valid_1 auc : 0.685723
+[LightGBM] [Info] 8.002125 seconds elapsed, finished iteration 50
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 679, num_bit32_hists = 428
+[LightGBM] [Info] Iteration:51, valid_1 auc : 0.6857
+[LightGBM] [Info] 8.077345 seconds elapsed, finished iteration 51
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 681, num_bit32_hists = 430
+[LightGBM] [Info] Iteration:52, valid_1 auc : 0.685649
+[LightGBM] [Info] 8.160847 seconds elapsed, finished iteration 52
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 683, num_bit32_hists = 432
+[LightGBM] [Info] Iteration:53, valid_1 auc : 0.685599
+[LightGBM] [Info] 8.234091 seconds elapsed, finished iteration 53
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 685, num_bit32_hists = 434
+[LightGBM] [Info] Iteration:54, valid_1 auc : 0.685482
+[LightGBM] [Info] 8.305939 seconds elapsed, finished iteration 54
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 687, num_bit32_hists = 435
+[LightGBM] [Info] Iteration:55, valid_1 auc : 0.685386
+[LightGBM] [Info] 8.372814 seconds elapsed, finished iteration 55
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 689, num_bit32_hists = 436
+[LightGBM] [Info] Iteration:56, valid_1 auc : 0.685257
+[LightGBM] [Info] 8.448441 seconds elapsed, finished iteration 56
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 691, num_bit32_hists = 437
+[LightGBM] [Info] Iteration:57, valid_1 auc : 0.685204
+[LightGBM] [Info] 8.520068 seconds elapsed, finished iteration 57
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 693, num_bit32_hists = 438
+[LightGBM] [Info] Iteration:58, valid_1 auc : 0.685207
+[LightGBM] [Info] 8.588504 seconds elapsed, finished iteration 58
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 695, num_bit32_hists = 439
+[LightGBM] [Info] Iteration:59, valid_1 auc : 0.685205
+[LightGBM] [Info] 8.649683 seconds elapsed, finished iteration 59
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 697, num_bit32_hists = 440
+[LightGBM] [Info] Iteration:60, valid_1 auc : 0.685148
+[LightGBM] [Info] 8.717242 seconds elapsed, finished iteration 60
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 699, num_bit32_hists = 441
+[LightGBM] [Info] Iteration:61, valid_1 auc : 0.68522
+[LightGBM] [Info] 8.787432 seconds elapsed, finished iteration 61
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 701, num_bit32_hists = 442
+[LightGBM] [Info] Iteration:62, valid_1 auc : 0.685171
+[LightGBM] [Info] 8.857596 seconds elapsed, finished iteration 62
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 703, num_bit32_hists = 443
+[LightGBM] [Info] Iteration:63, valid_1 auc : 0.68516
+[LightGBM] [Info] 8.922997 seconds elapsed, finished iteration 63
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 705, num_bit32_hists = 444
+[LightGBM] [Info] Iteration:64, valid_1 auc : 0.685113
+[LightGBM] [Info] 8.989532 seconds elapsed, finished iteration 64
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 707, num_bit32_hists = 445
+[LightGBM] [Info] Iteration:65, valid_1 auc : 0.685102
+[LightGBM] [Info] 9.055041 seconds elapsed, finished iteration 65
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 709, num_bit32_hists = 446
+[LightGBM] [Info] Iteration:66, valid_1 auc : 0.685093
+[LightGBM] [Info] 9.123689 seconds elapsed, finished iteration 66
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 711, num_bit32_hists = 447
+[LightGBM] [Info] Iteration:67, valid_1 auc : 0.685085
+[LightGBM] [Info] 9.197414 seconds elapsed, finished iteration 67
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 713, num_bit32_hists = 448
+[LightGBM] [Info] Iteration:68, valid_1 auc : 0.685144
+[LightGBM] [Info] 9.262303 seconds elapsed, finished iteration 68
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 715, num_bit32_hists = 449
+[LightGBM] [Info] Iteration:69, valid_1 auc : 0.685102
+[LightGBM] [Info] 9.327911 seconds elapsed, finished iteration 69
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 717, num_bit32_hists = 450
+[LightGBM] [Info] Iteration:70, valid_1 auc : 0.685065
+[LightGBM] [Info] 9.398209 seconds elapsed, finished iteration 70
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 719, num_bit32_hists = 451
+[LightGBM] [Info] Iteration:71, valid_1 auc : 0.685065
+[LightGBM] [Info] 9.466397 seconds elapsed, finished iteration 71
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 721, num_bit32_hists = 452
+[LightGBM] [Info] Iteration:72, valid_1 auc : 0.685111
+[LightGBM] [Info] 9.519462 seconds elapsed, finished iteration 72
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 723, num_bit32_hists = 453
+[LightGBM] [Info] Iteration:73, valid_1 auc : 0.685113
+[LightGBM] [Info] 9.568376 seconds elapsed, finished iteration 73
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 725, num_bit32_hists = 454
+[LightGBM] [Info] Iteration:74, valid_1 auc : 0.685109
+[LightGBM] [Info] 9.624359 seconds elapsed, finished iteration 74
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 727, num_bit32_hists = 455
+[LightGBM] [Info] Iteration:75, valid_1 auc : 0.685105
+[LightGBM] [Info] 9.674061 seconds elapsed, finished iteration 75
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 729, num_bit32_hists = 456
+[LightGBM] [Info] Iteration:76, valid_1 auc : 0.68516
+[LightGBM] [Info] 9.722479 seconds elapsed, finished iteration 76
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 731, num_bit32_hists = 457
+[LightGBM] [Info] Iteration:77, valid_1 auc : 0.685161
+[LightGBM] [Info] 9.776438 seconds elapsed, finished iteration 77
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 733, num_bit32_hists = 458
+[LightGBM] [Info] Iteration:78, valid_1 auc : 0.685168
+[LightGBM] [Info] 9.826418 seconds elapsed, finished iteration 78
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 735, num_bit32_hists = 459
+[LightGBM] [Info] Iteration:79, valid_1 auc : 0.68517
+[LightGBM] [Info] 9.882091 seconds elapsed, finished iteration 79
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 737, num_bit32_hists = 460
+[LightGBM] [Info] Iteration:80, valid_1 auc : 0.685224
+[LightGBM] [Info] 9.932263 seconds elapsed, finished iteration 80
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 739, num_bit32_hists = 461
+[LightGBM] [Info] Iteration:81, valid_1 auc : 0.685226
+[LightGBM] [Info] 9.982028 seconds elapsed, finished iteration 81
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 741, num_bit32_hists = 462
+[LightGBM] [Info] Iteration:82, valid_1 auc : 0.685274
+[LightGBM] [Info] 10.032477 seconds elapsed, finished iteration 82
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 743, num_bit32_hists = 463
+[LightGBM] [Info] Iteration:83, valid_1 auc : 0.685276
+[LightGBM] [Info] 10.082882 seconds elapsed, finished iteration 83
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 745, num_bit32_hists = 464
+[LightGBM] [Info] Iteration:84, valid_1 auc : 0.685322
+[LightGBM] [Info] 10.135245 seconds elapsed, finished iteration 84
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 747, num_bit32_hists = 465
+[LightGBM] [Info] Iteration:85, valid_1 auc : 0.685326
+[LightGBM] [Info] 10.188270 seconds elapsed, finished iteration 85
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 749, num_bit32_hists = 466
+[LightGBM] [Info] Iteration:86, valid_1 auc : 0.685315
+[LightGBM] [Info] 10.244134 seconds elapsed, finished iteration 86
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 751, num_bit32_hists = 467
+[LightGBM] [Info] Iteration:87, valid_1 auc : 0.685306
+[LightGBM] [Info] 10.301672 seconds elapsed, finished iteration 87
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 753, num_bit32_hists = 468
+[LightGBM] [Info] Iteration:88, valid_1 auc : 0.685295
+[LightGBM] [Info] 10.350427 seconds elapsed, finished iteration 88
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 755, num_bit32_hists = 469
+[LightGBM] [Info] Iteration:89, valid_1 auc : 0.685287
+[LightGBM] [Info] 10.402942 seconds elapsed, finished iteration 89
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 757, num_bit32_hists = 470
+[LightGBM] [Info] Iteration:90, valid_1 auc : 0.685279
+[LightGBM] [Info] 10.452486 seconds elapsed, finished iteration 90
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 759, num_bit32_hists = 471
+[LightGBM] [Info] Iteration:91, valid_1 auc : 0.685277
+[LightGBM] [Info] 10.509003 seconds elapsed, finished iteration 91
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 761, num_bit32_hists = 472
+[LightGBM] [Info] Iteration:92, valid_1 auc : 0.685286
+[LightGBM] [Info] 10.576313 seconds elapsed, finished iteration 92
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 763, num_bit32_hists = 473
+[LightGBM] [Info] Iteration:93, valid_1 auc : 0.685286
+[LightGBM] [Info] 10.651406 seconds elapsed, finished iteration 93
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 765, num_bit32_hists = 474
+[LightGBM] [Info] Iteration:94, valid_1 auc : 0.68529
+[LightGBM] [Info] 10.718821 seconds elapsed, finished iteration 94
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 767, num_bit32_hists = 475
+[LightGBM] [Info] Iteration:95, valid_1 auc : 0.685296
+[LightGBM] [Info] 10.787757 seconds elapsed, finished iteration 95
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 769, num_bit32_hists = 476
+[LightGBM] [Info] Iteration:96, valid_1 auc : 0.685297
+[LightGBM] [Info] 10.855466 seconds elapsed, finished iteration 96
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 771, num_bit32_hists = 477
+[LightGBM] [Info] Iteration:97, valid_1 auc : 0.685297
+[LightGBM] [Info] 10.928327 seconds elapsed, finished iteration 97
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 773, num_bit32_hists = 478
+[LightGBM] [Info] Iteration:98, valid_1 auc : 0.685297
+[LightGBM] [Info] 10.995855 seconds elapsed, finished iteration 98
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 775, num_bit32_hists = 479
+[LightGBM] [Info] Iteration:99, valid_1 auc : 0.685297
+[LightGBM] [Info] 11.047145 seconds elapsed, finished iteration 99
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 777, num_bit32_hists = 480
+[LightGBM] [Info] Iteration:100, valid_1 auc : 0.685299
+[LightGBM] [Info] 11.095150 seconds elapsed, finished iteration 100
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 779, num_bit32_hists = 481
+[LightGBM] [Info] Iteration:101, valid_1 auc : 0.685299
+[LightGBM] [Info] 11.144542 seconds elapsed, finished iteration 101
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 780, num_bit32_hists = 482
+[LightGBM] [Info] Iteration:102, valid_1 auc : 0.685295
+[LightGBM] [Info] 11.195701 seconds elapsed, finished iteration 102
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 781, num_bit32_hists = 483
+[LightGBM] [Info] Iteration:103, valid_1 auc : 0.685294
+[LightGBM] [Info] 11.247544 seconds elapsed, finished iteration 103
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 782, num_bit32_hists = 484
+[LightGBM] [Info] Iteration:104, valid_1 auc : 0.685299
+[LightGBM] [Info] 11.295126 seconds elapsed, finished iteration 104
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 783, num_bit32_hists = 485
+[LightGBM] [Info] Iteration:105, valid_1 auc : 0.685292
+[LightGBM] [Info] 11.357002 seconds elapsed, finished iteration 105
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 784, num_bit32_hists = 486
+[LightGBM] [Info] Iteration:106, valid_1 auc : 0.685293
+[LightGBM] [Info] 11.411472 seconds elapsed, finished iteration 106
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 785, num_bit32_hists = 487
+[LightGBM] [Info] Iteration:107, valid_1 auc : 0.685288
+[LightGBM] [Info] 11.464381 seconds elapsed, finished iteration 107
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 786, num_bit32_hists = 488
+[LightGBM] [Info] Iteration:108, valid_1 auc : 0.685284
+[LightGBM] [Info] 11.520116 seconds elapsed, finished iteration 108
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 787, num_bit32_hists = 489
+[LightGBM] [Info] Iteration:109, valid_1 auc : 0.685282
+[LightGBM] [Info] 11.572277 seconds elapsed, finished iteration 109
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 788, num_bit32_hists = 490
+[LightGBM] [Info] Iteration:110, valid_1 auc : 0.685282
+[LightGBM] [Info] 11.622816 seconds elapsed, finished iteration 110
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 789, num_bit32_hists = 491
+[LightGBM] [Info] Iteration:111, valid_1 auc : 0.685285
+[LightGBM] [Info] 11.672038 seconds elapsed, finished iteration 111
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 790, num_bit32_hists = 492
+[LightGBM] [Info] Iteration:112, valid_1 auc : 0.685284
+[LightGBM] [Info] 11.722250 seconds elapsed, finished iteration 112
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 791, num_bit32_hists = 493
+[LightGBM] [Info] Iteration:113, valid_1 auc : 0.685278
+[LightGBM] [Info] 11.771888 seconds elapsed, finished iteration 113
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 792, num_bit32_hists = 494
+[LightGBM] [Info] Iteration:114, valid_1 auc : 0.685278
+[LightGBM] [Info] 11.826794 seconds elapsed, finished iteration 114
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 793, num_bit32_hists = 495
+[LightGBM] [Info] Iteration:115, valid_1 auc : 0.685277
+[LightGBM] [Info] 11.876176 seconds elapsed, finished iteration 115
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 795, num_bit32_hists = 496
+[LightGBM] [Info] Iteration:116, valid_1 auc : 0.685303
+[LightGBM] [Info] 11.927264 seconds elapsed, finished iteration 116
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 796, num_bit32_hists = 497
+[LightGBM] [Info] Iteration:117, valid_1 auc : 0.685302
+[LightGBM] [Info] 11.977068 seconds elapsed, finished iteration 117
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 797, num_bit32_hists = 498
+[LightGBM] [Info] Iteration:118, valid_1 auc : 0.685299
+[LightGBM] [Info] 12.026375 seconds elapsed, finished iteration 118
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 799, num_bit32_hists = 499
+[LightGBM] [Info] Iteration:119, valid_1 auc : 0.685305
+[LightGBM] [Info] 12.074398 seconds elapsed, finished iteration 119
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 801, num_bit32_hists = 500
+[LightGBM] [Info] Iteration:120, valid_1 auc : 0.685341
+[LightGBM] [Info] 12.139748 seconds elapsed, finished iteration 120
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 802, num_bit32_hists = 501
+[LightGBM] [Info] Iteration:121, valid_1 auc : 0.685396
+[LightGBM] [Info] 12.194884 seconds elapsed, finished iteration 121
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 803, num_bit32_hists = 502
+[LightGBM] [Info] Iteration:122, valid_1 auc : 0.685446
+[LightGBM] [Info] 12.243867 seconds elapsed, finished iteration 122
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 804, num_bit32_hists = 503
+[LightGBM] [Info] Iteration:123, valid_1 auc : 0.685521
+[LightGBM] [Info] 12.291038 seconds elapsed, finished iteration 123
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 805, num_bit32_hists = 504
+[LightGBM] [Info] Iteration:124, valid_1 auc : 0.685568
+[LightGBM] [Info] 12.341905 seconds elapsed, finished iteration 124
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 806, num_bit32_hists = 505
+[LightGBM] [Info] Iteration:125, valid_1 auc : 0.685624
+[LightGBM] [Info] 12.390988 seconds elapsed, finished iteration 125
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 807, num_bit32_hists = 506
+[LightGBM] [Info] Iteration:126, valid_1 auc : 0.685649
+[LightGBM] [Info] 12.441539 seconds elapsed, finished iteration 126
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 809, num_bit32_hists = 507
+[LightGBM] [Info] Iteration:127, valid_1 auc : 0.6857
+[LightGBM] [Info] 12.497806 seconds elapsed, finished iteration 127
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 810, num_bit32_hists = 508
+[LightGBM] [Info] Iteration:128, valid_1 auc : 0.685714
+[LightGBM] [Info] 12.550804 seconds elapsed, finished iteration 128
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 811, num_bit32_hists = 509
+[LightGBM] [Info] Iteration:129, valid_1 auc : 0.685727
+[LightGBM] [Info] 12.601312 seconds elapsed, finished iteration 129
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 812, num_bit32_hists = 510
+[LightGBM] [Info] Iteration:130, valid_1 auc : 0.685745
+[LightGBM] [Info] 12.653861 seconds elapsed, finished iteration 130
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 814, num_bit32_hists = 511
+[LightGBM] [Info] Iteration:131, valid_1 auc : 0.685757
+[LightGBM] [Info] 12.702109 seconds elapsed, finished iteration 131
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 816, num_bit32_hists = 512
+[LightGBM] [Info] Iteration:132, valid_1 auc : 0.685771
+[LightGBM] [Info] 12.754939 seconds elapsed, finished iteration 132
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 818, num_bit32_hists = 514
+[LightGBM] [Info] Iteration:133, valid_1 auc : 0.685822
+[LightGBM] [Info] 12.814463 seconds elapsed, finished iteration 133
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 820, num_bit32_hists = 516
+[LightGBM] [Info] Iteration:134, valid_1 auc : 0.685833
+[LightGBM] [Info] 12.870225 seconds elapsed, finished iteration 134
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 822, num_bit32_hists = 518
+[LightGBM] [Info] Iteration:135, valid_1 auc : 0.685849
+[LightGBM] [Info] 12.927538 seconds elapsed, finished iteration 135
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 824, num_bit32_hists = 520
+[LightGBM] [Info] Iteration:136, valid_1 auc : 0.685896
+[LightGBM] [Info] 12.986152 seconds elapsed, finished iteration 136
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 826, num_bit32_hists = 522
+[LightGBM] [Info] Iteration:137, valid_1 auc : 0.685938
+[LightGBM] [Info] 13.045417 seconds elapsed, finished iteration 137
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 828, num_bit32_hists = 524
+[LightGBM] [Info] Iteration:138, valid_1 auc : 0.68598
+[LightGBM] [Info] 13.104192 seconds elapsed, finished iteration 138
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 829, num_bit32_hists = 526
+[LightGBM] [Info] Iteration:139, valid_1 auc : 0.685993
+[LightGBM] [Info] 13.159550 seconds elapsed, finished iteration 139
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 830, num_bit32_hists = 528
+[LightGBM] [Info] Iteration:140, valid_1 auc : 0.686014
+[LightGBM] [Info] 13.214127 seconds elapsed, finished iteration 140
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 831, num_bit32_hists = 530
+[LightGBM] [Info] Iteration:141, valid_1 auc : 0.686017
+[LightGBM] [Info] 13.273950 seconds elapsed, finished iteration 141
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 832, num_bit32_hists = 532
+[LightGBM] [Info] Iteration:142, valid_1 auc : 0.686035
+[LightGBM] [Info] 13.332781 seconds elapsed, finished iteration 142
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 833, num_bit32_hists = 534
+[LightGBM] [Info] Iteration:143, valid_1 auc : 0.686045
+[LightGBM] [Info] 13.388201 seconds elapsed, finished iteration 143
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 834, num_bit32_hists = 536
+[LightGBM] [Info] Iteration:144, valid_1 auc : 0.686039
+[LightGBM] [Info] 13.443601 seconds elapsed, finished iteration 144
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 835, num_bit32_hists = 538
+[LightGBM] [Info] Iteration:145, valid_1 auc : 0.686049
+[LightGBM] [Info] 13.502037 seconds elapsed, finished iteration 145
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 836, num_bit32_hists = 540
+[LightGBM] [Info] Iteration:146, valid_1 auc : 0.686044
+[LightGBM] [Info] 13.560602 seconds elapsed, finished iteration 146
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 837, num_bit32_hists = 542
+[LightGBM] [Info] Iteration:147, valid_1 auc : 0.686038
+[LightGBM] [Info] 13.627378 seconds elapsed, finished iteration 147
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 838, num_bit32_hists = 544
+[LightGBM] [Info] Iteration:148, valid_1 auc : 0.686029
+[LightGBM] [Info] 13.682109 seconds elapsed, finished iteration 148
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 839, num_bit32_hists = 546
+[LightGBM] [Info] Iteration:149, valid_1 auc : 0.686007
+[LightGBM] [Info] 13.742736 seconds elapsed, finished iteration 149
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 840, num_bit32_hists = 548
+[LightGBM] [Info] Iteration:150, valid_1 auc : 0.685985
+[LightGBM] [Info] 13.796873 seconds elapsed, finished iteration 150
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 841, num_bit32_hists = 550
+[LightGBM] [Info] Iteration:151, valid_1 auc : 0.68583
+[LightGBM] [Info] 13.853385 seconds elapsed, finished iteration 151
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 842, num_bit32_hists = 552
+[LightGBM] [Info] Iteration:152, valid_1 auc : 0.685722
+[LightGBM] [Info] 13.909226 seconds elapsed, finished iteration 152
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 843, num_bit32_hists = 554
+[LightGBM] [Info] Iteration:153, valid_1 auc : 0.685651
+[LightGBM] [Info] 13.968405 seconds elapsed, finished iteration 153
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 844, num_bit32_hists = 556
+[LightGBM] [Info] Iteration:154, valid_1 auc : 0.685538
+[LightGBM] [Info] 14.023485 seconds elapsed, finished iteration 154
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 845, num_bit32_hists = 558
+[LightGBM] [Info] Iteration:155, valid_1 auc : 0.685399
+[LightGBM] [Info] 14.076634 seconds elapsed, finished iteration 155
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 846, num_bit32_hists = 560
+[LightGBM] [Info] Iteration:156, valid_1 auc : 0.685227
+[LightGBM] [Info] 14.135744 seconds elapsed, finished iteration 156
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 847, num_bit32_hists = 562
+[LightGBM] [Info] Iteration:157, valid_1 auc : 0.685051
+[LightGBM] [Info] 14.207700 seconds elapsed, finished iteration 157
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 848, num_bit32_hists = 564
+[LightGBM] [Info] Iteration:158, valid_1 auc : 0.684895
+[LightGBM] [Info] 14.276144 seconds elapsed, finished iteration 158
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 849, num_bit32_hists = 566
+[LightGBM] [Info] Iteration:159, valid_1 auc : 0.684734
+[LightGBM] [Info] 14.335432 seconds elapsed, finished iteration 159
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 850, num_bit32_hists = 568
+[LightGBM] [Info] Iteration:160, valid_1 auc : 0.684558
+[LightGBM] [Info] 14.392128 seconds elapsed, finished iteration 160
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 851, num_bit32_hists = 570
+[LightGBM] [Info] Iteration:161, valid_1 auc : 0.684521
+[LightGBM] [Info] 14.447968 seconds elapsed, finished iteration 161
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 852, num_bit32_hists = 572
+[LightGBM] [Info] Iteration:162, valid_1 auc : 0.684484
+[LightGBM] [Info] 14.503033 seconds elapsed, finished iteration 162
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 853, num_bit32_hists = 574
+[LightGBM] [Info] Iteration:163, valid_1 auc : 0.684449
+[LightGBM] [Info] 14.558465 seconds elapsed, finished iteration 163
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 854, num_bit32_hists = 576
+[LightGBM] [Info] Iteration:164, valid_1 auc : 0.684422
+[LightGBM] [Info] 14.613381 seconds elapsed, finished iteration 164
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 855, num_bit32_hists = 578
+[LightGBM] [Info] Iteration:165, valid_1 auc : 0.684397
+[LightGBM] [Info] 14.668925 seconds elapsed, finished iteration 165
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 856, num_bit32_hists = 580
+[LightGBM] [Info] Iteration:166, valid_1 auc : 0.684375
+[LightGBM] [Info] 14.724308 seconds elapsed, finished iteration 166
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 857, num_bit32_hists = 582
+[LightGBM] [Info] Iteration:167, valid_1 auc : 0.684348
+[LightGBM] [Info] 14.780165 seconds elapsed, finished iteration 167
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 858, num_bit32_hists = 584
+[LightGBM] [Info] Iteration:168, valid_1 auc : 0.684324
+[LightGBM] [Info] 14.836208 seconds elapsed, finished iteration 168
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 859, num_bit32_hists = 586
+[LightGBM] [Info] Iteration:169, valid_1 auc : 0.684305
+[LightGBM] [Info] 14.892437 seconds elapsed, finished iteration 169
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 860, num_bit32_hists = 588
+[LightGBM] [Info] Iteration:170, valid_1 auc : 0.684287
+[LightGBM] [Info] 14.947256 seconds elapsed, finished iteration 170
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 861, num_bit32_hists = 590
+[LightGBM] [Info] Iteration:171, valid_1 auc : 0.684262
+[LightGBM] [Info] 15.017387 seconds elapsed, finished iteration 171
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 862, num_bit32_hists = 592
+[LightGBM] [Info] Iteration:172, valid_1 auc : 0.684232
+[LightGBM] [Info] 15.078807 seconds elapsed, finished iteration 172
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 863, num_bit32_hists = 594
+[LightGBM] [Info] Iteration:173, valid_1 auc : 0.684204
+[LightGBM] [Info] 15.145324 seconds elapsed, finished iteration 173
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 864, num_bit32_hists = 596
+[LightGBM] [Info] Iteration:174, valid_1 auc : 0.684183
+[LightGBM] [Info] 15.210230 seconds elapsed, finished iteration 174
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 865, num_bit32_hists = 598
+[LightGBM] [Info] Iteration:175, valid_1 auc : 0.684149
+[LightGBM] [Info] 15.271235 seconds elapsed, finished iteration 175
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 866, num_bit32_hists = 600
+[LightGBM] [Info] Iteration:176, valid_1 auc : 0.684119
+[LightGBM] [Info] 15.327742 seconds elapsed, finished iteration 176
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 867, num_bit32_hists = 602
+[LightGBM] [Info] Iteration:177, valid_1 auc : 0.684087
+[LightGBM] [Info] 15.390554 seconds elapsed, finished iteration 177
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 868, num_bit32_hists = 604
+[LightGBM] [Info] Iteration:178, valid_1 auc : 0.684058
+[LightGBM] [Info] 15.449574 seconds elapsed, finished iteration 178
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 869, num_bit32_hists = 606
+[LightGBM] [Info] Iteration:179, valid_1 auc : 0.684026
+[LightGBM] [Info] 15.503846 seconds elapsed, finished iteration 179
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 870, num_bit32_hists = 608
+[LightGBM] [Info] Iteration:180, valid_1 auc : 0.683988
+[LightGBM] [Info] 15.556766 seconds elapsed, finished iteration 180
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 871, num_bit32_hists = 610
+[LightGBM] [Info] Iteration:181, valid_1 auc : 0.683948
+[LightGBM] [Info] 15.620475 seconds elapsed, finished iteration 181
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 872, num_bit32_hists = 612
+[LightGBM] [Info] Iteration:182, valid_1 auc : 0.683916
+[LightGBM] [Info] 15.677845 seconds elapsed, finished iteration 182
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 873, num_bit32_hists = 614
+[LightGBM] [Info] Iteration:183, valid_1 auc : 0.683882
+[LightGBM] [Info] 15.736889 seconds elapsed, finished iteration 183
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 874, num_bit32_hists = 616
+[LightGBM] [Info] Iteration:184, valid_1 auc : 0.683848
+[LightGBM] [Info] 15.794935 seconds elapsed, finished iteration 184
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 875, num_bit32_hists = 618
+[LightGBM] [Info] Iteration:185, valid_1 auc : 0.683808
+[LightGBM] [Info] 15.854006 seconds elapsed, finished iteration 185
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 876, num_bit32_hists = 620
+[LightGBM] [Info] Iteration:186, valid_1 auc : 0.68377
+[LightGBM] [Info] 15.908870 seconds elapsed, finished iteration 186
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 877, num_bit32_hists = 622
+[LightGBM] [Info] Iteration:187, valid_1 auc : 0.683736
+[LightGBM] [Info] 15.962804 seconds elapsed, finished iteration 187
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 878, num_bit32_hists = 624
+[LightGBM] [Info] Iteration:188, valid_1 auc : 0.683701
+[LightGBM] [Info] 16.018411 seconds elapsed, finished iteration 188
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 879, num_bit32_hists = 626
+[LightGBM] [Info] Iteration:189, valid_1 auc : 0.683672
+[LightGBM] [Info] 16.072654 seconds elapsed, finished iteration 189
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 880, num_bit32_hists = 628
+[LightGBM] [Info] Iteration:190, valid_1 auc : 0.683642
+[LightGBM] [Info] 16.127211 seconds elapsed, finished iteration 190
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 881, num_bit32_hists = 630
+[LightGBM] [Info] Iteration:191, valid_1 auc : 0.683611
+[LightGBM] [Info] 16.204975 seconds elapsed, finished iteration 191
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 882, num_bit32_hists = 632
+[LightGBM] [Info] Iteration:192, valid_1 auc : 0.683578
+[LightGBM] [Info] 16.280645 seconds elapsed, finished iteration 192
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 883, num_bit32_hists = 634
+[LightGBM] [Info] Iteration:193, valid_1 auc : 0.68355
+[LightGBM] [Info] 16.357145 seconds elapsed, finished iteration 193
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 884, num_bit32_hists = 636
+[LightGBM] [Info] Iteration:194, valid_1 auc : 0.683524
+[LightGBM] [Info] 16.430643 seconds elapsed, finished iteration 194
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 885, num_bit32_hists = 638
+[LightGBM] [Info] Iteration:195, valid_1 auc : 0.683498
+[LightGBM] [Info] 16.488168 seconds elapsed, finished iteration 195
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 886, num_bit32_hists = 640
+[LightGBM] [Info] Iteration:196, valid_1 auc : 0.68347
+[LightGBM] [Info] 16.542879 seconds elapsed, finished iteration 196
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 887, num_bit32_hists = 642
+[LightGBM] [Info] Iteration:197, valid_1 auc : 0.683439
+[LightGBM] [Info] 16.603495 seconds elapsed, finished iteration 197
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 888, num_bit32_hists = 644
+[LightGBM] [Info] Iteration:198, valid_1 auc : 0.683414
+[LightGBM] [Info] 16.666690 seconds elapsed, finished iteration 198
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 889, num_bit32_hists = 646
+[LightGBM] [Info] Iteration:199, valid_1 auc : 0.683393
+[LightGBM] [Info] 16.724111 seconds elapsed, finished iteration 199
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 890, num_bit32_hists = 648
+[LightGBM] [Info] Iteration:200, valid_1 auc : 0.683365
+[LightGBM] [Info] 16.780198 seconds elapsed, finished iteration 200
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 891, num_bit32_hists = 650
+[LightGBM] [Info] Iteration:201, valid_1 auc : 0.683347
+[LightGBM] [Info] 16.840730 seconds elapsed, finished iteration 201
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 892, num_bit32_hists = 652
+[LightGBM] [Info] Iteration:202, valid_1 auc : 0.683323
+[LightGBM] [Info] 16.899943 seconds elapsed, finished iteration 202
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 893, num_bit32_hists = 654
+[LightGBM] [Info] Iteration:203, valid_1 auc : 0.683295
+[LightGBM] [Info] 16.962843 seconds elapsed, finished iteration 203
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 894, num_bit32_hists = 656
+[LightGBM] [Info] Iteration:204, valid_1 auc : 0.683267
+[LightGBM] [Info] 17.018902 seconds elapsed, finished iteration 204
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 895, num_bit32_hists = 658
+[LightGBM] [Info] Iteration:205, valid_1 auc : 0.683248
+[LightGBM] [Info] 17.080328 seconds elapsed, finished iteration 205
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 896, num_bit32_hists = 660
+[LightGBM] [Info] Iteration:206, valid_1 auc : 0.683227
+[LightGBM] [Info] 17.139769 seconds elapsed, finished iteration 206
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 897, num_bit32_hists = 662
+[LightGBM] [Info] Iteration:207, valid_1 auc : 0.683208
+[LightGBM] [Info] 17.215108 seconds elapsed, finished iteration 207
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 898, num_bit32_hists = 664
+[LightGBM] [Info] Iteration:208, valid_1 auc : 0.683189
+[LightGBM] [Info] 17.298336 seconds elapsed, finished iteration 208
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 899, num_bit32_hists = 666
+[LightGBM] [Info] Iteration:209, valid_1 auc : 0.683162
+[LightGBM] [Info] 17.369626 seconds elapsed, finished iteration 209
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 900, num_bit32_hists = 668
+[LightGBM] [Info] Iteration:210, valid_1 auc : 0.683142
+[LightGBM] [Info] 17.440463 seconds elapsed, finished iteration 210
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 901, num_bit32_hists = 670
+[LightGBM] [Info] Iteration:211, valid_1 auc : 0.683123
+[LightGBM] [Info] 17.515046 seconds elapsed, finished iteration 211
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 902, num_bit32_hists = 672
+[LightGBM] [Info] Iteration:212, valid_1 auc : 0.683099
+[LightGBM] [Info] 17.586891 seconds elapsed, finished iteration 212
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 903, num_bit32_hists = 674
+[LightGBM] [Info] Iteration:213, valid_1 auc : 0.683085
+[LightGBM] [Info] 17.667426 seconds elapsed, finished iteration 213
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 904, num_bit32_hists = 676
+[LightGBM] [Info] Iteration:214, valid_1 auc : 0.683065
+[LightGBM] [Info] 17.740408 seconds elapsed, finished iteration 214
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 905, num_bit32_hists = 678
+[LightGBM] [Info] Iteration:215, valid_1 auc : 0.683047
+[LightGBM] [Info] 17.798259 seconds elapsed, finished iteration 215
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 906, num_bit32_hists = 680
+[LightGBM] [Info] Iteration:216, valid_1 auc : 0.683025
+[LightGBM] [Info] 17.855545 seconds elapsed, finished iteration 216
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 907, num_bit32_hists = 682
+[LightGBM] [Info] Iteration:217, valid_1 auc : 0.683005
+[LightGBM] [Info] 17.913020 seconds elapsed, finished iteration 217
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 4 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 909, num_bit32_hists = 684
+[LightGBM] [Info] Iteration:218, valid_1 auc : 0.682983
+[LightGBM] [Info] 17.972680 seconds elapsed, finished iteration 218
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 910, num_bit32_hists = 686
+[LightGBM] [Info] Iteration:219, valid_1 auc : 0.682944
+[LightGBM] [Info] 18.035947 seconds elapsed, finished iteration 219
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 911, num_bit32_hists = 688
+[LightGBM] [Info] Iteration:220, valid_1 auc : 0.682915
+[LightGBM] [Info] 18.088821 seconds elapsed, finished iteration 220
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 912, num_bit32_hists = 690
+[LightGBM] [Info] Iteration:221, valid_1 auc : 0.682878
+[LightGBM] [Info] 18.143342 seconds elapsed, finished iteration 221
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 913, num_bit32_hists = 692
+[LightGBM] [Info] Iteration:222, valid_1 auc : 0.682837
+[LightGBM] [Info] 18.201237 seconds elapsed, finished iteration 222
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 914, num_bit32_hists = 694
+[LightGBM] [Info] Iteration:223, valid_1 auc : 0.682805
+[LightGBM] [Info] 18.273468 seconds elapsed, finished iteration 223
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 915, num_bit32_hists = 696
+[LightGBM] [Info] Iteration:224, valid_1 auc : 0.682769
+[LightGBM] [Info] 18.326633 seconds elapsed, finished iteration 224
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 916, num_bit32_hists = 698
+[LightGBM] [Info] Iteration:225, valid_1 auc : 0.682733
+[LightGBM] [Info] 18.383747 seconds elapsed, finished iteration 225
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 917, num_bit32_hists = 700
+[LightGBM] [Info] Iteration:226, valid_1 auc : 0.6827
+[LightGBM] [Info] 18.438882 seconds elapsed, finished iteration 226
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 918, num_bit32_hists = 702
+[LightGBM] [Info] Iteration:227, valid_1 auc : 0.682668
+[LightGBM] [Info] 18.499651 seconds elapsed, finished iteration 227
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 919, num_bit32_hists = 704
+[LightGBM] [Info] Iteration:228, valid_1 auc : 0.682626
+[LightGBM] [Info] 18.555445 seconds elapsed, finished iteration 228
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 920, num_bit32_hists = 706
+[LightGBM] [Info] Iteration:229, valid_1 auc : 0.682585
+[LightGBM] [Info] 18.609658 seconds elapsed, finished iteration 229
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 921, num_bit32_hists = 708
+[LightGBM] [Info] Iteration:230, valid_1 auc : 0.682559
+[LightGBM] [Info] 18.662070 seconds elapsed, finished iteration 230
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 922, num_bit32_hists = 710
+[LightGBM] [Info] Iteration:231, valid_1 auc : 0.682531
+[LightGBM] [Info] 18.718844 seconds elapsed, finished iteration 231
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 923, num_bit32_hists = 712
+[LightGBM] [Info] Iteration:232, valid_1 auc : 0.682492
+[LightGBM] [Info] 18.788754 seconds elapsed, finished iteration 232
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 924, num_bit32_hists = 714
+[LightGBM] [Info] Iteration:233, valid_1 auc : 0.682455
+[LightGBM] [Info] 18.857952 seconds elapsed, finished iteration 233
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 925, num_bit32_hists = 716
+[LightGBM] [Info] Iteration:234, valid_1 auc : 0.682428
+[LightGBM] [Info] 18.921110 seconds elapsed, finished iteration 234
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 926, num_bit32_hists = 718
+[LightGBM] [Info] Iteration:235, valid_1 auc : 0.682403
+[LightGBM] [Info] 18.974677 seconds elapsed, finished iteration 235
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 927, num_bit32_hists = 720
+[LightGBM] [Info] Iteration:236, valid_1 auc : 0.68237
+[LightGBM] [Info] 19.029924 seconds elapsed, finished iteration 236
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 928, num_bit32_hists = 722
+[LightGBM] [Info] Iteration:237, valid_1 auc : 0.682343
+[LightGBM] [Info] 19.083814 seconds elapsed, finished iteration 237
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 929, num_bit32_hists = 724
+[LightGBM] [Info] Iteration:238, valid_1 auc : 0.682313
+[LightGBM] [Info] 19.137678 seconds elapsed, finished iteration 238
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 930, num_bit32_hists = 726
+[LightGBM] [Info] Iteration:239, valid_1 auc : 0.682288
+[LightGBM] [Info] 19.193582 seconds elapsed, finished iteration 239
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 931, num_bit32_hists = 728
+[LightGBM] [Info] Iteration:240, valid_1 auc : 0.682255
+[LightGBM] [Info] 19.248951 seconds elapsed, finished iteration 240
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 932, num_bit32_hists = 730
+[LightGBM] [Info] Iteration:241, valid_1 auc : 0.682217
+[LightGBM] [Info] 19.325855 seconds elapsed, finished iteration 241
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 933, num_bit32_hists = 732
+[LightGBM] [Info] Iteration:242, valid_1 auc : 0.68218
+[LightGBM] [Info] 19.389437 seconds elapsed, finished iteration 242
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 934, num_bit32_hists = 734
+[LightGBM] [Info] Iteration:243, valid_1 auc : 0.682143
+[LightGBM] [Info] 19.458793 seconds elapsed, finished iteration 243
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 935, num_bit32_hists = 736
+[LightGBM] [Info] Iteration:244, valid_1 auc : 0.682108
+[LightGBM] [Info] 19.518880 seconds elapsed, finished iteration 244
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 936, num_bit32_hists = 738
+[LightGBM] [Info] Iteration:245, valid_1 auc : 0.682076
+[LightGBM] [Info] 19.571500 seconds elapsed, finished iteration 245
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 937, num_bit32_hists = 740
+[LightGBM] [Info] Iteration:246, valid_1 auc : 0.682041
+[LightGBM] [Info] 19.627976 seconds elapsed, finished iteration 246
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 938, num_bit32_hists = 742
+[LightGBM] [Info] Iteration:247, valid_1 auc : 0.68201
+[LightGBM] [Info] 19.680669 seconds elapsed, finished iteration 247
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 939, num_bit32_hists = 744
+[LightGBM] [Info] Iteration:248, valid_1 auc : 0.681982
+[LightGBM] [Info] 19.761142 seconds elapsed, finished iteration 248
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 940, num_bit32_hists = 746
+[LightGBM] [Info] Iteration:249, valid_1 auc : 0.681947
+[LightGBM] [Info] 19.822505 seconds elapsed, finished iteration 249
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 941, num_bit32_hists = 748
+[LightGBM] [Info] Iteration:250, valid_1 auc : 0.681917
+[LightGBM] [Info] 19.878896 seconds elapsed, finished iteration 250
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 942, num_bit32_hists = 750
+[LightGBM] [Info] Iteration:251, valid_1 auc : 0.681888
+[LightGBM] [Info] 19.942811 seconds elapsed, finished iteration 251
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 943, num_bit32_hists = 752
+[LightGBM] [Info] Iteration:252, valid_1 auc : 0.681856
+[LightGBM] [Info] 20.000937 seconds elapsed, finished iteration 252
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 944, num_bit32_hists = 754
+[LightGBM] [Info] Iteration:253, valid_1 auc : 0.681824
+[LightGBM] [Info] 20.053093 seconds elapsed, finished iteration 253
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 945, num_bit32_hists = 756
+[LightGBM] [Info] Iteration:254, valid_1 auc : 0.681794
+[LightGBM] [Info] 20.134562 seconds elapsed, finished iteration 254
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 946, num_bit32_hists = 758
+[LightGBM] [Info] Iteration:255, valid_1 auc : 0.681765
+[LightGBM] [Info] 20.200748 seconds elapsed, finished iteration 255
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 947, num_bit32_hists = 760
+[LightGBM] [Info] Iteration:256, valid_1 auc : 0.681737
+[LightGBM] [Info] 20.255296 seconds elapsed, finished iteration 256
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 948, num_bit32_hists = 762
+[LightGBM] [Info] Iteration:257, valid_1 auc : 0.681707
+[LightGBM] [Info] 20.310625 seconds elapsed, finished iteration 257
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 949, num_bit32_hists = 764
+[LightGBM] [Info] Iteration:258, valid_1 auc : 0.681675
+[LightGBM] [Info] 20.369150 seconds elapsed, finished iteration 258
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 950, num_bit32_hists = 766
+[LightGBM] [Info] Iteration:259, valid_1 auc : 0.681647
+[LightGBM] [Info] 20.429276 seconds elapsed, finished iteration 259
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 951, num_bit32_hists = 768
+[LightGBM] [Info] Iteration:260, valid_1 auc : 0.68162
+[LightGBM] [Info] 20.503026 seconds elapsed, finished iteration 260
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 952, num_bit32_hists = 770
+[LightGBM] [Info] Iteration:261, valid_1 auc : 0.681594
+[LightGBM] [Info] 20.576009 seconds elapsed, finished iteration 261
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 953, num_bit32_hists = 772
+[LightGBM] [Info] Iteration:262, valid_1 auc : 0.68157
+[LightGBM] [Info] 20.645828 seconds elapsed, finished iteration 262
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 954, num_bit32_hists = 774
+[LightGBM] [Info] Iteration:263, valid_1 auc : 0.681549
+[LightGBM] [Info] 20.716602 seconds elapsed, finished iteration 263
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 955, num_bit32_hists = 776
+[LightGBM] [Info] Iteration:264, valid_1 auc : 0.681524
+[LightGBM] [Info] 20.793933 seconds elapsed, finished iteration 264
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 956, num_bit32_hists = 778
+[LightGBM] [Info] Iteration:265, valid_1 auc : 0.681497
+[LightGBM] [Info] 20.865045 seconds elapsed, finished iteration 265
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 957, num_bit32_hists = 780
+[LightGBM] [Info] Iteration:266, valid_1 auc : 0.681469
+[LightGBM] [Info] 20.948880 seconds elapsed, finished iteration 266
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 958, num_bit32_hists = 782
+[LightGBM] [Info] Iteration:267, valid_1 auc : 0.681444
+[LightGBM] [Info] 21.005784 seconds elapsed, finished iteration 267
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 959, num_bit32_hists = 784
+[LightGBM] [Info] Iteration:268, valid_1 auc : 0.681419
+[LightGBM] [Info] 21.059422 seconds elapsed, finished iteration 268
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 960, num_bit32_hists = 786
+[LightGBM] [Info] Iteration:269, valid_1 auc : 0.681397
+[LightGBM] [Info] 21.111976 seconds elapsed, finished iteration 269
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 961, num_bit32_hists = 788
+[LightGBM] [Info] Iteration:270, valid_1 auc : 0.681371
+[LightGBM] [Info] 21.181152 seconds elapsed, finished iteration 270
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 962, num_bit32_hists = 790
+[LightGBM] [Info] Iteration:271, valid_1 auc : 0.681344
+[LightGBM] [Info] 21.257766 seconds elapsed, finished iteration 271
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 963, num_bit32_hists = 792
+[LightGBM] [Info] Iteration:272, valid_1 auc : 0.681317
+[LightGBM] [Info] 21.334489 seconds elapsed, finished iteration 272
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 964, num_bit32_hists = 794
+[LightGBM] [Info] Iteration:273, valid_1 auc : 0.681292
+[LightGBM] [Info] 21.409021 seconds elapsed, finished iteration 273
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 965, num_bit32_hists = 796
+[LightGBM] [Info] Iteration:274, valid_1 auc : 0.681268
+[LightGBM] [Info] 21.477969 seconds elapsed, finished iteration 274
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 966, num_bit32_hists = 798
+[LightGBM] [Info] Iteration:275, valid_1 auc : 0.681245
+[LightGBM] [Info] 21.550332 seconds elapsed, finished iteration 275
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 967, num_bit32_hists = 800
+[LightGBM] [Info] Iteration:276, valid_1 auc : 0.681224
+[LightGBM] [Info] 21.613396 seconds elapsed, finished iteration 276
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 968, num_bit32_hists = 802
+[LightGBM] [Info] Iteration:277, valid_1 auc : 0.681201
+[LightGBM] [Info] 21.668511 seconds elapsed, finished iteration 277
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 969, num_bit32_hists = 804
+[LightGBM] [Info] Iteration:278, valid_1 auc : 0.681177
+[LightGBM] [Info] 21.722018 seconds elapsed, finished iteration 278
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 970, num_bit32_hists = 806
+[LightGBM] [Info] Iteration:279, valid_1 auc : 0.681154
+[LightGBM] [Info] 21.783268 seconds elapsed, finished iteration 279
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 971, num_bit32_hists = 808
+[LightGBM] [Info] Iteration:280, valid_1 auc : 0.681134
+[LightGBM] [Info] 21.843000 seconds elapsed, finished iteration 280
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 972, num_bit32_hists = 810
+[LightGBM] [Info] Iteration:281, valid_1 auc : 0.681114
+[LightGBM] [Info] 21.909255 seconds elapsed, finished iteration 281
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 973, num_bit32_hists = 812
+[LightGBM] [Info] Iteration:282, valid_1 auc : 0.681096
+[LightGBM] [Info] 21.966187 seconds elapsed, finished iteration 282
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 974, num_bit32_hists = 814
+[LightGBM] [Info] Iteration:283, valid_1 auc : 0.681078
+[LightGBM] [Info] 22.021613 seconds elapsed, finished iteration 283
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 975, num_bit32_hists = 816
+[LightGBM] [Info] Iteration:284, valid_1 auc : 0.681058
+[LightGBM] [Info] 22.083724 seconds elapsed, finished iteration 284
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 976, num_bit32_hists = 818
+[LightGBM] [Info] Iteration:285, valid_1 auc : 0.68104
+[LightGBM] [Info] 22.138112 seconds elapsed, finished iteration 285
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 977, num_bit32_hists = 820
+[LightGBM] [Info] Iteration:286, valid_1 auc : 0.681025
+[LightGBM] [Info] 22.192494 seconds elapsed, finished iteration 286
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 978, num_bit32_hists = 822
+[LightGBM] [Info] Iteration:287, valid_1 auc : 0.681006
+[LightGBM] [Info] 22.249814 seconds elapsed, finished iteration 287
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 979, num_bit32_hists = 824
+[LightGBM] [Info] Iteration:288, valid_1 auc : 0.680984
+[LightGBM] [Info] 22.303116 seconds elapsed, finished iteration 288
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 980, num_bit32_hists = 826
+[LightGBM] [Info] Iteration:289, valid_1 auc : 0.680971
+[LightGBM] [Info] 22.362828 seconds elapsed, finished iteration 289
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 981, num_bit32_hists = 828
+[LightGBM] [Info] Iteration:290, valid_1 auc : 0.68095
+[LightGBM] [Info] 22.416736 seconds elapsed, finished iteration 290
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 982, num_bit32_hists = 830
+[LightGBM] [Info] Iteration:291, valid_1 auc : 0.680928
+[LightGBM] [Info] 22.473196 seconds elapsed, finished iteration 291
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 983, num_bit32_hists = 832
+[LightGBM] [Info] Iteration:292, valid_1 auc : 0.680909
+[LightGBM] [Info] 22.528199 seconds elapsed, finished iteration 292
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 984, num_bit32_hists = 834
+[LightGBM] [Info] Iteration:293, valid_1 auc : 0.680888
+[LightGBM] [Info] 22.585827 seconds elapsed, finished iteration 293
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 985, num_bit32_hists = 836
+[LightGBM] [Info] Iteration:294, valid_1 auc : 0.680868
+[LightGBM] [Info] 22.639699 seconds elapsed, finished iteration 294
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 986, num_bit32_hists = 838
+[LightGBM] [Info] Iteration:295, valid_1 auc : 0.680844
+[LightGBM] [Info] 22.693154 seconds elapsed, finished iteration 295
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 987, num_bit32_hists = 840
+[LightGBM] [Info] Iteration:296, valid_1 auc : 0.680825
+[LightGBM] [Info] 22.750314 seconds elapsed, finished iteration 296
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 988, num_bit32_hists = 842
+[LightGBM] [Info] Iteration:297, valid_1 auc : 0.680805
+[LightGBM] [Info] 22.805268 seconds elapsed, finished iteration 297
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 989, num_bit32_hists = 844
+[LightGBM] [Info] Iteration:298, valid_1 auc : 0.680786
+[LightGBM] [Info] 22.883246 seconds elapsed, finished iteration 298
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 990, num_bit32_hists = 846
+[LightGBM] [Info] Iteration:299, valid_1 auc : 0.680778
+[LightGBM] [Info] 22.940168 seconds elapsed, finished iteration 299
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 991, num_bit32_hists = 848
+[LightGBM] [Info] Iteration:300, valid_1 auc : 0.680762
+[LightGBM] [Info] 22.996188 seconds elapsed, finished iteration 300
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 992, num_bit32_hists = 850
+[LightGBM] [Info] Iteration:301, valid_1 auc : 0.680747
+[LightGBM] [Info] 23.053010 seconds elapsed, finished iteration 301
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 993, num_bit32_hists = 852
+[LightGBM] [Info] Iteration:302, valid_1 auc : 0.680725
+[LightGBM] [Info] 23.105339 seconds elapsed, finished iteration 302
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 994, num_bit32_hists = 854
+[LightGBM] [Info] Iteration:303, valid_1 auc : 0.680704
+[LightGBM] [Info] 23.171583 seconds elapsed, finished iteration 303
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 995, num_bit32_hists = 856
+[LightGBM] [Info] Iteration:304, valid_1 auc : 0.680687
+[LightGBM] [Info] 23.251848 seconds elapsed, finished iteration 304
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 996, num_bit32_hists = 858
+[LightGBM] [Info] Iteration:305, valid_1 auc : 0.680667
+[LightGBM] [Info] 23.330591 seconds elapsed, finished iteration 305
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 997, num_bit32_hists = 860
+[LightGBM] [Info] Iteration:306, valid_1 auc : 0.680652
+[LightGBM] [Info] 23.403042 seconds elapsed, finished iteration 306
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 998, num_bit32_hists = 862
+[LightGBM] [Info] Iteration:307, valid_1 auc : 0.680633
+[LightGBM] [Info] 23.477555 seconds elapsed, finished iteration 307
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 999, num_bit32_hists = 864
+[LightGBM] [Info] Iteration:308, valid_1 auc : 0.680618
+[LightGBM] [Info] 23.545690 seconds elapsed, finished iteration 308
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1000, num_bit32_hists = 866
+[LightGBM] [Info] Iteration:309, valid_1 auc : 0.680602
+[LightGBM] [Info] 23.622320 seconds elapsed, finished iteration 309
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1001, num_bit32_hists = 868
+[LightGBM] [Info] Iteration:310, valid_1 auc : 0.680592
+[LightGBM] [Info] 23.698069 seconds elapsed, finished iteration 310
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1002, num_bit32_hists = 870
+[LightGBM] [Info] Iteration:311, valid_1 auc : 0.680578
+[LightGBM] [Info] 23.770782 seconds elapsed, finished iteration 311
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1003, num_bit32_hists = 872
+[LightGBM] [Info] Iteration:312, valid_1 auc : 0.680564
+[LightGBM] [Info] 23.846695 seconds elapsed, finished iteration 312
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1004, num_bit32_hists = 874
+[LightGBM] [Info] Iteration:313, valid_1 auc : 0.68055
+[LightGBM] [Info] 23.919447 seconds elapsed, finished iteration 313
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1005, num_bit32_hists = 876
+[LightGBM] [Info] Iteration:314, valid_1 auc : 0.680533
+[LightGBM] [Info] 23.994266 seconds elapsed, finished iteration 314
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1006, num_bit32_hists = 878
+[LightGBM] [Info] Iteration:315, valid_1 auc : 0.680519
+[LightGBM] [Info] 24.072077 seconds elapsed, finished iteration 315
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1007, num_bit32_hists = 880
+[LightGBM] [Info] Iteration:316, valid_1 auc : 0.680506
+[LightGBM] [Info] 24.143020 seconds elapsed, finished iteration 316
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1008, num_bit32_hists = 882
+[LightGBM] [Info] Iteration:317, valid_1 auc : 0.680489
+[LightGBM] [Info] 24.215829 seconds elapsed, finished iteration 317
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1009, num_bit32_hists = 884
+[LightGBM] [Info] Iteration:318, valid_1 auc : 0.680475
+[LightGBM] [Info] 24.270783 seconds elapsed, finished iteration 318
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1010, num_bit32_hists = 886
+[LightGBM] [Info] Iteration:319, valid_1 auc : 0.680459
+[LightGBM] [Info] 24.327663 seconds elapsed, finished iteration 319
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1011, num_bit32_hists = 888
+[LightGBM] [Info] Iteration:320, valid_1 auc : 0.680446
+[LightGBM] [Info] 24.387668 seconds elapsed, finished iteration 320
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1012, num_bit32_hists = 890
+[LightGBM] [Info] Iteration:321, valid_1 auc : 0.680439
+[LightGBM] [Info] 24.447127 seconds elapsed, finished iteration 321
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1013, num_bit32_hists = 892
+[LightGBM] [Info] Iteration:322, valid_1 auc : 0.680419
+[LightGBM] [Info] 24.518121 seconds elapsed, finished iteration 322
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1014, num_bit32_hists = 894
+[LightGBM] [Info] Iteration:323, valid_1 auc : 0.680405
+[LightGBM] [Info] 24.587330 seconds elapsed, finished iteration 323
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1015, num_bit32_hists = 896
+[LightGBM] [Info] Iteration:324, valid_1 auc : 0.680394
+[LightGBM] [Info] 24.652986 seconds elapsed, finished iteration 324
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1016, num_bit32_hists = 898
+[LightGBM] [Info] Iteration:325, valid_1 auc : 0.68038
+[LightGBM] [Info] 24.707497 seconds elapsed, finished iteration 325
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1017, num_bit32_hists = 900
+[LightGBM] [Info] Iteration:326, valid_1 auc : 0.680367
+[LightGBM] [Info] 24.768242 seconds elapsed, finished iteration 326
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1018, num_bit32_hists = 902
+[LightGBM] [Info] Iteration:327, valid_1 auc : 0.680351
+[LightGBM] [Info] 24.825108 seconds elapsed, finished iteration 327
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1019, num_bit32_hists = 904
+[LightGBM] [Info] Iteration:328, valid_1 auc : 0.680336
+[LightGBM] [Info] 24.886530 seconds elapsed, finished iteration 328
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1020, num_bit32_hists = 906
+[LightGBM] [Info] Iteration:329, valid_1 auc : 0.680323
+[LightGBM] [Info] 24.943878 seconds elapsed, finished iteration 329
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1021, num_bit32_hists = 908
+[LightGBM] [Info] Iteration:330, valid_1 auc : 0.680309
+[LightGBM] [Info] 25.000417 seconds elapsed, finished iteration 330
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1022, num_bit32_hists = 910
+[LightGBM] [Info] Iteration:331, valid_1 auc : 0.680298
+[LightGBM] [Info] 25.064055 seconds elapsed, finished iteration 331
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1023, num_bit32_hists = 912
+[LightGBM] [Info] Iteration:332, valid_1 auc : 0.680292
+[LightGBM] [Info] 25.120824 seconds elapsed, finished iteration 332
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1024, num_bit32_hists = 914
+[LightGBM] [Info] Iteration:333, valid_1 auc : 0.680278
+[LightGBM] [Info] 25.186296 seconds elapsed, finished iteration 333
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1025, num_bit32_hists = 916
+[LightGBM] [Info] Iteration:334, valid_1 auc : 0.680265
+[LightGBM] [Info] 25.260499 seconds elapsed, finished iteration 334
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1026, num_bit32_hists = 918
+[LightGBM] [Info] Iteration:335, valid_1 auc : 0.680251
+[LightGBM] [Info] 25.332421 seconds elapsed, finished iteration 335
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1027, num_bit32_hists = 920
+[LightGBM] [Info] Iteration:336, valid_1 auc : 0.680238
+[LightGBM] [Info] 25.408030 seconds elapsed, finished iteration 336
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1028, num_bit32_hists = 922
+[LightGBM] [Info] Iteration:337, valid_1 auc : 0.680228
+[LightGBM] [Info] 25.481911 seconds elapsed, finished iteration 337
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1029, num_bit32_hists = 924
+[LightGBM] [Info] Iteration:338, valid_1 auc : 0.680219
+[LightGBM] [Info] 25.588888 seconds elapsed, finished iteration 338
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1030, num_bit32_hists = 926
+[LightGBM] [Info] Iteration:339, valid_1 auc : 0.680213
+[LightGBM] [Info] 25.666761 seconds elapsed, finished iteration 339
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1031, num_bit32_hists = 928
+[LightGBM] [Info] Iteration:340, valid_1 auc : 0.680207
+[LightGBM] [Info] 25.742160 seconds elapsed, finished iteration 340
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1032, num_bit32_hists = 930
+[LightGBM] [Info] Iteration:341, valid_1 auc : 0.6802
+[LightGBM] [Info] 25.818963 seconds elapsed, finished iteration 341
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1033, num_bit32_hists = 932
+[LightGBM] [Info] Iteration:342, valid_1 auc : 0.680194
+[LightGBM] [Info] 25.896240 seconds elapsed, finished iteration 342
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1034, num_bit32_hists = 934
+[LightGBM] [Info] Iteration:343, valid_1 auc : 0.680187
+[LightGBM] [Info] 25.970806 seconds elapsed, finished iteration 343
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1035, num_bit32_hists = 936
+[LightGBM] [Info] Iteration:344, valid_1 auc : 0.68018
+[LightGBM] [Info] 26.044546 seconds elapsed, finished iteration 344
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1036, num_bit32_hists = 938
+[LightGBM] [Info] Iteration:345, valid_1 auc : 0.680175
+[LightGBM] [Info] 26.114859 seconds elapsed, finished iteration 345
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1037, num_bit32_hists = 940
+[LightGBM] [Info] Iteration:346, valid_1 auc : 0.680168
+[LightGBM] [Info] 26.190802 seconds elapsed, finished iteration 346
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1038, num_bit32_hists = 942
+[LightGBM] [Info] Iteration:347, valid_1 auc : 0.680159
+[LightGBM] [Info] 26.280716 seconds elapsed, finished iteration 347
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1039, num_bit32_hists = 944
+[LightGBM] [Info] Iteration:348, valid_1 auc : 0.680154
+[LightGBM] [Info] 26.373429 seconds elapsed, finished iteration 348
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1040, num_bit32_hists = 946
+[LightGBM] [Info] Iteration:349, valid_1 auc : 0.680148
+[LightGBM] [Info] 26.450585 seconds elapsed, finished iteration 349
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1041, num_bit32_hists = 948
+[LightGBM] [Info] Iteration:350, valid_1 auc : 0.680143
+[LightGBM] [Info] 26.530179 seconds elapsed, finished iteration 350
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1042, num_bit32_hists = 950
+[LightGBM] [Info] Iteration:351, valid_1 auc : 0.680134
+[LightGBM] [Info] 26.607529 seconds elapsed, finished iteration 351
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1043, num_bit32_hists = 952
+[LightGBM] [Info] Iteration:352, valid_1 auc : 0.680129
+[LightGBM] [Info] 26.682146 seconds elapsed, finished iteration 352
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1044, num_bit32_hists = 954
+[LightGBM] [Info] Iteration:353, valid_1 auc : 0.680122
+[LightGBM] [Info] 26.758974 seconds elapsed, finished iteration 353
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1045, num_bit32_hists = 956
+[LightGBM] [Info] Iteration:354, valid_1 auc : 0.680117
+[LightGBM] [Info] 26.845476 seconds elapsed, finished iteration 354
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1046, num_bit32_hists = 958
+[LightGBM] [Info] Iteration:355, valid_1 auc : 0.680111
+[LightGBM] [Info] 26.925500 seconds elapsed, finished iteration 355
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1047, num_bit32_hists = 960
+[LightGBM] [Info] Iteration:356, valid_1 auc : 0.680105
+[LightGBM] [Info] 27.006513 seconds elapsed, finished iteration 356
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1048, num_bit32_hists = 962
+[LightGBM] [Info] Iteration:357, valid_1 auc : 0.6801
+[LightGBM] [Info] 27.084316 seconds elapsed, finished iteration 357
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1049, num_bit32_hists = 964
+[LightGBM] [Info] Iteration:358, valid_1 auc : 0.680094
+[LightGBM] [Info] 27.160285 seconds elapsed, finished iteration 358
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1050, num_bit32_hists = 966
+[LightGBM] [Info] Iteration:359, valid_1 auc : 0.680088
+[LightGBM] [Info] 27.234993 seconds elapsed, finished iteration 359
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1051, num_bit32_hists = 968
+[LightGBM] [Info] Iteration:360, valid_1 auc : 0.680083
+[LightGBM] [Info] 27.309985 seconds elapsed, finished iteration 360
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1052, num_bit32_hists = 970
+[LightGBM] [Info] Iteration:361, valid_1 auc : 0.680077
+[LightGBM] [Info] 27.383264 seconds elapsed, finished iteration 361
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1053, num_bit32_hists = 972
+[LightGBM] [Info] Iteration:362, valid_1 auc : 0.680072
+[LightGBM] [Info] 27.458518 seconds elapsed, finished iteration 362
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1054, num_bit32_hists = 974
+[LightGBM] [Info] Iteration:363, valid_1 auc : 0.680066
+[LightGBM] [Info] 27.540993 seconds elapsed, finished iteration 363
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1055, num_bit32_hists = 976
+[LightGBM] [Info] Iteration:364, valid_1 auc : 0.680065
+[LightGBM] [Info] 27.616539 seconds elapsed, finished iteration 364
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1056, num_bit32_hists = 978
+[LightGBM] [Info] Iteration:365, valid_1 auc : 0.680058
+[LightGBM] [Info] 27.693221 seconds elapsed, finished iteration 365
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1057, num_bit32_hists = 980
+[LightGBM] [Info] Iteration:366, valid_1 auc : 0.680055
+[LightGBM] [Info] 27.767874 seconds elapsed, finished iteration 366
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1058, num_bit32_hists = 982
+[LightGBM] [Info] Iteration:367, valid_1 auc : 0.680052
+[LightGBM] [Info] 27.848375 seconds elapsed, finished iteration 367
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1059, num_bit32_hists = 984
+[LightGBM] [Info] Iteration:368, valid_1 auc : 0.680048
+[LightGBM] [Info] 27.906959 seconds elapsed, finished iteration 368
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1060, num_bit32_hists = 986
+[LightGBM] [Info] Iteration:369, valid_1 auc : 0.680047
+[LightGBM] [Info] 27.991287 seconds elapsed, finished iteration 369
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1061, num_bit32_hists = 988
+[LightGBM] [Info] Iteration:370, valid_1 auc : 0.680042
+[LightGBM] [Info] 28.047037 seconds elapsed, finished iteration 370
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1062, num_bit32_hists = 990
+[LightGBM] [Info] Iteration:371, valid_1 auc : 0.680037
+[LightGBM] [Info] 28.099798 seconds elapsed, finished iteration 371
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1063, num_bit32_hists = 992
+[LightGBM] [Info] Iteration:372, valid_1 auc : 0.680035
+[LightGBM] [Info] 28.168405 seconds elapsed, finished iteration 372
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1064, num_bit32_hists = 994
+[LightGBM] [Info] Iteration:373, valid_1 auc : 0.680029
+[LightGBM] [Info] 28.244530 seconds elapsed, finished iteration 373
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1065, num_bit32_hists = 995
+[LightGBM] [Info] Iteration:374, valid_1 auc : 0.680023
+[LightGBM] [Info] 28.309734 seconds elapsed, finished iteration 374
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1066, num_bit32_hists = 996
+[LightGBM] [Info] Iteration:375, valid_1 auc : 0.680021
+[LightGBM] [Info] 28.378186 seconds elapsed, finished iteration 375
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1067, num_bit32_hists = 997
+[LightGBM] [Info] Iteration:376, valid_1 auc : 0.680009
+[LightGBM] [Info] 28.442743 seconds elapsed, finished iteration 376
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1068, num_bit32_hists = 998
+[LightGBM] [Info] Iteration:377, valid_1 auc : 0.679999
+[LightGBM] [Info] 28.508957 seconds elapsed, finished iteration 377
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1069, num_bit32_hists = 999
+[LightGBM] [Info] Iteration:378, valid_1 auc : 0.679992
+[LightGBM] [Info] 28.580334 seconds elapsed, finished iteration 378
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1070, num_bit32_hists = 1000
+[LightGBM] [Info] Iteration:379, valid_1 auc : 0.679982
+[LightGBM] [Info] 28.629420 seconds elapsed, finished iteration 379
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1071, num_bit32_hists = 1001
+[LightGBM] [Info] Iteration:380, valid_1 auc : 0.679974
+[LightGBM] [Info] 28.679098 seconds elapsed, finished iteration 380
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1072, num_bit32_hists = 1002
+[LightGBM] [Info] Iteration:381, valid_1 auc : 0.679961
+[LightGBM] [Info] 28.734040 seconds elapsed, finished iteration 381
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1073, num_bit32_hists = 1003
+[LightGBM] [Info] Iteration:382, valid_1 auc : 0.67995
+[LightGBM] [Info] 28.783498 seconds elapsed, finished iteration 382
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1074, num_bit32_hists = 1004
+[LightGBM] [Info] Iteration:383, valid_1 auc : 0.679939
+[LightGBM] [Info] 28.834879 seconds elapsed, finished iteration 383
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1075, num_bit32_hists = 1005
+[LightGBM] [Info] Iteration:384, valid_1 auc : 0.67993
+[LightGBM] [Info] 28.883776 seconds elapsed, finished iteration 384
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 3 and depth = 2
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1076, num_bit32_hists = 1006
+[LightGBM] [Info] Iteration:385, valid_1 auc : 0.679919
+[LightGBM] [Info] 28.935309 seconds elapsed, finished iteration 385
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1077, num_bit32_hists = 1007
+[LightGBM] [Info] Iteration:386, valid_1 auc : 0.679919
+[LightGBM] [Info] 28.993269 seconds elapsed, finished iteration 386
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1078, num_bit32_hists = 1008
+[LightGBM] [Info] Iteration:387, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.041873 seconds elapsed, finished iteration 387
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1079, num_bit32_hists = 1009
+[LightGBM] [Info] Iteration:388, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.102481 seconds elapsed, finished iteration 388
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1080, num_bit32_hists = 1010
+[LightGBM] [Info] Iteration:389, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.153062 seconds elapsed, finished iteration 389
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1081, num_bit32_hists = 1011
+[LightGBM] [Info] Iteration:390, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.201000 seconds elapsed, finished iteration 390
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1082, num_bit32_hists = 1012
+[LightGBM] [Info] Iteration:391, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.247814 seconds elapsed, finished iteration 391
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1083, num_bit32_hists = 1013
+[LightGBM] [Info] Iteration:392, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.298858 seconds elapsed, finished iteration 392
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1084, num_bit32_hists = 1014
+[LightGBM] [Info] Iteration:393, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.347833 seconds elapsed, finished iteration 393
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1085, num_bit32_hists = 1015
+[LightGBM] [Info] Iteration:394, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.398522 seconds elapsed, finished iteration 394
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1086, num_bit32_hists = 1016
+[LightGBM] [Info] Iteration:395, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.446504 seconds elapsed, finished iteration 395
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1087, num_bit32_hists = 1017
+[LightGBM] [Info] Iteration:396, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.497512 seconds elapsed, finished iteration 396
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1088, num_bit32_hists = 1018
+[LightGBM] [Info] Iteration:397, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.547246 seconds elapsed, finished iteration 397
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1089, num_bit32_hists = 1019
+[LightGBM] [Info] Iteration:398, valid_1 auc : 0.679919
+[LightGBM] [Info] 29.594013 seconds elapsed, finished iteration 398
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1090, num_bit32_hists = 1020
+[LightGBM] [Info] Iteration:399, valid_1 auc : 0.679918
+[LightGBM] [Info] 29.643381 seconds elapsed, finished iteration 399
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1091, num_bit32_hists = 1021
+[LightGBM] [Info] Iteration:400, valid_1 auc : 0.679918
+[LightGBM] [Info] 29.690118 seconds elapsed, finished iteration 400
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1092, num_bit32_hists = 1022
+[LightGBM] [Info] Iteration:401, valid_1 auc : 0.679918
+[LightGBM] [Info] 29.737975 seconds elapsed, finished iteration 401
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1093, num_bit32_hists = 1023
+[LightGBM] [Info] Iteration:402, valid_1 auc : 0.679918
+[LightGBM] [Info] 29.786094 seconds elapsed, finished iteration 402
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1094, num_bit32_hists = 1024
+[LightGBM] [Info] Iteration:403, valid_1 auc : 0.679918
+[LightGBM] [Info] 29.833358 seconds elapsed, finished iteration 403
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1095, num_bit32_hists = 1025
+[LightGBM] [Info] Iteration:404, valid_1 auc : 0.679918
+[LightGBM] [Info] 29.893393 seconds elapsed, finished iteration 404
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1096, num_bit32_hists = 1026
+[LightGBM] [Info] Iteration:405, valid_1 auc : 0.679918
+[LightGBM] [Info] 29.940932 seconds elapsed, finished iteration 405
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1097, num_bit32_hists = 1027
+[LightGBM] [Info] Iteration:406, valid_1 auc : 0.679918
+[LightGBM] [Info] 29.997375 seconds elapsed, finished iteration 406
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1098, num_bit32_hists = 1028
+[LightGBM] [Info] Iteration:407, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.046901 seconds elapsed, finished iteration 407
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1099, num_bit32_hists = 1029
+[LightGBM] [Info] Iteration:408, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.094593 seconds elapsed, finished iteration 408
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1100, num_bit32_hists = 1030
+[LightGBM] [Info] Iteration:409, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.142959 seconds elapsed, finished iteration 409
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1101, num_bit32_hists = 1031
+[LightGBM] [Info] Iteration:410, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.188931 seconds elapsed, finished iteration 410
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1102, num_bit32_hists = 1032
+[LightGBM] [Info] Iteration:411, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.238543 seconds elapsed, finished iteration 411
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1103, num_bit32_hists = 1033
+[LightGBM] [Info] Iteration:412, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.289099 seconds elapsed, finished iteration 412
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1104, num_bit32_hists = 1034
+[LightGBM] [Info] Iteration:413, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.334927 seconds elapsed, finished iteration 413
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1105, num_bit32_hists = 1035
+[LightGBM] [Info] Iteration:414, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.393130 seconds elapsed, finished iteration 414
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1106, num_bit32_hists = 1036
+[LightGBM] [Info] Iteration:415, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.445573 seconds elapsed, finished iteration 415
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1107, num_bit32_hists = 1037
+[LightGBM] [Info] Iteration:416, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.497067 seconds elapsed, finished iteration 416
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1108, num_bit32_hists = 1038
+[LightGBM] [Info] Iteration:417, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.544277 seconds elapsed, finished iteration 417
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1109, num_bit32_hists = 1039
+[LightGBM] [Info] Iteration:418, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.592789 seconds elapsed, finished iteration 418
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1110, num_bit32_hists = 1040
+[LightGBM] [Info] Iteration:419, valid_1 auc : 0.679918
+[LightGBM] [Info] 30.638521 seconds elapsed, finished iteration 419
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1111, num_bit32_hists = 1041
+[LightGBM] [Info] Iteration:420, valid_1 auc : 0.679917
+[LightGBM] [Info] 30.686018 seconds elapsed, finished iteration 420
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1112, num_bit32_hists = 1042
+[LightGBM] [Info] Iteration:421, valid_1 auc : 0.679917
+[LightGBM] [Info] 30.733131 seconds elapsed, finished iteration 421
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1113, num_bit32_hists = 1043
+[LightGBM] [Info] Iteration:422, valid_1 auc : 0.679917
+[LightGBM] [Info] 30.784815 seconds elapsed, finished iteration 422
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1114, num_bit32_hists = 1044
+[LightGBM] [Info] Iteration:423, valid_1 auc : 0.679917
+[LightGBM] [Info] 30.836474 seconds elapsed, finished iteration 423
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1115, num_bit32_hists = 1045
+[LightGBM] [Info] Iteration:424, valid_1 auc : 0.679917
+[LightGBM] [Info] 30.884648 seconds elapsed, finished iteration 424
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1116, num_bit32_hists = 1046
+[LightGBM] [Info] Iteration:425, valid_1 auc : 0.679917
+[LightGBM] [Info] 30.930525 seconds elapsed, finished iteration 425
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1117, num_bit32_hists = 1047
+[LightGBM] [Info] Iteration:426, valid_1 auc : 0.679917
+[LightGBM] [Info] 30.976620 seconds elapsed, finished iteration 426
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1118, num_bit32_hists = 1048
+[LightGBM] [Info] Iteration:427, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.022597 seconds elapsed, finished iteration 427
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1119, num_bit32_hists = 1049
+[LightGBM] [Info] Iteration:428, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.072425 seconds elapsed, finished iteration 428
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1120, num_bit32_hists = 1050
+[LightGBM] [Info] Iteration:429, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.126789 seconds elapsed, finished iteration 429
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1121, num_bit32_hists = 1051
+[LightGBM] [Info] Iteration:430, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.182054 seconds elapsed, finished iteration 430
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1122, num_bit32_hists = 1052
+[LightGBM] [Info] Iteration:431, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.231875 seconds elapsed, finished iteration 431
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1123, num_bit32_hists = 1053
+[LightGBM] [Info] Iteration:432, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.280932 seconds elapsed, finished iteration 432
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1124, num_bit32_hists = 1054
+[LightGBM] [Info] Iteration:433, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.327785 seconds elapsed, finished iteration 433
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1125, num_bit32_hists = 1055
+[LightGBM] [Info] Iteration:434, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.375745 seconds elapsed, finished iteration 434
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1126, num_bit32_hists = 1056
+[LightGBM] [Info] Iteration:435, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.421810 seconds elapsed, finished iteration 435
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1127, num_bit32_hists = 1057
+[LightGBM] [Info] Iteration:436, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.471074 seconds elapsed, finished iteration 436
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1128, num_bit32_hists = 1058
+[LightGBM] [Info] Iteration:437, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.521076 seconds elapsed, finished iteration 437
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1129, num_bit32_hists = 1059
+[LightGBM] [Info] Iteration:438, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.567569 seconds elapsed, finished iteration 438
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1130, num_bit32_hists = 1060
+[LightGBM] [Info] Iteration:439, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.617840 seconds elapsed, finished iteration 439
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1131, num_bit32_hists = 1061
+[LightGBM] [Info] Iteration:440, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.666958 seconds elapsed, finished iteration 440
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1132, num_bit32_hists = 1062
+[LightGBM] [Info] Iteration:441, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.713079 seconds elapsed, finished iteration 441
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1133, num_bit32_hists = 1063
+[LightGBM] [Info] Iteration:442, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.758844 seconds elapsed, finished iteration 442
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1134, num_bit32_hists = 1064
+[LightGBM] [Info] Iteration:443, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.806810 seconds elapsed, finished iteration 443
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1135, num_bit32_hists = 1065
+[LightGBM] [Info] Iteration:444, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.854064 seconds elapsed, finished iteration 444
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1136, num_bit32_hists = 1066
+[LightGBM] [Info] Iteration:445, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.910769 seconds elapsed, finished iteration 445
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1137, num_bit32_hists = 1067
+[LightGBM] [Info] Iteration:446, valid_1 auc : 0.679917
+[LightGBM] [Info] 31.959701 seconds elapsed, finished iteration 446
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1138, num_bit32_hists = 1068
+[LightGBM] [Info] Iteration:447, valid_1 auc : 0.679917
+[LightGBM] [Info] 32.005252 seconds elapsed, finished iteration 447
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1139, num_bit32_hists = 1069
+[LightGBM] [Info] Iteration:448, valid_1 auc : 0.679917
+[LightGBM] [Info] 32.055299 seconds elapsed, finished iteration 448
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1140, num_bit32_hists = 1070
+[LightGBM] [Info] Iteration:449, valid_1 auc : 0.679917
+[LightGBM] [Info] 32.102821 seconds elapsed, finished iteration 449
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1141, num_bit32_hists = 1071
+[LightGBM] [Info] Iteration:450, valid_1 auc : 0.679917
+[LightGBM] [Info] 32.163097 seconds elapsed, finished iteration 450
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1142, num_bit32_hists = 1072
+[LightGBM] [Info] Iteration:451, valid_1 auc : 0.679917
+[LightGBM] [Info] 32.225643 seconds elapsed, finished iteration 451
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1143, num_bit32_hists = 1073
+[LightGBM] [Info] Iteration:452, valid_1 auc : 0.679917
+[LightGBM] [Info] 32.310612 seconds elapsed, finished iteration 452
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1144, num_bit32_hists = 1074
+[LightGBM] [Info] Iteration:453, valid_1 auc : 0.679917
+[LightGBM] [Info] 32.380036 seconds elapsed, finished iteration 453
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1145, num_bit32_hists = 1075
+[LightGBM] [Info] Iteration:454, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.442037 seconds elapsed, finished iteration 454
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1146, num_bit32_hists = 1076
+[LightGBM] [Info] Iteration:455, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.510270 seconds elapsed, finished iteration 455
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1147, num_bit32_hists = 1077
+[LightGBM] [Info] Iteration:456, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.557869 seconds elapsed, finished iteration 456
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1148, num_bit32_hists = 1078
+[LightGBM] [Info] Iteration:457, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.605387 seconds elapsed, finished iteration 457
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1149, num_bit32_hists = 1079
+[LightGBM] [Info] Iteration:458, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.651969 seconds elapsed, finished iteration 458
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1150, num_bit32_hists = 1080
+[LightGBM] [Info] Iteration:459, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.698725 seconds elapsed, finished iteration 459
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1151, num_bit32_hists = 1081
+[LightGBM] [Info] Iteration:460, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.747683 seconds elapsed, finished iteration 460
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1152, num_bit32_hists = 1082
+[LightGBM] [Info] Iteration:461, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.795140 seconds elapsed, finished iteration 461
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1153, num_bit32_hists = 1083
+[LightGBM] [Info] Iteration:462, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.841438 seconds elapsed, finished iteration 462
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1154, num_bit32_hists = 1084
+[LightGBM] [Info] Iteration:463, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.890866 seconds elapsed, finished iteration 463
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1155, num_bit32_hists = 1085
+[LightGBM] [Info] Iteration:464, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.940263 seconds elapsed, finished iteration 464
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1156, num_bit32_hists = 1086
+[LightGBM] [Info] Iteration:465, valid_1 auc : 0.679916
+[LightGBM] [Info] 32.993496 seconds elapsed, finished iteration 465
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1157, num_bit32_hists = 1087
+[LightGBM] [Info] Iteration:466, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.071213 seconds elapsed, finished iteration 466
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1158, num_bit32_hists = 1088
+[LightGBM] [Info] Iteration:467, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.117651 seconds elapsed, finished iteration 467
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1159, num_bit32_hists = 1089
+[LightGBM] [Info] Iteration:468, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.162586 seconds elapsed, finished iteration 468
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1160, num_bit32_hists = 1090
+[LightGBM] [Info] Iteration:469, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.208717 seconds elapsed, finished iteration 469
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1161, num_bit32_hists = 1091
+[LightGBM] [Info] Iteration:470, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.253942 seconds elapsed, finished iteration 470
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1162, num_bit32_hists = 1092
+[LightGBM] [Info] Iteration:471, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.304397 seconds elapsed, finished iteration 471
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1163, num_bit32_hists = 1093
+[LightGBM] [Info] Iteration:472, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.349929 seconds elapsed, finished iteration 472
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1164, num_bit32_hists = 1094
+[LightGBM] [Info] Iteration:473, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.397128 seconds elapsed, finished iteration 473
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1165, num_bit32_hists = 1095
+[LightGBM] [Info] Iteration:474, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.446159 seconds elapsed, finished iteration 474
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1166, num_bit32_hists = 1096
+[LightGBM] [Info] Iteration:475, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.498906 seconds elapsed, finished iteration 475
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1167, num_bit32_hists = 1097
+[LightGBM] [Info] Iteration:476, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.547168 seconds elapsed, finished iteration 476
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1168, num_bit32_hists = 1098
+[LightGBM] [Info] Iteration:477, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.596272 seconds elapsed, finished iteration 477
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1169, num_bit32_hists = 1099
+[LightGBM] [Info] Iteration:478, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.645715 seconds elapsed, finished iteration 478
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1170, num_bit32_hists = 1100
+[LightGBM] [Info] Iteration:479, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.694377 seconds elapsed, finished iteration 479
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1171, num_bit32_hists = 1101
+[LightGBM] [Info] Iteration:480, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.741461 seconds elapsed, finished iteration 480
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1172, num_bit32_hists = 1102
+[LightGBM] [Info] Iteration:481, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.791960 seconds elapsed, finished iteration 481
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1173, num_bit32_hists = 1103
+[LightGBM] [Info] Iteration:482, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.861005 seconds elapsed, finished iteration 482
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1174, num_bit32_hists = 1104
+[LightGBM] [Info] Iteration:483, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.909329 seconds elapsed, finished iteration 483
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1175, num_bit32_hists = 1105
+[LightGBM] [Info] Iteration:484, valid_1 auc : 0.679916
+[LightGBM] [Info] 33.955605 seconds elapsed, finished iteration 484
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1176, num_bit32_hists = 1106
+[LightGBM] [Info] Iteration:485, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.005282 seconds elapsed, finished iteration 485
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1177, num_bit32_hists = 1107
+[LightGBM] [Info] Iteration:486, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.055252 seconds elapsed, finished iteration 486
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1178, num_bit32_hists = 1108
+[LightGBM] [Info] Iteration:487, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.103777 seconds elapsed, finished iteration 487
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1179, num_bit32_hists = 1109
+[LightGBM] [Info] Iteration:488, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.168972 seconds elapsed, finished iteration 488
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1180, num_bit32_hists = 1110
+[LightGBM] [Info] Iteration:489, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.234858 seconds elapsed, finished iteration 489
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1181, num_bit32_hists = 1111
+[LightGBM] [Info] Iteration:490, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.303361 seconds elapsed, finished iteration 490
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1182, num_bit32_hists = 1112
+[LightGBM] [Info] Iteration:491, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.367390 seconds elapsed, finished iteration 491
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1183, num_bit32_hists = 1113
+[LightGBM] [Info] Iteration:492, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.428299 seconds elapsed, finished iteration 492
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1184, num_bit32_hists = 1114
+[LightGBM] [Info] Iteration:493, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.504775 seconds elapsed, finished iteration 493
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1185, num_bit32_hists = 1115
+[LightGBM] [Info] Iteration:494, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.558224 seconds elapsed, finished iteration 494
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1186, num_bit32_hists = 1116
+[LightGBM] [Info] Iteration:495, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.605931 seconds elapsed, finished iteration 495
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1187, num_bit32_hists = 1117
+[LightGBM] [Info] Iteration:496, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.678525 seconds elapsed, finished iteration 496
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1188, num_bit32_hists = 1118
+[LightGBM] [Info] Iteration:497, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.725573 seconds elapsed, finished iteration 497
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1189, num_bit32_hists = 1119
+[LightGBM] [Info] Iteration:498, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.790688 seconds elapsed, finished iteration 498
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1190, num_bit32_hists = 1120
+[LightGBM] [Info] Iteration:499, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.854062 seconds elapsed, finished iteration 499
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Debug] Trained a tree with leaves = 2 and depth = 1
+[LightGBM] [Warning] num_bit8_hists = 0, num_bit16_hists = 1191, num_bit32_hists = 1121
+[LightGBM] [Info] Iteration:500, valid_1 auc : 0.679916
+[LightGBM] [Info] 34.912631 seconds elapsed, finished iteration 500
+[LightGBM] [Info] Finished training
