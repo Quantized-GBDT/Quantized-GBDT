@@ -94,7 +94,7 @@ def generate_script(data_path, use_discretized_grad, discretized_grad_renew, sto
                     if data[i] in col_wise_data:
                         args += ' force_row_wise=false force_col_wise=true'
                     if device != 'cpu':
-                        args += f' device_type=cuda gpu_device_id=0'
+                        args += f' device_type=cuda gpu_device_id=0 num_threads=24'
                     running.write(f'../LightGBM/lightgbm config={base_conf_fname} {args} > {log_name} 2>&1\n')
     elif algorithm == 'xgb':
         for i in range(8):
@@ -117,7 +117,7 @@ def generate_script(data_path, use_discretized_grad, discretized_grad_renew, sto
                 if data[i] == 'bosch':
                     args += ' eta=0.015 max_leaves=45' # max_leaves=45 for xgboost to reduce time cost for post pruning
                 if device != 'cpu':
-                    args += ' tree_method=gpu_hist'
+                    args += ' tree_method=gpu_hist nthread=24'
                 running.write(f'../xgboost/xgboost {base_conf_fname} {args} > {log_name} 2>&1\n')
     elif algorithm == 'cat':
         for i in range(8):
@@ -142,7 +142,7 @@ def generate_script(data_path, use_discretized_grad, discretized_grad_renew, sto
                     eval_metric = "AUC" if task[i] == 'binary' else ("RMSE" if task[i] == 'regression' else "NDCG:top=10\\;type=Exp")
                     args += f" --eval-metric {eval_metric}"
                     args += " --metric-period 1"
-                task_type = "CPU" if device == 'cpu' else "GPU --devices 0"
+                task_type = "CPU" if device == 'cpu' else "GPU --devices 0 --thread-count 24"
                 args += f" --task-type {task_type}"
                 args += f" --random-seed {j}"
                 args += f" --bootstrap-type No --random-strength 0.0 --rsm 1.0" # remove known randomness

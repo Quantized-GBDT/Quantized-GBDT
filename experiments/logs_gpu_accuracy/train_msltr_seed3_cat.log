@@ -1,0 +1,21 @@
+Metric NDCG:type=Base is not implemented on GPU. Will use CPU for metric computation, this could significantly affect learning time
+Metric NDCG:top=10;type=Exp is not implemented on GPU. Will use CPU for metric computation, this could significantly affect learning time
+AN EXCEPTION OCCURRED. TCatBoostException::TCatBoostException()+45 (0xAA84B9D)
+NCatboostCuda::TQuerywiseTargetsImpl<NCudaLib::TStripeMapping>::InitYetiRank(NCatboostOptions::TLossDescription const&)+239 (0xAE8337F)
+NCatboostCuda::TQuerywiseTargetsImpl<NCudaLib::TStripeMapping>::TQuerywiseTargetsImpl<NCatboostCuda::TDocParallelDataSet>(NCatboostCuda::TDocParallelDataSet const&, TGpuAwareRandom&, NCatboostOptions::TLossDescription const&)+113 (0xAE8DBD1)
+NCatboostCuda::TBoosting<NCatboostCuda::TQuerywiseTargetsImpl, NCatboostCuda::TGreedySubsetsSearcher<NCatboostCuda::TNonSymmetricTree> >::CreateInputData(unsigned int, NCatboostCuda::TBinarizedFeaturesManager*)+233 (0xAEEE169)
+NCatboostCuda::TBoosting<NCatboostCuda::TQuerywiseTargetsImpl, NCatboostCuda::TGreedySubsetsSearcher<NCatboostCuda::TNonSymmetricTree> >::Run()+86 (0xAEED4F6)
+THolder<NCatboostCuda::TAdditiveModel<NCatboostCuda::TBoosting<NCatboostCuda::TQuerywiseTargetsImpl, NCatboostCuda::TGreedySubsetsSearcher<NCatboostCuda::TNonSymmetricTree> >::TWeakModel>, TDelete> NCatboostCuda::Train<NCatboostCuda::TBoosting<NCatboostCuda::TQuerywiseTargetsImpl, NCatboostCuda::TGreedySubsetsSearcher<NCatboostCuda::TNonSymmetricTree> > >(NCatboostCuda::TBinarizedFeaturesManager&, TTrainModelInternalOptions const&, NCatboostOptions::TCatBoostOptions const&, NCatboostOptions::TOutputFilesOptions const&, NCB::TProcessedDataProviderTemplate<NCB::TQuantizedObjectsDataProvider> const&, NCB::TProcessedDataProviderTemplate<NCB::TQuantizedObjectsDataProvider> const*, NCB::TFeatureEstimators const&, TGpuAwareRandom&, unsigned int, ITrainingCallbacks*, NPar::ILocalExecutor*, TVector<TVector<double, std::__y1::allocator<double> >, std::__y1::allocator<TVector<double, std::__y1::allocator<double> > > >*, TMetricsAndTimeLeftHistory*)+542 (0xAEECEBE)
+??+0 (0xAEEC1BA)
+NCatboostCuda::TrainModelImpl(TTrainModelInternalOptions const&, NCatboostOptions::TCatBoostOptions const&, NCatboostOptions::TOutputFilesOptions const&, NCB::TProcessedDataProviderTemplate<NCB::TQuantizedObjectsDataProvider> const&, NCB::TProcessedDataProviderTemplate<NCB::TQuantizedObjectsDataProvider> const*, NCB::TFeatureEstimators const&, NCatboostCuda::TBinarizedFeaturesManager&, unsigned int, ITrainingCallbacks*, NPar::ILocalExecutor*, TVector<TVector<double, std::__y1::allocator<double> >, std::__y1::allocator<TVector<double, std::__y1::allocator<double> > > >*, TMetricsAndTimeLeftHistory*)+423 (0xADE26A7)
+NCatboostCuda::TGPUModelTrainer::TrainModel(TTrainModelInternalOptions const&, NCatboostOptions::TCatBoostOptions const&, NCatboostOptions::TOutputFilesOptions const&, TMaybe<TCustomObjectiveDescriptor, NMaybe::TPolicyUndefinedExcept> const&, TMaybe<TCustomMetricDescriptor, NMaybe::TPolicyUndefinedExcept> const&, NCB::TTrainingDataProviders, TMaybe<NCB::TPrecomputedOnlineCtrData, NMaybe::TPolicyUndefinedExcept>, TLabelConverter const&, ITrainingCallbacks*, ICustomCallbacks*, TMaybe<TFullModel*, NMaybe::TPolicyUndefinedExcept>, THolder<TLearnProgress, TDelete>, NCB::TDataProvidersTemplate<NCB::TObjectsDataProvider>, NPar::ILocalExecutor*, TMaybe<TRestorableFastRng64*, NMaybe::TPolicyUndefinedExcept>, TFullModel*, TVector<NCB::TEvalResult*, std::__y1::allocator<NCB::TEvalResult*> > const&, TMetricsAndTimeLeftHistory*, THolder<TLearnProgress, TDelete>*) const+4285 (0xADE51DD)
+??+0 (0xAB3DA52)
+TrainModel(NCatboostOptions::TPoolLoadParams const&, NCatboostOptions::TOutputFilesOptions const&, NJson::TJsonValue const&)+5438 (0xAB387CE)
+NCB::ModeFitImpl(int, char const**)+840 (0xC267778)
+PtrWrapper::operator()(int, char const**)+38 (0xB129F96)
+TModChooser::Run(int, char const**) const+2160 (0xB1281B0)
+main+3976 (0xAF28AC8)
+__libc_start_main+231 (0x7FD8F7633C87)
+??+0 (0xAA84029)
+
+(TCatBoostException) catboost/cuda/targets/querywise_targets_impl.h:314: Error: max query size supported on GPU is 1023, got 1251

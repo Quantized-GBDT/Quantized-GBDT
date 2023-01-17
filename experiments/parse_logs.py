@@ -105,7 +105,13 @@ def parse(log_dir, out_fname, num_seeds, algorithm, for_speed):
             out_file.write(f"& {bins} &")
             for data in datasets:
                 mean = np.mean(results[data][bins])
-                out_file.write(f" {mean:.6f} &")
+                if for_speed:
+                    if bins == "cat":
+                        out_file.write(f" {mean:.1f} &")
+                    else:
+                        out_file.write(f" {mean:.2f} &")
+                else:
+                    out_file.write(f" {mean:.6f} &")
             out_file.write("\n")
     with open(out_fname + ".std.tex", "w") as out_file:
         out_file.write(f"| algorithm |")
@@ -119,7 +125,10 @@ def parse(log_dir, out_fname, num_seeds, algorithm, for_speed):
             out_file.write(f"& {bins} &")
             for data in datasets:
                 std = np.std(results[data][bins])
-                out_file.write(f" {std:.6f} &")
+                if for_speed:
+                    out_file.write(f" {std:.2f} &")
+                else:
+                    out_file.write(f" {std:.6f} &")
             out_file.write("\n")
     with open(out_fname + ".tex", "w") as out_file:
         out_file.write(f"| algorithm |")
@@ -133,15 +142,19 @@ def parse(log_dir, out_fname, num_seeds, algorithm, for_speed):
             out_file.write(f"& {bins} &")
             for data in datasets:
                 mean = np.mean(results[data][bins])
-                out_file.write(f" {mean:.6f} &")
+                if for_speed:
+                    out_file.write(f" {mean:.2f} &")
+                else:
+                    out_file.write(f" {mean:.6f} &")
             out_file.write("\n")
             out_file.write(f"& {bins} &")
             for data in datasets:
                 std = np.std(results[data][bins])
-                std_str = f"{std:.6f}".lstrip('0')
-                out_file.write(f" $\pm{std_str}$ &")
+                if for_speed:
+                    out_file.write(f" $\pm {std:.2f}$ &")
+                else:
+                    out_file.write(f" $\pm {std:.6f}$ &")
             out_file.write("\n")
-
 
 
 if __name__ == "__main__":
