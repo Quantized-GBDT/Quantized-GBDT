@@ -1,0 +1,1883 @@
+[LightGBM] [Warning] learning_rate is set=0.015, learning_rate=0.1 will be ignored. Current value: learning_rate=0.015
+[LightGBM] [Warning] num_threads is set=24, num_threads=16 will be ignored. Current value: num_threads=24
+[LightGBM] [Warning] num_leaves is set=45, num_leaves=255 will be ignored. Current value: num_leaves=45
+[LightGBM] [Warning] device_type is set=cuda, device_type=cpu will be ignored. Current value: device_type=cuda
+[LightGBM] [Warning] use_discretized_grad is set=false, use_discretized_grad=true will be ignored. Current value: use_discretized_grad=false
+[LightGBM] [Warning] discretized_grad_renew is set=false, discretized_grad_renew=true will be ignored. Current value: discretized_grad_renew=false
+[LightGBM] [Warning] force_row_wise is set=false, force_row_wise=true will be ignored. Current value: force_row_wise=false
+[LightGBM] [Info] Finished loading parameters
+[LightGBM] [Debug] Loading train file...
+[LightGBM] [Debug] Read 10.0 GBs from /home/shiyu/boosting_tree_benchmarks/data/bosch.train.
+[LightGBM] [Debug] Read 20.0 GBs from /home/shiyu/boosting_tree_benchmarks/data/bosch.train.
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Construct bin mappers from text data time 29.79 seconds
+[LightGBM] [Debug] Loading validation file #1...
+[LightGBM] [Info] Finished loading data in 79.580894 seconds
+[LightGBM] [Info] Number of positive: 5828, number of negative: 994172
+[LightGBM] [Debug] Dataset::GetMultiBinFromAllFeatures: sparse rate 0.807294
+[LightGBM] [Info] Total Bins 119885
+[LightGBM] [Info] Number of data points in the train set: 1000000, number of used features: 968
+[LightGBM] [Debug] Number of data points in validation set #1: 183747
+[LightGBM] [Info] Finished initializing training
+[LightGBM] [Info] Started training...
+[LightGBM] [Warning] boost_from_score = -5.139236
+[LightGBM] [Warning] adding init score = -5.139236
+[LightGBM] [Warning] adding init score = -5.139236
+[LightGBM] [Info] Start training from score -5.139236
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:1, valid_1 auc : 0.672355
+[LightGBM] [Info] 0.056835 seconds elapsed, finished iteration 1
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:2, valid_1 auc : 0.678351
+[LightGBM] [Info] 0.130047 seconds elapsed, finished iteration 2
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:3, valid_1 auc : 0.678158
+[LightGBM] [Info] 0.187629 seconds elapsed, finished iteration 3
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:4, valid_1 auc : 0.681336
+[LightGBM] [Info] 0.241113 seconds elapsed, finished iteration 4
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:5, valid_1 auc : 0.681437
+[LightGBM] [Info] 0.292717 seconds elapsed, finished iteration 5
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:6, valid_1 auc : 0.682978
+[LightGBM] [Info] 0.343720 seconds elapsed, finished iteration 6
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:7, valid_1 auc : 0.683112
+[LightGBM] [Info] 0.395336 seconds elapsed, finished iteration 7
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:8, valid_1 auc : 0.684191
+[LightGBM] [Info] 0.448531 seconds elapsed, finished iteration 8
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:9, valid_1 auc : 0.685182
+[LightGBM] [Info] 0.506810 seconds elapsed, finished iteration 9
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:10, valid_1 auc : 0.685816
+[LightGBM] [Info] 0.558690 seconds elapsed, finished iteration 10
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:11, valid_1 auc : 0.686137
+[LightGBM] [Info] 0.610983 seconds elapsed, finished iteration 11
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:12, valid_1 auc : 0.686239
+[LightGBM] [Info] 0.667302 seconds elapsed, finished iteration 12
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:13, valid_1 auc : 0.687056
+[LightGBM] [Info] 0.722075 seconds elapsed, finished iteration 13
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:14, valid_1 auc : 0.687906
+[LightGBM] [Info] 0.773846 seconds elapsed, finished iteration 14
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:15, valid_1 auc : 0.687835
+[LightGBM] [Info] 0.826002 seconds elapsed, finished iteration 15
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:16, valid_1 auc : 0.688574
+[LightGBM] [Info] 0.877024 seconds elapsed, finished iteration 16
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:17, valid_1 auc : 0.688509
+[LightGBM] [Info] 0.932423 seconds elapsed, finished iteration 17
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:18, valid_1 auc : 0.688154
+[LightGBM] [Info] 0.985079 seconds elapsed, finished iteration 18
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:19, valid_1 auc : 0.68783
+[LightGBM] [Info] 1.037617 seconds elapsed, finished iteration 19
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:20, valid_1 auc : 0.687828
+[LightGBM] [Info] 1.091002 seconds elapsed, finished iteration 20
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:21, valid_1 auc : 0.687221
+[LightGBM] [Info] 1.143554 seconds elapsed, finished iteration 21
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:22, valid_1 auc : 0.686755
+[LightGBM] [Info] 1.194720 seconds elapsed, finished iteration 22
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:23, valid_1 auc : 0.686687
+[LightGBM] [Info] 1.248138 seconds elapsed, finished iteration 23
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:24, valid_1 auc : 0.686439
+[LightGBM] [Info] 1.298835 seconds elapsed, finished iteration 24
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:25, valid_1 auc : 0.686193
+[LightGBM] [Info] 1.355950 seconds elapsed, finished iteration 25
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:26, valid_1 auc : 0.686474
+[LightGBM] [Info] 1.408037 seconds elapsed, finished iteration 26
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:27, valid_1 auc : 0.685833
+[LightGBM] [Info] 1.476490 seconds elapsed, finished iteration 27
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:28, valid_1 auc : 0.685742
+[LightGBM] [Info] 1.539450 seconds elapsed, finished iteration 28
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:29, valid_1 auc : 0.685423
+[LightGBM] [Info] 1.596889 seconds elapsed, finished iteration 29
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:30, valid_1 auc : 0.68577
+[LightGBM] [Info] 1.648057 seconds elapsed, finished iteration 30
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:31, valid_1 auc : 0.685392
+[LightGBM] [Info] 1.703099 seconds elapsed, finished iteration 31
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:32, valid_1 auc : 0.685577
+[LightGBM] [Info] 1.756810 seconds elapsed, finished iteration 32
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:33, valid_1 auc : 0.685586
+[LightGBM] [Info] 1.812954 seconds elapsed, finished iteration 33
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:34, valid_1 auc : 0.685969
+[LightGBM] [Info] 1.865073 seconds elapsed, finished iteration 34
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:35, valid_1 auc : 0.686249
+[LightGBM] [Info] 1.917956 seconds elapsed, finished iteration 35
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:36, valid_1 auc : 0.686373
+[LightGBM] [Info] 1.975121 seconds elapsed, finished iteration 36
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:37, valid_1 auc : 0.686658
+[LightGBM] [Info] 2.026755 seconds elapsed, finished iteration 37
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:38, valid_1 auc : 0.686854
+[LightGBM] [Info] 2.078812 seconds elapsed, finished iteration 38
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:39, valid_1 auc : 0.687026
+[LightGBM] [Info] 2.131534 seconds elapsed, finished iteration 39
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:40, valid_1 auc : 0.687047
+[LightGBM] [Info] 2.185400 seconds elapsed, finished iteration 40
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:41, valid_1 auc : 0.687108
+[LightGBM] [Info] 2.240060 seconds elapsed, finished iteration 41
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:42, valid_1 auc : 0.687103
+[LightGBM] [Info] 2.292884 seconds elapsed, finished iteration 42
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:43, valid_1 auc : 0.687068
+[LightGBM] [Info] 2.346187 seconds elapsed, finished iteration 43
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:44, valid_1 auc : 0.68723
+[LightGBM] [Info] 2.399212 seconds elapsed, finished iteration 44
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:45, valid_1 auc : 0.687536
+[LightGBM] [Info] 2.451714 seconds elapsed, finished iteration 45
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:46, valid_1 auc : 0.68752
+[LightGBM] [Info] 2.504264 seconds elapsed, finished iteration 46
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:47, valid_1 auc : 0.687605
+[LightGBM] [Info] 2.556726 seconds elapsed, finished iteration 47
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:48, valid_1 auc : 0.687723
+[LightGBM] [Info] 2.608440 seconds elapsed, finished iteration 48
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:49, valid_1 auc : 0.687893
+[LightGBM] [Info] 2.662261 seconds elapsed, finished iteration 49
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:50, valid_1 auc : 0.68818
+[LightGBM] [Info] 2.713855 seconds elapsed, finished iteration 50
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:51, valid_1 auc : 0.688151
+[LightGBM] [Info] 2.761726 seconds elapsed, finished iteration 51
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:52, valid_1 auc : 0.688003
+[LightGBM] [Info] 2.813046 seconds elapsed, finished iteration 52
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:53, valid_1 auc : 0.688012
+[LightGBM] [Info] 2.861174 seconds elapsed, finished iteration 53
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:54, valid_1 auc : 0.688025
+[LightGBM] [Info] 2.909962 seconds elapsed, finished iteration 54
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:55, valid_1 auc : 0.688132
+[LightGBM] [Info] 2.961271 seconds elapsed, finished iteration 55
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:56, valid_1 auc : 0.688121
+[LightGBM] [Info] 3.013490 seconds elapsed, finished iteration 56
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:57, valid_1 auc : 0.688191
+[LightGBM] [Info] 3.070367 seconds elapsed, finished iteration 57
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:58, valid_1 auc : 0.68826
+[LightGBM] [Info] 3.118894 seconds elapsed, finished iteration 58
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:59, valid_1 auc : 0.688147
+[LightGBM] [Info] 3.188200 seconds elapsed, finished iteration 59
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:60, valid_1 auc : 0.688178
+[LightGBM] [Info] 3.252336 seconds elapsed, finished iteration 60
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:61, valid_1 auc : 0.688273
+[LightGBM] [Info] 3.318567 seconds elapsed, finished iteration 61
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:62, valid_1 auc : 0.688274
+[LightGBM] [Info] 3.374264 seconds elapsed, finished iteration 62
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:63, valid_1 auc : 0.688383
+[LightGBM] [Info] 3.439986 seconds elapsed, finished iteration 63
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:64, valid_1 auc : 0.688479
+[LightGBM] [Info] 3.507644 seconds elapsed, finished iteration 64
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:65, valid_1 auc : 0.688398
+[LightGBM] [Info] 3.561597 seconds elapsed, finished iteration 65
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:66, valid_1 auc : 0.688395
+[LightGBM] [Info] 3.615980 seconds elapsed, finished iteration 66
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:67, valid_1 auc : 0.688499
+[LightGBM] [Info] 3.669078 seconds elapsed, finished iteration 67
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:68, valid_1 auc : 0.688499
+[LightGBM] [Info] 3.719967 seconds elapsed, finished iteration 68
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:69, valid_1 auc : 0.688502
+[LightGBM] [Info] 3.770324 seconds elapsed, finished iteration 69
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:70, valid_1 auc : 0.688419
+[LightGBM] [Info] 3.819907 seconds elapsed, finished iteration 70
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:71, valid_1 auc : 0.688596
+[LightGBM] [Info] 3.892209 seconds elapsed, finished iteration 71
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:72, valid_1 auc : 0.688751
+[LightGBM] [Info] 3.960915 seconds elapsed, finished iteration 72
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:73, valid_1 auc : 0.688662
+[LightGBM] [Info] 4.026012 seconds elapsed, finished iteration 73
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:74, valid_1 auc : 0.688904
+[LightGBM] [Info] 4.091562 seconds elapsed, finished iteration 74
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:75, valid_1 auc : 0.689025
+[LightGBM] [Info] 4.157994 seconds elapsed, finished iteration 75
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:76, valid_1 auc : 0.689202
+[LightGBM] [Info] 4.226575 seconds elapsed, finished iteration 76
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:77, valid_1 auc : 0.689072
+[LightGBM] [Info] 4.291913 seconds elapsed, finished iteration 77
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:78, valid_1 auc : 0.689023
+[LightGBM] [Info] 4.341312 seconds elapsed, finished iteration 78
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:79, valid_1 auc : 0.689066
+[LightGBM] [Info] 4.397351 seconds elapsed, finished iteration 79
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:80, valid_1 auc : 0.689248
+[LightGBM] [Info] 4.446385 seconds elapsed, finished iteration 80
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:81, valid_1 auc : 0.689393
+[LightGBM] [Info] 4.496877 seconds elapsed, finished iteration 81
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:82, valid_1 auc : 0.689515
+[LightGBM] [Info] 4.543947 seconds elapsed, finished iteration 82
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:83, valid_1 auc : 0.689498
+[LightGBM] [Info] 4.594263 seconds elapsed, finished iteration 83
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:84, valid_1 auc : 0.689563
+[LightGBM] [Info] 4.642738 seconds elapsed, finished iteration 84
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:85, valid_1 auc : 0.689679
+[LightGBM] [Info] 4.692689 seconds elapsed, finished iteration 85
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:86, valid_1 auc : 0.689837
+[LightGBM] [Info] 4.743468 seconds elapsed, finished iteration 86
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:87, valid_1 auc : 0.68993
+[LightGBM] [Info] 4.799366 seconds elapsed, finished iteration 87
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:88, valid_1 auc : 0.69005
+[LightGBM] [Info] 4.847984 seconds elapsed, finished iteration 88
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:89, valid_1 auc : 0.690188
+[LightGBM] [Info] 4.896805 seconds elapsed, finished iteration 89
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:90, valid_1 auc : 0.690223
+[LightGBM] [Info] 4.945197 seconds elapsed, finished iteration 90
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:91, valid_1 auc : 0.690297
+[LightGBM] [Info] 4.995962 seconds elapsed, finished iteration 91
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:92, valid_1 auc : 0.690346
+[LightGBM] [Info] 5.045701 seconds elapsed, finished iteration 92
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:93, valid_1 auc : 0.690327
+[LightGBM] [Info] 5.097010 seconds elapsed, finished iteration 93
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:94, valid_1 auc : 0.690343
+[LightGBM] [Info] 5.148599 seconds elapsed, finished iteration 94
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:95, valid_1 auc : 0.690449
+[LightGBM] [Info] 5.202473 seconds elapsed, finished iteration 95
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:96, valid_1 auc : 0.690495
+[LightGBM] [Info] 5.255500 seconds elapsed, finished iteration 96
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:97, valid_1 auc : 0.690514
+[LightGBM] [Info] 5.313878 seconds elapsed, finished iteration 97
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:98, valid_1 auc : 0.690515
+[LightGBM] [Info] 5.364182 seconds elapsed, finished iteration 98
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:99, valid_1 auc : 0.690603
+[LightGBM] [Info] 5.415312 seconds elapsed, finished iteration 99
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:100, valid_1 auc : 0.69068
+[LightGBM] [Info] 5.464060 seconds elapsed, finished iteration 100
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:101, valid_1 auc : 0.690704
+[LightGBM] [Info] 5.514639 seconds elapsed, finished iteration 101
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:102, valid_1 auc : 0.690781
+[LightGBM] [Info] 5.563626 seconds elapsed, finished iteration 102
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:103, valid_1 auc : 0.690807
+[LightGBM] [Info] 5.617368 seconds elapsed, finished iteration 103
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:104, valid_1 auc : 0.690775
+[LightGBM] [Info] 5.668256 seconds elapsed, finished iteration 104
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:105, valid_1 auc : 0.690753
+[LightGBM] [Info] 5.724825 seconds elapsed, finished iteration 105
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:106, valid_1 auc : 0.690896
+[LightGBM] [Info] 5.776323 seconds elapsed, finished iteration 106
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:107, valid_1 auc : 0.690985
+[LightGBM] [Info] 5.823962 seconds elapsed, finished iteration 107
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:108, valid_1 auc : 0.69106
+[LightGBM] [Info] 5.871671 seconds elapsed, finished iteration 108
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:109, valid_1 auc : 0.691172
+[LightGBM] [Info] 5.920401 seconds elapsed, finished iteration 109
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:110, valid_1 auc : 0.691253
+[LightGBM] [Info] 5.968526 seconds elapsed, finished iteration 110
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:111, valid_1 auc : 0.691338
+[LightGBM] [Info] 6.016052 seconds elapsed, finished iteration 111
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:112, valid_1 auc : 0.691326
+[LightGBM] [Info] 6.072687 seconds elapsed, finished iteration 112
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:113, valid_1 auc : 0.691467
+[LightGBM] [Info] 6.121977 seconds elapsed, finished iteration 113
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:114, valid_1 auc : 0.691597
+[LightGBM] [Info] 6.170538 seconds elapsed, finished iteration 114
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:115, valid_1 auc : 0.691654
+[LightGBM] [Info] 6.224408 seconds elapsed, finished iteration 115
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:116, valid_1 auc : 0.691756
+[LightGBM] [Info] 6.272430 seconds elapsed, finished iteration 116
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:117, valid_1 auc : 0.691839
+[LightGBM] [Info] 6.319585 seconds elapsed, finished iteration 117
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:118, valid_1 auc : 0.69196
+[LightGBM] [Info] 6.387879 seconds elapsed, finished iteration 118
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:119, valid_1 auc : 0.691966
+[LightGBM] [Info] 6.436204 seconds elapsed, finished iteration 119
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:120, valid_1 auc : 0.692065
+[LightGBM] [Info] 6.483846 seconds elapsed, finished iteration 120
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:121, valid_1 auc : 0.692227
+[LightGBM] [Info] 6.541808 seconds elapsed, finished iteration 121
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:122, valid_1 auc : 0.692214
+[LightGBM] [Info] 6.599317 seconds elapsed, finished iteration 122
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:123, valid_1 auc : 0.692285
+[LightGBM] [Info] 6.649614 seconds elapsed, finished iteration 123
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:124, valid_1 auc : 0.69237
+[LightGBM] [Info] 6.697979 seconds elapsed, finished iteration 124
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:125, valid_1 auc : 0.692337
+[LightGBM] [Info] 6.747923 seconds elapsed, finished iteration 125
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:126, valid_1 auc : 0.692319
+[LightGBM] [Info] 6.798228 seconds elapsed, finished iteration 126
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:127, valid_1 auc : 0.692257
+[LightGBM] [Info] 6.850348 seconds elapsed, finished iteration 127
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:128, valid_1 auc : 0.692483
+[LightGBM] [Info] 6.902237 seconds elapsed, finished iteration 128
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:129, valid_1 auc : 0.692661
+[LightGBM] [Info] 6.953473 seconds elapsed, finished iteration 129
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:130, valid_1 auc : 0.692798
+[LightGBM] [Info] 7.007572 seconds elapsed, finished iteration 130
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:131, valid_1 auc : 0.692975
+[LightGBM] [Info] 7.060285 seconds elapsed, finished iteration 131
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:132, valid_1 auc : 0.693103
+[LightGBM] [Info] 7.112209 seconds elapsed, finished iteration 132
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:133, valid_1 auc : 0.693378
+[LightGBM] [Info] 7.164258 seconds elapsed, finished iteration 133
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:134, valid_1 auc : 0.693464
+[LightGBM] [Info] 7.212001 seconds elapsed, finished iteration 134
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:135, valid_1 auc : 0.693529
+[LightGBM] [Info] 7.263620 seconds elapsed, finished iteration 135
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:136, valid_1 auc : 0.693625
+[LightGBM] [Info] 7.311944 seconds elapsed, finished iteration 136
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:137, valid_1 auc : 0.693765
+[LightGBM] [Info] 7.383425 seconds elapsed, finished iteration 137
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:138, valid_1 auc : 0.693743
+[LightGBM] [Info] 7.430875 seconds elapsed, finished iteration 138
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:139, valid_1 auc : 0.693852
+[LightGBM] [Info] 7.481423 seconds elapsed, finished iteration 139
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:140, valid_1 auc : 0.693831
+[LightGBM] [Info] 7.528272 seconds elapsed, finished iteration 140
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:141, valid_1 auc : 0.693877
+[LightGBM] [Info] 7.577958 seconds elapsed, finished iteration 141
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:142, valid_1 auc : 0.694042
+[LightGBM] [Info] 7.626601 seconds elapsed, finished iteration 142
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:143, valid_1 auc : 0.694197
+[LightGBM] [Info] 7.674849 seconds elapsed, finished iteration 143
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:144, valid_1 auc : 0.694243
+[LightGBM] [Info] 7.727094 seconds elapsed, finished iteration 144
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:145, valid_1 auc : 0.694326
+[LightGBM] [Info] 7.776619 seconds elapsed, finished iteration 145
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:146, valid_1 auc : 0.694368
+[LightGBM] [Info] 7.825801 seconds elapsed, finished iteration 146
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:147, valid_1 auc : 0.69445
+[LightGBM] [Info] 7.873169 seconds elapsed, finished iteration 147
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:148, valid_1 auc : 0.694426
+[LightGBM] [Info] 7.921141 seconds elapsed, finished iteration 148
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:149, valid_1 auc : 0.694491
+[LightGBM] [Info] 7.969321 seconds elapsed, finished iteration 149
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:150, valid_1 auc : 0.694648
+[LightGBM] [Info] 8.022115 seconds elapsed, finished iteration 150
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:151, valid_1 auc : 0.694728
+[LightGBM] [Info] 8.070318 seconds elapsed, finished iteration 151
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:152, valid_1 auc : 0.694807
+[LightGBM] [Info] 8.117912 seconds elapsed, finished iteration 152
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:153, valid_1 auc : 0.694868
+[LightGBM] [Info] 8.166183 seconds elapsed, finished iteration 153
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:154, valid_1 auc : 0.694937
+[LightGBM] [Info] 8.214825 seconds elapsed, finished iteration 154
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:155, valid_1 auc : 0.694955
+[LightGBM] [Info] 8.268736 seconds elapsed, finished iteration 155
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:156, valid_1 auc : 0.694962
+[LightGBM] [Info] 8.318350 seconds elapsed, finished iteration 156
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:157, valid_1 auc : 0.695094
+[LightGBM] [Info] 8.367311 seconds elapsed, finished iteration 157
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:158, valid_1 auc : 0.695182
+[LightGBM] [Info] 8.416301 seconds elapsed, finished iteration 158
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:159, valid_1 auc : 0.695433
+[LightGBM] [Info] 8.467331 seconds elapsed, finished iteration 159
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:160, valid_1 auc : 0.695504
+[LightGBM] [Info] 8.518349 seconds elapsed, finished iteration 160
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:161, valid_1 auc : 0.695553
+[LightGBM] [Info] 8.567493 seconds elapsed, finished iteration 161
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:162, valid_1 auc : 0.695691
+[LightGBM] [Info] 8.616426 seconds elapsed, finished iteration 162
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:163, valid_1 auc : 0.695773
+[LightGBM] [Info] 8.664360 seconds elapsed, finished iteration 163
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:164, valid_1 auc : 0.695813
+[LightGBM] [Info] 8.718016 seconds elapsed, finished iteration 164
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:165, valid_1 auc : 0.695914
+[LightGBM] [Info] 8.766569 seconds elapsed, finished iteration 165
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:166, valid_1 auc : 0.695954
+[LightGBM] [Info] 8.813748 seconds elapsed, finished iteration 166
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:167, valid_1 auc : 0.696069
+[LightGBM] [Info] 8.862685 seconds elapsed, finished iteration 167
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:168, valid_1 auc : 0.69608
+[LightGBM] [Info] 8.911370 seconds elapsed, finished iteration 168
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:169, valid_1 auc : 0.696076
+[LightGBM] [Info] 8.958697 seconds elapsed, finished iteration 169
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:170, valid_1 auc : 0.696216
+[LightGBM] [Info] 9.005380 seconds elapsed, finished iteration 170
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:171, valid_1 auc : 0.696364
+[LightGBM] [Info] 9.053378 seconds elapsed, finished iteration 171
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:172, valid_1 auc : 0.69643
+[LightGBM] [Info] 9.101524 seconds elapsed, finished iteration 172
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:173, valid_1 auc : 0.696489
+[LightGBM] [Info] 9.149480 seconds elapsed, finished iteration 173
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:174, valid_1 auc : 0.696547
+[LightGBM] [Info] 9.201370 seconds elapsed, finished iteration 174
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:175, valid_1 auc : 0.696519
+[LightGBM] [Info] 9.250203 seconds elapsed, finished iteration 175
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:176, valid_1 auc : 0.696428
+[LightGBM] [Info] 9.300184 seconds elapsed, finished iteration 176
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:177, valid_1 auc : 0.696465
+[LightGBM] [Info] 9.346908 seconds elapsed, finished iteration 177
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:178, valid_1 auc : 0.696437
+[LightGBM] [Info] 9.395466 seconds elapsed, finished iteration 178
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:179, valid_1 auc : 0.696538
+[LightGBM] [Info] 9.445087 seconds elapsed, finished iteration 179
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:180, valid_1 auc : 0.696554
+[LightGBM] [Info] 9.492081 seconds elapsed, finished iteration 180
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:181, valid_1 auc : 0.696566
+[LightGBM] [Info] 9.542042 seconds elapsed, finished iteration 181
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:182, valid_1 auc : 0.696577
+[LightGBM] [Info] 9.614078 seconds elapsed, finished iteration 182
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:183, valid_1 auc : 0.696553
+[LightGBM] [Info] 9.666001 seconds elapsed, finished iteration 183
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:184, valid_1 auc : 0.696634
+[LightGBM] [Info] 9.715081 seconds elapsed, finished iteration 184
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:185, valid_1 auc : 0.696746
+[LightGBM] [Info] 9.768711 seconds elapsed, finished iteration 185
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:186, valid_1 auc : 0.696781
+[LightGBM] [Info] 9.816804 seconds elapsed, finished iteration 186
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:187, valid_1 auc : 0.696896
+[LightGBM] [Info] 9.865475 seconds elapsed, finished iteration 187
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:188, valid_1 auc : 0.697018
+[LightGBM] [Info] 9.917259 seconds elapsed, finished iteration 188
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:189, valid_1 auc : 0.697191
+[LightGBM] [Info] 9.967288 seconds elapsed, finished iteration 189
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:190, valid_1 auc : 0.697203
+[LightGBM] [Info] 10.013946 seconds elapsed, finished iteration 190
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:191, valid_1 auc : 0.697369
+[LightGBM] [Info] 10.065854 seconds elapsed, finished iteration 191
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:192, valid_1 auc : 0.697478
+[LightGBM] [Info] 10.114469 seconds elapsed, finished iteration 192
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:193, valid_1 auc : 0.697506
+[LightGBM] [Info] 10.163714 seconds elapsed, finished iteration 193
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:194, valid_1 auc : 0.697536
+[LightGBM] [Info] 10.211615 seconds elapsed, finished iteration 194
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:195, valid_1 auc : 0.697623
+[LightGBM] [Info] 10.261496 seconds elapsed, finished iteration 195
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:196, valid_1 auc : 0.697698
+[LightGBM] [Info] 10.311996 seconds elapsed, finished iteration 196
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:197, valid_1 auc : 0.697741
+[LightGBM] [Info] 10.360085 seconds elapsed, finished iteration 197
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:198, valid_1 auc : 0.697876
+[LightGBM] [Info] 10.408872 seconds elapsed, finished iteration 198
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:199, valid_1 auc : 0.697971
+[LightGBM] [Info] 10.455408 seconds elapsed, finished iteration 199
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:200, valid_1 auc : 0.697994
+[LightGBM] [Info] 10.507022 seconds elapsed, finished iteration 200
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:201, valid_1 auc : 0.698125
+[LightGBM] [Info] 10.559562 seconds elapsed, finished iteration 201
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:202, valid_1 auc : 0.698053
+[LightGBM] [Info] 10.612573 seconds elapsed, finished iteration 202
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:203, valid_1 auc : 0.698154
+[LightGBM] [Info] 10.660221 seconds elapsed, finished iteration 203
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:204, valid_1 auc : 0.698198
+[LightGBM] [Info] 10.707333 seconds elapsed, finished iteration 204
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:205, valid_1 auc : 0.698252
+[LightGBM] [Info] 10.755787 seconds elapsed, finished iteration 205
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:206, valid_1 auc : 0.698336
+[LightGBM] [Info] 10.806122 seconds elapsed, finished iteration 206
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:207, valid_1 auc : 0.698336
+[LightGBM] [Info] 10.856923 seconds elapsed, finished iteration 207
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:208, valid_1 auc : 0.698397
+[LightGBM] [Info] 10.904498 seconds elapsed, finished iteration 208
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:209, valid_1 auc : 0.698461
+[LightGBM] [Info] 10.952600 seconds elapsed, finished iteration 209
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:210, valid_1 auc : 0.698492
+[LightGBM] [Info] 11.002137 seconds elapsed, finished iteration 210
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:211, valid_1 auc : 0.698565
+[LightGBM] [Info] 11.051838 seconds elapsed, finished iteration 211
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:212, valid_1 auc : 0.698598
+[LightGBM] [Info] 11.099447 seconds elapsed, finished iteration 212
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:213, valid_1 auc : 0.698667
+[LightGBM] [Info] 11.149043 seconds elapsed, finished iteration 213
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:214, valid_1 auc : 0.698787
+[LightGBM] [Info] 11.196416 seconds elapsed, finished iteration 214
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:215, valid_1 auc : 0.69888
+[LightGBM] [Info] 11.249927 seconds elapsed, finished iteration 215
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:216, valid_1 auc : 0.699009
+[LightGBM] [Info] 11.298461 seconds elapsed, finished iteration 216
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:217, valid_1 auc : 0.69907
+[LightGBM] [Info] 11.348713 seconds elapsed, finished iteration 217
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:218, valid_1 auc : 0.699074
+[LightGBM] [Info] 11.396025 seconds elapsed, finished iteration 218
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:219, valid_1 auc : 0.699118
+[LightGBM] [Info] 11.444179 seconds elapsed, finished iteration 219
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:220, valid_1 auc : 0.699187
+[LightGBM] [Info] 11.492226 seconds elapsed, finished iteration 220
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:221, valid_1 auc : 0.699323
+[LightGBM] [Info] 11.540453 seconds elapsed, finished iteration 221
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:222, valid_1 auc : 0.699418
+[LightGBM] [Info] 11.591858 seconds elapsed, finished iteration 222
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:223, valid_1 auc : 0.699532
+[LightGBM] [Info] 11.642654 seconds elapsed, finished iteration 223
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:224, valid_1 auc : 0.699612
+[LightGBM] [Info] 11.693887 seconds elapsed, finished iteration 224
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:225, valid_1 auc : 0.699695
+[LightGBM] [Info] 11.744484 seconds elapsed, finished iteration 225
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:226, valid_1 auc : 0.699764
+[LightGBM] [Info] 11.791796 seconds elapsed, finished iteration 226
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:227, valid_1 auc : 0.699831
+[LightGBM] [Info] 11.841216 seconds elapsed, finished iteration 227
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:228, valid_1 auc : 0.699768
+[LightGBM] [Info] 11.889282 seconds elapsed, finished iteration 228
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:229, valid_1 auc : 0.7
+[LightGBM] [Info] 11.936759 seconds elapsed, finished iteration 229
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:230, valid_1 auc : 0.700109
+[LightGBM] [Info] 11.984697 seconds elapsed, finished iteration 230
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:231, valid_1 auc : 0.700091
+[LightGBM] [Info] 12.035070 seconds elapsed, finished iteration 231
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:232, valid_1 auc : 0.70016
+[LightGBM] [Info] 12.086396 seconds elapsed, finished iteration 232
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:233, valid_1 auc : 0.700097
+[LightGBM] [Info] 12.134337 seconds elapsed, finished iteration 233
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:234, valid_1 auc : 0.700141
+[LightGBM] [Info] 12.186086 seconds elapsed, finished iteration 234
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:235, valid_1 auc : 0.700129
+[LightGBM] [Info] 12.233611 seconds elapsed, finished iteration 235
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:236, valid_1 auc : 0.700093
+[LightGBM] [Info] 12.288119 seconds elapsed, finished iteration 236
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:237, valid_1 auc : 0.700251
+[LightGBM] [Info] 12.336687 seconds elapsed, finished iteration 237
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:238, valid_1 auc : 0.70028
+[LightGBM] [Info] 12.382834 seconds elapsed, finished iteration 238
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:239, valid_1 auc : 0.700319
+[LightGBM] [Info] 12.431842 seconds elapsed, finished iteration 239
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:240, valid_1 auc : 0.700444
+[LightGBM] [Info] 12.480250 seconds elapsed, finished iteration 240
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:241, valid_1 auc : 0.700509
+[LightGBM] [Info] 12.527862 seconds elapsed, finished iteration 241
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:242, valid_1 auc : 0.700451
+[LightGBM] [Info] 12.580538 seconds elapsed, finished iteration 242
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:243, valid_1 auc : 0.700482
+[LightGBM] [Info] 12.627813 seconds elapsed, finished iteration 243
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:244, valid_1 auc : 0.70056
+[LightGBM] [Info] 12.674185 seconds elapsed, finished iteration 244
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:245, valid_1 auc : 0.700638
+[LightGBM] [Info] 12.720850 seconds elapsed, finished iteration 245
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:246, valid_1 auc : 0.7006
+[LightGBM] [Info] 12.766809 seconds elapsed, finished iteration 246
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:247, valid_1 auc : 0.700545
+[LightGBM] [Info] 12.815293 seconds elapsed, finished iteration 247
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:248, valid_1 auc : 0.700616
+[LightGBM] [Info] 12.877308 seconds elapsed, finished iteration 248
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:249, valid_1 auc : 0.700642
+[LightGBM] [Info] 12.931438 seconds elapsed, finished iteration 249
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:250, valid_1 auc : 0.700708
+[LightGBM] [Info] 12.989734 seconds elapsed, finished iteration 250
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:251, valid_1 auc : 0.700756
+[LightGBM] [Info] 13.038773 seconds elapsed, finished iteration 251
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:252, valid_1 auc : 0.700687
+[LightGBM] [Info] 13.086739 seconds elapsed, finished iteration 252
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:253, valid_1 auc : 0.700666
+[LightGBM] [Info] 13.134845 seconds elapsed, finished iteration 253
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:254, valid_1 auc : 0.700646
+[LightGBM] [Info] 13.181720 seconds elapsed, finished iteration 254
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:255, valid_1 auc : 0.700712
+[LightGBM] [Info] 13.228549 seconds elapsed, finished iteration 255
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:256, valid_1 auc : 0.700836
+[LightGBM] [Info] 13.276139 seconds elapsed, finished iteration 256
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:257, valid_1 auc : 0.700826
+[LightGBM] [Info] 13.326904 seconds elapsed, finished iteration 257
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:258, valid_1 auc : 0.700816
+[LightGBM] [Info] 13.376392 seconds elapsed, finished iteration 258
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:259, valid_1 auc : 0.700853
+[LightGBM] [Info] 13.423363 seconds elapsed, finished iteration 259
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:260, valid_1 auc : 0.701022
+[LightGBM] [Info] 13.471489 seconds elapsed, finished iteration 260
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:261, valid_1 auc : 0.700978
+[LightGBM] [Info] 13.518942 seconds elapsed, finished iteration 261
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:262, valid_1 auc : 0.701137
+[LightGBM] [Info] 13.566633 seconds elapsed, finished iteration 262
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:263, valid_1 auc : 0.701165
+[LightGBM] [Info] 13.615278 seconds elapsed, finished iteration 263
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:264, valid_1 auc : 0.701172
+[LightGBM] [Info] 13.664566 seconds elapsed, finished iteration 264
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:265, valid_1 auc : 0.701258
+[LightGBM] [Info] 13.714323 seconds elapsed, finished iteration 265
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:266, valid_1 auc : 0.701366
+[LightGBM] [Info] 13.761647 seconds elapsed, finished iteration 266
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:267, valid_1 auc : 0.701378
+[LightGBM] [Info] 13.813525 seconds elapsed, finished iteration 267
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:268, valid_1 auc : 0.701297
+[LightGBM] [Info] 13.864671 seconds elapsed, finished iteration 268
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:269, valid_1 auc : 0.701397
+[LightGBM] [Info] 13.913756 seconds elapsed, finished iteration 269
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:270, valid_1 auc : 0.701313
+[LightGBM] [Info] 13.962005 seconds elapsed, finished iteration 270
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:271, valid_1 auc : 0.701343
+[LightGBM] [Info] 14.008634 seconds elapsed, finished iteration 271
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:272, valid_1 auc : 0.701313
+[LightGBM] [Info] 14.056550 seconds elapsed, finished iteration 272
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:273, valid_1 auc : 0.701436
+[LightGBM] [Info] 14.105017 seconds elapsed, finished iteration 273
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:274, valid_1 auc : 0.701612
+[LightGBM] [Info] 14.154424 seconds elapsed, finished iteration 274
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:275, valid_1 auc : 0.701688
+[LightGBM] [Info] 14.199788 seconds elapsed, finished iteration 275
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:276, valid_1 auc : 0.701792
+[LightGBM] [Info] 14.247956 seconds elapsed, finished iteration 276
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:277, valid_1 auc : 0.701779
+[LightGBM] [Info] 14.297458 seconds elapsed, finished iteration 277
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:278, valid_1 auc : 0.70181
+[LightGBM] [Info] 14.347966 seconds elapsed, finished iteration 278
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:279, valid_1 auc : 0.701792
+[LightGBM] [Info] 14.396470 seconds elapsed, finished iteration 279
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:280, valid_1 auc : 0.701769
+[LightGBM] [Info] 14.443669 seconds elapsed, finished iteration 280
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:281, valid_1 auc : 0.701774
+[LightGBM] [Info] 14.488526 seconds elapsed, finished iteration 281
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:282, valid_1 auc : 0.701778
+[LightGBM] [Info] 14.535889 seconds elapsed, finished iteration 282
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:283, valid_1 auc : 0.701757
+[LightGBM] [Info] 14.582168 seconds elapsed, finished iteration 283
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:284, valid_1 auc : 0.701859
+[LightGBM] [Info] 14.628476 seconds elapsed, finished iteration 284
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:285, valid_1 auc : 0.701847
+[LightGBM] [Info] 14.676950 seconds elapsed, finished iteration 285
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:286, valid_1 auc : 0.701818
+[LightGBM] [Info] 14.724990 seconds elapsed, finished iteration 286
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:287, valid_1 auc : 0.701813
+[LightGBM] [Info] 14.774909 seconds elapsed, finished iteration 287
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:288, valid_1 auc : 0.701869
+[LightGBM] [Info] 14.822517 seconds elapsed, finished iteration 288
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:289, valid_1 auc : 0.701875
+[LightGBM] [Info] 14.871465 seconds elapsed, finished iteration 289
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:290, valid_1 auc : 0.701887
+[LightGBM] [Info] 14.918130 seconds elapsed, finished iteration 290
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:291, valid_1 auc : 0.701885
+[LightGBM] [Info] 14.966100 seconds elapsed, finished iteration 291
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:292, valid_1 auc : 0.701896
+[LightGBM] [Info] 15.013431 seconds elapsed, finished iteration 292
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:293, valid_1 auc : 0.701839
+[LightGBM] [Info] 15.063539 seconds elapsed, finished iteration 293
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:294, valid_1 auc : 0.701668
+[LightGBM] [Info] 15.110153 seconds elapsed, finished iteration 294
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:295, valid_1 auc : 0.701649
+[LightGBM] [Info] 15.157304 seconds elapsed, finished iteration 295
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:296, valid_1 auc : 0.701639
+[LightGBM] [Info] 15.205016 seconds elapsed, finished iteration 296
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:297, valid_1 auc : 0.701554
+[LightGBM] [Info] 15.255315 seconds elapsed, finished iteration 297
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:298, valid_1 auc : 0.701605
+[LightGBM] [Info] 15.302632 seconds elapsed, finished iteration 298
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:299, valid_1 auc : 0.701586
+[LightGBM] [Info] 15.352020 seconds elapsed, finished iteration 299
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:300, valid_1 auc : 0.701653
+[LightGBM] [Info] 15.399374 seconds elapsed, finished iteration 300
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:301, valid_1 auc : 0.701506
+[LightGBM] [Info] 15.445600 seconds elapsed, finished iteration 301
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 40 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 40
+[LightGBM] [Info] Iteration:302, valid_1 auc : 0.701503
+[LightGBM] [Info] 15.490452 seconds elapsed, finished iteration 302
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:303, valid_1 auc : 0.701547
+[LightGBM] [Info] 15.539911 seconds elapsed, finished iteration 303
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:304, valid_1 auc : 0.701428
+[LightGBM] [Info] 15.609229 seconds elapsed, finished iteration 304
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:305, valid_1 auc : 0.701403
+[LightGBM] [Info] 15.658201 seconds elapsed, finished iteration 305
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:306, valid_1 auc : 0.701452
+[LightGBM] [Info] 15.705721 seconds elapsed, finished iteration 306
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:307, valid_1 auc : 0.701534
+[LightGBM] [Info] 15.753417 seconds elapsed, finished iteration 307
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:308, valid_1 auc : 0.70152
+[LightGBM] [Info] 15.801090 seconds elapsed, finished iteration 308
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:309, valid_1 auc : 0.701577
+[LightGBM] [Info] 15.847142 seconds elapsed, finished iteration 309
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:310, valid_1 auc : 0.701491
+[LightGBM] [Info] 15.894121 seconds elapsed, finished iteration 310
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:311, valid_1 auc : 0.701403
+[LightGBM] [Info] 15.942628 seconds elapsed, finished iteration 311
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:312, valid_1 auc : 0.701432
+[LightGBM] [Info] 15.994788 seconds elapsed, finished iteration 312
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:313, valid_1 auc : 0.701407
+[LightGBM] [Info] 16.042962 seconds elapsed, finished iteration 313
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:314, valid_1 auc : 0.701352
+[LightGBM] [Info] 16.107921 seconds elapsed, finished iteration 314
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:315, valid_1 auc : 0.701405
+[LightGBM] [Info] 16.163488 seconds elapsed, finished iteration 315
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:316, valid_1 auc : 0.70135
+[LightGBM] [Info] 16.227446 seconds elapsed, finished iteration 316
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:317, valid_1 auc : 0.70144
+[LightGBM] [Info] 16.280251 seconds elapsed, finished iteration 317
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:318, valid_1 auc : 0.70147
+[LightGBM] [Info] 16.327771 seconds elapsed, finished iteration 318
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:319, valid_1 auc : 0.701483
+[LightGBM] [Info] 16.378544 seconds elapsed, finished iteration 319
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:320, valid_1 auc : 0.70162
+[LightGBM] [Info] 16.424845 seconds elapsed, finished iteration 320
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:321, valid_1 auc : 0.701651
+[LightGBM] [Info] 16.471568 seconds elapsed, finished iteration 321
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:322, valid_1 auc : 0.701692
+[LightGBM] [Info] 16.518335 seconds elapsed, finished iteration 322
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:323, valid_1 auc : 0.701611
+[LightGBM] [Info] 16.567081 seconds elapsed, finished iteration 323
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:324, valid_1 auc : 0.701661
+[LightGBM] [Info] 16.615643 seconds elapsed, finished iteration 324
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:325, valid_1 auc : 0.701653
+[LightGBM] [Info] 16.664126 seconds elapsed, finished iteration 325
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:326, valid_1 auc : 0.70163
+[LightGBM] [Info] 16.712369 seconds elapsed, finished iteration 326
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:327, valid_1 auc : 0.70156
+[LightGBM] [Info] 16.771589 seconds elapsed, finished iteration 327
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:328, valid_1 auc : 0.70155
+[LightGBM] [Info] 16.823548 seconds elapsed, finished iteration 328
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:329, valid_1 auc : 0.701483
+[LightGBM] [Info] 16.870650 seconds elapsed, finished iteration 329
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:330, valid_1 auc : 0.701454
+[LightGBM] [Info] 16.917754 seconds elapsed, finished iteration 330
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:331, valid_1 auc : 0.701464
+[LightGBM] [Info] 16.964760 seconds elapsed, finished iteration 331
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:332, valid_1 auc : 0.701435
+[LightGBM] [Info] 17.011159 seconds elapsed, finished iteration 332
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:333, valid_1 auc : 0.701402
+[LightGBM] [Info] 17.058372 seconds elapsed, finished iteration 333
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:334, valid_1 auc : 0.701408
+[LightGBM] [Info] 17.105791 seconds elapsed, finished iteration 334
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:335, valid_1 auc : 0.701401
+[LightGBM] [Info] 17.153243 seconds elapsed, finished iteration 335
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:336, valid_1 auc : 0.701369
+[LightGBM] [Info] 17.202898 seconds elapsed, finished iteration 336
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:337, valid_1 auc : 0.701457
+[LightGBM] [Info] 17.254747 seconds elapsed, finished iteration 337
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:338, valid_1 auc : 0.701421
+[LightGBM] [Info] 17.318878 seconds elapsed, finished iteration 338
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:339, valid_1 auc : 0.701371
+[LightGBM] [Info] 17.373840 seconds elapsed, finished iteration 339
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:340, valid_1 auc : 0.701459
+[LightGBM] [Info] 17.426470 seconds elapsed, finished iteration 340
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:341, valid_1 auc : 0.701497
+[LightGBM] [Info] 17.479912 seconds elapsed, finished iteration 341
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:342, valid_1 auc : 0.70159
+[LightGBM] [Info] 17.526950 seconds elapsed, finished iteration 342
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:343, valid_1 auc : 0.701664
+[LightGBM] [Info] 17.591240 seconds elapsed, finished iteration 343
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:344, valid_1 auc : 0.701696
+[LightGBM] [Info] 17.648881 seconds elapsed, finished iteration 344
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:345, valid_1 auc : 0.701779
+[LightGBM] [Info] 17.722749 seconds elapsed, finished iteration 345
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:346, valid_1 auc : 0.701767
+[LightGBM] [Info] 17.777448 seconds elapsed, finished iteration 346
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:347, valid_1 auc : 0.701759
+[LightGBM] [Info] 17.823229 seconds elapsed, finished iteration 347
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:348, valid_1 auc : 0.701765
+[LightGBM] [Info] 17.870098 seconds elapsed, finished iteration 348
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:349, valid_1 auc : 0.701839
+[LightGBM] [Info] 17.920093 seconds elapsed, finished iteration 349
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:350, valid_1 auc : 0.701861
+[LightGBM] [Info] 17.968372 seconds elapsed, finished iteration 350
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:351, valid_1 auc : 0.701805
+[LightGBM] [Info] 18.018210 seconds elapsed, finished iteration 351
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:352, valid_1 auc : 0.701849
+[LightGBM] [Info] 18.065203 seconds elapsed, finished iteration 352
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:353, valid_1 auc : 0.701871
+[LightGBM] [Info] 18.116409 seconds elapsed, finished iteration 353
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:354, valid_1 auc : 0.701916
+[LightGBM] [Info] 18.166734 seconds elapsed, finished iteration 354
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:355, valid_1 auc : 0.7019
+[LightGBM] [Info] 18.214870 seconds elapsed, finished iteration 355
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:356, valid_1 auc : 0.701928
+[LightGBM] [Info] 18.264469 seconds elapsed, finished iteration 356
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:357, valid_1 auc : 0.701804
+[LightGBM] [Info] 18.313595 seconds elapsed, finished iteration 357
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:358, valid_1 auc : 0.701782
+[LightGBM] [Info] 18.366114 seconds elapsed, finished iteration 358
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:359, valid_1 auc : 0.701836
+[LightGBM] [Info] 18.415029 seconds elapsed, finished iteration 359
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:360, valid_1 auc : 0.701818
+[LightGBM] [Info] 18.462003 seconds elapsed, finished iteration 360
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:361, valid_1 auc : 0.70179
+[LightGBM] [Info] 18.509732 seconds elapsed, finished iteration 361
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:362, valid_1 auc : 0.701794
+[LightGBM] [Info] 18.558717 seconds elapsed, finished iteration 362
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:363, valid_1 auc : 0.701854
+[LightGBM] [Info] 18.603559 seconds elapsed, finished iteration 363
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:364, valid_1 auc : 0.701848
+[LightGBM] [Info] 18.651641 seconds elapsed, finished iteration 364
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:365, valid_1 auc : 0.701939
+[LightGBM] [Info] 18.699331 seconds elapsed, finished iteration 365
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:366, valid_1 auc : 0.701858
+[LightGBM] [Info] 18.751384 seconds elapsed, finished iteration 366
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:367, valid_1 auc : 0.701889
+[LightGBM] [Info] 18.797841 seconds elapsed, finished iteration 367
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:368, valid_1 auc : 0.70191
+[LightGBM] [Info] 18.848674 seconds elapsed, finished iteration 368
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:369, valid_1 auc : 0.702008
+[LightGBM] [Info] 18.897064 seconds elapsed, finished iteration 369
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:370, valid_1 auc : 0.702018
+[LightGBM] [Info] 18.944524 seconds elapsed, finished iteration 370
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:371, valid_1 auc : 0.701984
+[LightGBM] [Info] 19.009014 seconds elapsed, finished iteration 371
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:372, valid_1 auc : 0.701973
+[LightGBM] [Info] 19.055538 seconds elapsed, finished iteration 372
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:373, valid_1 auc : 0.702002
+[LightGBM] [Info] 19.103073 seconds elapsed, finished iteration 373
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:374, valid_1 auc : 0.70194
+[LightGBM] [Info] 19.151788 seconds elapsed, finished iteration 374
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:375, valid_1 auc : 0.702052
+[LightGBM] [Info] 19.201443 seconds elapsed, finished iteration 375
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:376, valid_1 auc : 0.702109
+[LightGBM] [Info] 19.250940 seconds elapsed, finished iteration 376
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:377, valid_1 auc : 0.702037
+[LightGBM] [Info] 19.296469 seconds elapsed, finished iteration 377
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:378, valid_1 auc : 0.701972
+[LightGBM] [Info] 19.366692 seconds elapsed, finished iteration 378
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:379, valid_1 auc : 0.701931
+[LightGBM] [Info] 19.427556 seconds elapsed, finished iteration 379
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:380, valid_1 auc : 0.701882
+[LightGBM] [Info] 19.493109 seconds elapsed, finished iteration 380
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:381, valid_1 auc : 0.701851
+[LightGBM] [Info] 19.560600 seconds elapsed, finished iteration 381
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:382, valid_1 auc : 0.701921
+[LightGBM] [Info] 19.622449 seconds elapsed, finished iteration 382
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:383, valid_1 auc : 0.701967
+[LightGBM] [Info] 19.692645 seconds elapsed, finished iteration 383
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:384, valid_1 auc : 0.702013
+[LightGBM] [Info] 19.758429 seconds elapsed, finished iteration 384
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:385, valid_1 auc : 0.701883
+[LightGBM] [Info] 19.813103 seconds elapsed, finished iteration 385
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:386, valid_1 auc : 0.701868
+[LightGBM] [Info] 19.860999 seconds elapsed, finished iteration 386
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:387, valid_1 auc : 0.701924
+[LightGBM] [Info] 19.911726 seconds elapsed, finished iteration 387
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:388, valid_1 auc : 0.701958
+[LightGBM] [Info] 19.962527 seconds elapsed, finished iteration 388
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:389, valid_1 auc : 0.701996
+[LightGBM] [Info] 20.009444 seconds elapsed, finished iteration 389
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:390, valid_1 auc : 0.702028
+[LightGBM] [Info] 20.059587 seconds elapsed, finished iteration 390
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:391, valid_1 auc : 0.702035
+[LightGBM] [Info] 20.106240 seconds elapsed, finished iteration 391
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:392, valid_1 auc : 0.702017
+[LightGBM] [Info] 20.156320 seconds elapsed, finished iteration 392
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:393, valid_1 auc : 0.702054
+[LightGBM] [Info] 20.203440 seconds elapsed, finished iteration 393
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:394, valid_1 auc : 0.702116
+[LightGBM] [Info] 20.256406 seconds elapsed, finished iteration 394
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:395, valid_1 auc : 0.702097
+[LightGBM] [Info] 20.307299 seconds elapsed, finished iteration 395
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 40 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 40
+[LightGBM] [Info] Iteration:396, valid_1 auc : 0.702081
+[LightGBM] [Info] 20.360573 seconds elapsed, finished iteration 396
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:397, valid_1 auc : 0.70197
+[LightGBM] [Info] 20.408773 seconds elapsed, finished iteration 397
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:398, valid_1 auc : 0.702008
+[LightGBM] [Info] 20.456756 seconds elapsed, finished iteration 398
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:399, valid_1 auc : 0.701998
+[LightGBM] [Info] 20.505143 seconds elapsed, finished iteration 399
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:400, valid_1 auc : 0.702102
+[LightGBM] [Info] 20.561687 seconds elapsed, finished iteration 400
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:401, valid_1 auc : 0.702108
+[LightGBM] [Info] 20.611432 seconds elapsed, finished iteration 401
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:402, valid_1 auc : 0.702166
+[LightGBM] [Info] 20.659443 seconds elapsed, finished iteration 402
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:403, valid_1 auc : 0.702252
+[LightGBM] [Info] 20.707601 seconds elapsed, finished iteration 403
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:404, valid_1 auc : 0.702192
+[LightGBM] [Info] 20.757231 seconds elapsed, finished iteration 404
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:405, valid_1 auc : 0.702289
+[LightGBM] [Info] 20.803862 seconds elapsed, finished iteration 405
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:406, valid_1 auc : 0.702209
+[LightGBM] [Info] 20.850842 seconds elapsed, finished iteration 406
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:407, valid_1 auc : 0.702202
+[LightGBM] [Info] 20.904523 seconds elapsed, finished iteration 407
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:408, valid_1 auc : 0.702232
+[LightGBM] [Info] 20.953423 seconds elapsed, finished iteration 408
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:409, valid_1 auc : 0.702285
+[LightGBM] [Info] 21.003097 seconds elapsed, finished iteration 409
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:410, valid_1 auc : 0.702343
+[LightGBM] [Info] 21.048988 seconds elapsed, finished iteration 410
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:411, valid_1 auc : 0.702375
+[LightGBM] [Info] 21.098190 seconds elapsed, finished iteration 411
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:412, valid_1 auc : 0.70236
+[LightGBM] [Info] 21.146736 seconds elapsed, finished iteration 412
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:413, valid_1 auc : 0.702424
+[LightGBM] [Info] 21.195925 seconds elapsed, finished iteration 413
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:414, valid_1 auc : 0.702511
+[LightGBM] [Info] 21.252607 seconds elapsed, finished iteration 414
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:415, valid_1 auc : 0.702497
+[LightGBM] [Info] 21.308103 seconds elapsed, finished iteration 415
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:416, valid_1 auc : 0.702509
+[LightGBM] [Info] 21.358498 seconds elapsed, finished iteration 416
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:417, valid_1 auc : 0.702468
+[LightGBM] [Info] 21.407413 seconds elapsed, finished iteration 417
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:418, valid_1 auc : 0.702385
+[LightGBM] [Info] 21.456787 seconds elapsed, finished iteration 418
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:419, valid_1 auc : 0.702419
+[LightGBM] [Info] 21.505885 seconds elapsed, finished iteration 419
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:420, valid_1 auc : 0.702472
+[LightGBM] [Info] 21.552640 seconds elapsed, finished iteration 420
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:421, valid_1 auc : 0.702391
+[LightGBM] [Info] 21.599720 seconds elapsed, finished iteration 421
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:422, valid_1 auc : 0.7024
+[LightGBM] [Info] 21.647934 seconds elapsed, finished iteration 422
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:423, valid_1 auc : 0.702424
+[LightGBM] [Info] 21.699557 seconds elapsed, finished iteration 423
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:424, valid_1 auc : 0.70244
+[LightGBM] [Info] 21.747014 seconds elapsed, finished iteration 424
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:425, valid_1 auc : 0.702399
+[LightGBM] [Info] 21.795150 seconds elapsed, finished iteration 425
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:426, valid_1 auc : 0.702366
+[LightGBM] [Info] 21.844874 seconds elapsed, finished iteration 426
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:427, valid_1 auc : 0.702422
+[LightGBM] [Info] 21.893955 seconds elapsed, finished iteration 427
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:428, valid_1 auc : 0.702378
+[LightGBM] [Info] 21.942339 seconds elapsed, finished iteration 428
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:429, valid_1 auc : 0.702396
+[LightGBM] [Info] 21.989020 seconds elapsed, finished iteration 429
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:430, valid_1 auc : 0.702453
+[LightGBM] [Info] 22.038834 seconds elapsed, finished iteration 430
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:431, valid_1 auc : 0.702492
+[LightGBM] [Info] 22.086674 seconds elapsed, finished iteration 431
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:432, valid_1 auc : 0.702366
+[LightGBM] [Info] 22.134734 seconds elapsed, finished iteration 432
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:433, valid_1 auc : 0.702334
+[LightGBM] [Info] 22.182998 seconds elapsed, finished iteration 433
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:434, valid_1 auc : 0.702245
+[LightGBM] [Info] 22.246405 seconds elapsed, finished iteration 434
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:435, valid_1 auc : 0.702269
+[LightGBM] [Info] 22.293768 seconds elapsed, finished iteration 435
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:436, valid_1 auc : 0.702316
+[LightGBM] [Info] 22.343119 seconds elapsed, finished iteration 436
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:437, valid_1 auc : 0.702314
+[LightGBM] [Info] 22.387356 seconds elapsed, finished iteration 437
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:438, valid_1 auc : 0.702385
+[LightGBM] [Info] 22.435054 seconds elapsed, finished iteration 438
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:439, valid_1 auc : 0.702433
+[LightGBM] [Info] 22.484230 seconds elapsed, finished iteration 439
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:440, valid_1 auc : 0.702407
+[LightGBM] [Info] 22.532077 seconds elapsed, finished iteration 440
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:441, valid_1 auc : 0.702391
+[LightGBM] [Info] 22.581049 seconds elapsed, finished iteration 441
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:442, valid_1 auc : 0.702382
+[LightGBM] [Info] 22.644773 seconds elapsed, finished iteration 442
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:443, valid_1 auc : 0.702374
+[LightGBM] [Info] 22.697697 seconds elapsed, finished iteration 443
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:444, valid_1 auc : 0.702347
+[LightGBM] [Info] 22.746170 seconds elapsed, finished iteration 444
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:445, valid_1 auc : 0.702272
+[LightGBM] [Info] 22.795014 seconds elapsed, finished iteration 445
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:446, valid_1 auc : 0.702336
+[LightGBM] [Info] 22.844236 seconds elapsed, finished iteration 446
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:447, valid_1 auc : 0.70238
+[LightGBM] [Info] 22.892136 seconds elapsed, finished iteration 447
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 40 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 40
+[LightGBM] [Info] Iteration:448, valid_1 auc : 0.702329
+[LightGBM] [Info] 22.941034 seconds elapsed, finished iteration 448
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:449, valid_1 auc : 0.702368
+[LightGBM] [Info] 22.999390 seconds elapsed, finished iteration 449
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:450, valid_1 auc : 0.702423
+[LightGBM] [Info] 23.047531 seconds elapsed, finished iteration 450
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:451, valid_1 auc : 0.702539
+[LightGBM] [Info] 23.098204 seconds elapsed, finished iteration 451
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:452, valid_1 auc : 0.702457
+[LightGBM] [Info] 23.145102 seconds elapsed, finished iteration 452
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:453, valid_1 auc : 0.702444
+[LightGBM] [Info] 23.193225 seconds elapsed, finished iteration 453
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:454, valid_1 auc : 0.702373
+[LightGBM] [Info] 23.241156 seconds elapsed, finished iteration 454
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:455, valid_1 auc : 0.702348
+[LightGBM] [Info] 23.290532 seconds elapsed, finished iteration 455
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:456, valid_1 auc : 0.702354
+[LightGBM] [Info] 23.341276 seconds elapsed, finished iteration 456
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:457, valid_1 auc : 0.702312
+[LightGBM] [Info] 23.398500 seconds elapsed, finished iteration 457
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:458, valid_1 auc : 0.702341
+[LightGBM] [Info] 23.447505 seconds elapsed, finished iteration 458
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:459, valid_1 auc : 0.70236
+[LightGBM] [Info] 23.495315 seconds elapsed, finished iteration 459
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:460, valid_1 auc : 0.702248
+[LightGBM] [Info] 23.545820 seconds elapsed, finished iteration 460
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:461, valid_1 auc : 0.70219
+[LightGBM] [Info] 23.607242 seconds elapsed, finished iteration 461
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:462, valid_1 auc : 0.702221
+[LightGBM] [Info] 23.655853 seconds elapsed, finished iteration 462
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:463, valid_1 auc : 0.702255
+[LightGBM] [Info] 23.705181 seconds elapsed, finished iteration 463
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:464, valid_1 auc : 0.702308
+[LightGBM] [Info] 23.754363 seconds elapsed, finished iteration 464
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:465, valid_1 auc : 0.702282
+[LightGBM] [Info] 23.803251 seconds elapsed, finished iteration 465
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:466, valid_1 auc : 0.70229
+[LightGBM] [Info] 23.851466 seconds elapsed, finished iteration 466
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:467, valid_1 auc : 0.702274
+[LightGBM] [Info] 23.899396 seconds elapsed, finished iteration 467
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:468, valid_1 auc : 0.702299
+[LightGBM] [Info] 23.948799 seconds elapsed, finished iteration 468
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 40 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 40
+[LightGBM] [Info] Iteration:469, valid_1 auc : 0.702243
+[LightGBM] [Info] 23.996197 seconds elapsed, finished iteration 469
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:470, valid_1 auc : 0.702199
+[LightGBM] [Info] 24.047016 seconds elapsed, finished iteration 470
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:471, valid_1 auc : 0.702258
+[LightGBM] [Info] 24.096502 seconds elapsed, finished iteration 471
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:472, valid_1 auc : 0.702286
+[LightGBM] [Info] 24.144229 seconds elapsed, finished iteration 472
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:473, valid_1 auc : 0.702345
+[LightGBM] [Info] 24.190813 seconds elapsed, finished iteration 473
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:474, valid_1 auc : 0.702419
+[LightGBM] [Info] 24.242156 seconds elapsed, finished iteration 474
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:475, valid_1 auc : 0.702481
+[LightGBM] [Info] 24.291752 seconds elapsed, finished iteration 475
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:476, valid_1 auc : 0.70255
+[LightGBM] [Info] 24.339475 seconds elapsed, finished iteration 476
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:477, valid_1 auc : 0.702473
+[LightGBM] [Info] 24.391494 seconds elapsed, finished iteration 477
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:478, valid_1 auc : 0.702484
+[LightGBM] [Info] 24.437676 seconds elapsed, finished iteration 478
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:479, valid_1 auc : 0.702479
+[LightGBM] [Info] 24.485137 seconds elapsed, finished iteration 479
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:480, valid_1 auc : 0.702431
+[LightGBM] [Info] 24.534905 seconds elapsed, finished iteration 480
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:481, valid_1 auc : 0.702489
+[LightGBM] [Info] 24.584310 seconds elapsed, finished iteration 481
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:482, valid_1 auc : 0.702476
+[LightGBM] [Info] 24.634594 seconds elapsed, finished iteration 482
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:483, valid_1 auc : 0.702471
+[LightGBM] [Info] 24.682531 seconds elapsed, finished iteration 483
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:484, valid_1 auc : 0.702406
+[LightGBM] [Info] 24.731036 seconds elapsed, finished iteration 484
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:485, valid_1 auc : 0.702431
+[LightGBM] [Info] 24.780152 seconds elapsed, finished iteration 485
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:486, valid_1 auc : 0.702477
+[LightGBM] [Info] 24.828784 seconds elapsed, finished iteration 486
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:487, valid_1 auc : 0.702479
+[LightGBM] [Info] 24.877565 seconds elapsed, finished iteration 487
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 41 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 41
+[LightGBM] [Info] Iteration:488, valid_1 auc : 0.702544
+[LightGBM] [Info] 24.925059 seconds elapsed, finished iteration 488
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:489, valid_1 auc : 0.702483
+[LightGBM] [Info] 24.973962 seconds elapsed, finished iteration 489
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:490, valid_1 auc : 0.702504
+[LightGBM] [Info] 25.020988 seconds elapsed, finished iteration 490
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:491, valid_1 auc : 0.702544
+[LightGBM] [Info] 25.069486 seconds elapsed, finished iteration 491
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:492, valid_1 auc : 0.702563
+[LightGBM] [Info] 25.116707 seconds elapsed, finished iteration 492
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:493, valid_1 auc : 0.702548
+[LightGBM] [Info] 25.163640 seconds elapsed, finished iteration 493
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:494, valid_1 auc : 0.702576
+[LightGBM] [Info] 25.209935 seconds elapsed, finished iteration 494
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:495, valid_1 auc : 0.702565
+[LightGBM] [Info] 25.256951 seconds elapsed, finished iteration 495
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:496, valid_1 auc : 0.702653
+[LightGBM] [Info] 25.307216 seconds elapsed, finished iteration 496
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 43 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 43
+[LightGBM] [Info] Iteration:497, valid_1 auc : 0.702669
+[LightGBM] [Info] 25.356181 seconds elapsed, finished iteration 497
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 42 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 42
+[LightGBM] [Info] Iteration:498, valid_1 auc : 0.702689
+[LightGBM] [Info] 25.406563 seconds elapsed, finished iteration 498
+[LightGBM] [Warning] No further splits with positive gain, training stopped with 44 leaves.
+[LightGBM] [Debug] Trained a tree with leaves = 44
+[LightGBM] [Info] Iteration:499, valid_1 auc : 0.702685
+[LightGBM] [Info] 25.455687 seconds elapsed, finished iteration 499
+[LightGBM] [Debug] Trained a tree with leaves = 45
+[LightGBM] [Info] Iteration:500, valid_1 auc : 0.70258
+[LightGBM] [Info] 25.506399 seconds elapsed, finished iteration 500
+[LightGBM] [Info] Finished training
+[LightGBM] [Info] CUDABestSplitFinder::LaunchSyncBestSplitForLeafKernel costs:	 1.239912
+[LightGBM] [Info] CUDADataPartition::AddPredictionToScoreKernel costs:	 0.105783
+[LightGBM] [Info] CUDADataPartition::AggregateBlockOffsetKernel costs:	 0.413323
+[LightGBM] [Info] CUDADataPartition::CopyDataIndicesKernel costs:	 0.068982
+[LightGBM] [Info] CUDADataPartition::CopyFromCUDADeviceToHostAsync costs:	 0.319295
+[LightGBM] [Info] CUDADataPartition::LaunchAddPredictionToScoreKernel::BitonicArgSortGlobal costs:	 0.022510
+[LightGBM] [Info] CUDADataPartition::SplitInnerKernel costs:	 0.062237
+[LightGBM] [Info] CUDADataPartition::SplitTreeStructureKernel costs:	 0.056265
+[LightGBM] [Info] CUDAHistogramConstructor::ConstructHistogramForLeaf::LaunchSubtractHistogramKernel costs:	 0.166725
+[LightGBM] [Info] CUDAHistogramConstructor::FixHistogramKernel costs:	 0.091200
+[LightGBM] [Info] CUDAHistogramConstructor::SubtractHistogramKernel costs:	 0.056669
+[LightGBM] [Info] CUDAScoreUpdater::AddScore costs:	 0.000027
+[LightGBM] [Info] CUDASingleGPUTreeLearner::BeforeTrain costs:	 0.137341
+[LightGBM] [Info] CUDASingleGPUTreeLearner::CPUFindBestFromAllSplits costs:	 0.004124
+[LightGBM] [Info] CUDASingleGPUTreeLearner::ConstructHistogramForLeaf costs:	 16.817575
+[LightGBM] [Info] CUDASingleGPUTreeLearner::FindBestFromAllSplits costs:	 0.425264
+[LightGBM] [Info] CUDASingleGPUTreeLearner::FindBestSplitsForLeaf costs:	 2.532230
+[LightGBM] [Info] CUDASingleGPUTreeLearner::NCCLReduceHistogram costs:	 0.001771
+[LightGBM] [Info] CUDASingleGPUTreeLearner::Split costs:	 1.141779
+[LightGBM] [Info] Dataset::FastFeatureBundling costs:	 2.504527
+[LightGBM] [Info] Dataset::GetMultiBinFromAllFeatures costs:	 1.781423
+[LightGBM] [Info] Dataset::PushDataToMultiValBin costs:	 1.521651
+[LightGBM] [Info] Dataset::TestMultiThreadingMethod costs:	 1.783637
+[LightGBM] [Info] GBDT::Bagging costs:	 0.000072
+[LightGBM] [Info] GBDT::BoostFromAverage costs:	 0.000201
+[LightGBM] [Info] GBDT::Boosting costs:	 0.022655
+[LightGBM] [Info] GBDT::Train costs:	 25.506421
+[LightGBM] [Info] GBDT::TrainOneIter costs:	 21.680676
+[LightGBM] [Info] GBDT::UpdateScore costs:	 0.141279
+[LightGBM] [Info] GenDataToLeftBitVector costs:	 0.071368
+[LightGBM] [Info] MultiValSparseBin::MergeData costs:	 0.146638
+[LightGBM] [Info] ScoreUpdater::AddScore costs:	 0.140296
+[LightGBM] [Info] SplitInner costs:	 0.960112
